@@ -1,0 +1,7 @@
+- [ ] disable talks, guide
+- [ ] remove blog, portfolio, CV
+- [ ] sistemare colori
+- [ ] inserire pubblicazioni
+- [ ] remove facebook ecc da pagina singola pubblicazione
+- [ ] sistemare la pagina dei singoli paper con autori ecc
+- [ ] dalla pagina sitemap, capire cosa cancellare

@@ -1,0 +1,64 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+
+{% if post.collection == 'code' and post.type == 'experiment' %}
+  {% for pub in site.publications reversed %}
+    {% if pub.label == post.label %}
+      {% assign title = "Paper: <i>" | append: pub.title  | append: "</i>" %}
+    {% endif %}
+  {% endfor %}
+{% elsif post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h3 class="archive__item-title" itemprop="headline">
+      &nbsp;<a href="{{ post.permalink }}">{{ title }}</a>
+    </h3>
+
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+
+    {% if post.collection == 'teaching' %}
+      <p class="nopad writesmall">Corse director: {{ post.authors }}</p>
+      <p class="nopad writesmall"><i>{{ post.venue }}</i>, {{ post.year }}.</p>
+    {% elsif post.collection == 'publications' %}
+      <p class="nopad writesmall">{{ post.authors }}</p>
+      <p class="nopad writesmall"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</p>
+    {% elsif post.collection == 'code' %}
+      {% if post.desc %}
+        <p class="nopad writesmall">{{ post.desc }}.</p>
+      {% endif %}
+    {% endif %}
+
+
+    <p class="nopad writesmall">
+
+      {% include squared_list.html %}
+      
+    </p>
+  
+  </article>
+</div>

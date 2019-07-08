@@ -1,0 +1,8 @@
+@{% if pub.type == 'conference' %}inproceedings{% else %}article{% endif %}{{ "{" | append: pub.label }},
+{% assign tmp = "title={" | append: pub.title | append: "}," %}  {{ tmp }}
+{% assign tmp = "author={" | append: pub.authors | append: "}," %}  {{ tmp }}
+{% assign tmp = "year={" | append: pub.year | append: "}," %}  {{ tmp }}
+{% if pub.doi %}{% assign tmp = "doi={" | append: pub.doi | append: "}," %}  {{ tmp }}
+{% endif %}{% if pub.venue %}  {% if pub.type == 'conference' %}booktitle{% else %}journal{% endif %}{% assign tmp = "={" | append: pub.venue | append: "}," %}{{ tmp }}
+{% endif %}{% if pub.pages %}{% assign tmp = "  pages={" | append: pub.pages | append: "}," %}{{ tmp }}
+{% endif %}}

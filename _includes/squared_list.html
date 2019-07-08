@@ -1,0 +1,37 @@
+{% if post.collection == 'code' %}
+
+  {% if post.label %}
+    [<a href="{{ base_path }}/code/{{ post.label }}">description</a>]&nbsp;
+  {% endif %}
+  {% if post.github %}
+    [<a href="{{ post.github }}">GitHub</a>]&nbsp;
+  {% endif %}
+  {% if post.experiment %}
+    [<a href="{{ base_path }}/dl/experiments/{{ post.label }}.zip">download</a>]&nbsp;
+  {% endif %}
+  [<a href="{{ base_path }}/publications/{{ post.label }}">related paper</a>]&nbsp;
+
+{% else %}
+
+  {% if post.doi %}
+    [<a href="https://doi.org/{{ post.doi }}" target="_blank">DOI: {{ post.doi }}</a>]&nbsp;
+  {% endif %}
+  {% if post.code %}
+    [<a href="{{ base_path }}/code/{{ post.label }}">source code</a>]&nbsp;
+  {% endif %}
+  {% if post.bibtex %}
+    [<a href="{{ base_path }}/publications/{{ post.label }}#bibtex">bibtex</a>]&nbsp;
+  {% endif %}
+  {% if post.preprint %}
+    [<a href="{{ post.preprint }}" target="_blank">preprint</a>]&nbsp;
+  {% endif %}
+  {% if post.visit %}
+    [<a href="{{ post.visit }}" target="_blank">see also</a>]&nbsp;
+  {% endif %}
+  {% if post.collection == 'publications' %}
+    {% if post.abstract %}
+      [<a href="{{ base_path }}/publications/{{ post.label }}">abstract</a>]&nbsp;
+    {% endif %}
+  {% endif %}
+
+{% endif %}

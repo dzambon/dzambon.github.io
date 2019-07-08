@@ -1,0 +1,20 @@
+
+p.nopad {
+    margin:0;
+    margin-left:2em;
+    padding:0;
+}
+
+p.writesmall{
+    font-size: 80%;
+}
+
+h3.archive__item-title > a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+pre{
+    background-color: white;
+    font-size: 70%;
+}
