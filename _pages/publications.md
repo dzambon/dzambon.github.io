@@ -12,6 +12,7 @@ author_profile: true
 {% include base_path %}
 
 ## Journal articles
+
 {% for post in site.publications reversed %}
   {% if post.type == "journal" %}
     {% include archive-item.html %}
@@ -19,6 +20,7 @@ author_profile: true
 {% endfor %}
 
 ## Conferences
+
 {% for post in site.publications reversed %}
   {% if post.type == "conference" %}
     {% include archive-item.html %}
@@ -27,6 +29,7 @@ author_profile: true
 
 
 ## Preprints
+
 {% for post in site.publications reversed %}
   {% if post.type == "preprint" %}
     {% include archive-item.html %}

@@ -82,14 +82,15 @@ analytics:
 author:
   name             : "Daniele Zambon"
   avatar           : "zambon.jpg"
-  bio              : "Ph.D. Student"
-  location         : "Lugano, Switzerland"
-  employer         : "Università della Svizzera italiana"
+  bio              : 
+  location         : 
+  employer         : "USI, Lugano, CH."
+  employer_web     : "inf.usi.ch"
   pubmed           : 
   googlescholar    : "https://scholar.google.ch/citations?user=JaQGQEwAAAAJ&hl=en&oi=ao"
   email            : "daniele.zambon@usi.ch"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  researchgate     : 
+  uri              : "inf.usi.ch/phd/zambon"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -102,7 +103,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : 
   orcid            : "http://orcid.org/0000-0003-3722-9784"
   pinterest        :
   soundcloud       :

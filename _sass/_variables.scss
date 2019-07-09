@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 16;
+$doc-font-size              : 12;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -57,8 +57,13 @@ $background-color           : #f9fff8;
 $code-background-color      : $lighter-gray;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $gray;
+$border-color               : $text-color;
+
 $header-color               : #4698b4;
+$header-color-d1            : $header-color;
+$header-color-d2            : mix(#000, $header-color, 30%);
+$header-color-d3            : mix(#000, $header-color, 75%);
+
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
