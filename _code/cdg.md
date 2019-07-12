@@ -8,11 +8,12 @@ experiment: false
 github: 'https://github.com/dan-zam/cdg.git'
 ---
 
+{% include base_path %}
 
 Main features are:
 
-- Multivariate statistical tests for change and anomaly detection [[1]({{ site.base_url }}/publications/zambon2018concept), [2]({{ site.base_url }}publications/zambon2018change)];
-- Embedding techniques for graphs, including those on Riemannian manifolds of constant curvature [[3]({{ site.base_url }}/publications/zambon2018anomaly)];
+- Multivariate statistical tests for change and anomaly detection [[1]({{ base_path }}/publications/zambon2018concept), [2]({{ base_path }}/publications/zambon2018change)];
+- Embedding techniques for graphs, including those on Riemannian manifolds of constant curvature [[3]({{ base_path }}/publications/zambon2018anomaly)];
 - A wrapper to perform repeated experiments and report performance measures;
 
 Any contribution to the project is very welcome. 

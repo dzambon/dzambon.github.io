@@ -8,6 +8,7 @@ venue: 'IEEE Transactions on Neural Networks and Learning Systems'
 year: '2019' 
 type: 'journal'
 preprint: 'https://arxiv.org/abs/1805.06299'
+doi: '10.1109/TNNLS.2019.2927301'
 bibtex: true
 code: true
 abstract: true

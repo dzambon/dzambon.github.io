@@ -9,6 +9,7 @@ venue: 'IEEE International Joint Conference on Neural Networks'
 year: 2018
 date: 2018-07-08
 preprint: 'https://arxiv.org/abs/1805.01360'
+doi: '10.1109/IJCNN.2018.8489762'
 bibtex: true
 code: true
 abstract: true
