@@ -6,7 +6,7 @@ permalink: /code/zambon2019autoregressive
 label: zambon2019autoregressive
 
 experiment: false
-github: https://github.com/dan-zam/NGAR.git
+github: https://github.com/dzambon/NGAR.git
 ---
 
 

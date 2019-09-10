@@ -9,4 +9,4 @@ experiment: false
 github: "https://github.com/danielegrattarola/cdt-ccm-aae"
 ---
 
-The code is based on two python frameworks [cdg](https://github.com/dan-zam/cdg.git) and [spektral](https://github.com/danielegrattarola/spektral.git).
+The code is based on two python frameworks [cdg](https://github.com/dzambon/cdg.git) and [spektral](https://github.com/danielegrattarola/spektral.git).

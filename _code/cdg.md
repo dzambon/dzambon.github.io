@@ -5,7 +5,7 @@ collection: code
 type: 'software'
 desc: 'This python module implements the core code for most of my publications.'
 experiment: false
-github: 'https://github.com/dan-zam/cdg.git'
+github: 'https://github.com/dzambon/cdg.git'
 ---
 
 {% include base_path %}
