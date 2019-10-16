@@ -8,6 +8,7 @@ authors: 'Daniele Zambon, Daniele Grattarola, Cesare Alippi and Lorenzo Livi'
 venue: 'IEEE International Joint Conference on Neural Networks'
 year: 2019
 date: 2019-07-13
+doi: '10.1109/IJCNN.2019.8852131'
 preprint: 'https://arxiv.org/abs/1903.07299'
 bibtex: true
 code: true

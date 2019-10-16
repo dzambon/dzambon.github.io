@@ -2,14 +2,14 @@
 collection: publications
 permalink: /publications/zambon2018concept
 label: zambon2018concept
+type: 'journal'
 title: 'Concept Drift and Anomaly Detection in Graph Streams'
 authors: 'Daniele Zambon, Cesare Alippi and Lorenzo Livi'
 venue: 'IEEE Transactions on Neural Networks and Learning Systems'
-year: '2018' 
+year: 2018 
+date: 2018-03-09
 doi: '10.1109/TNNLS.2018.2804443'
 pages: '1-14'
-type: 'journal'
-date: 2018-03-09
 preprint: 'https://arxiv.org/abs/1805.06299'
 bibtex: true
 code: true

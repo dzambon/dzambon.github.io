@@ -13,7 +13,7 @@ name                     : &name "Daniele Zambon"
 description              : &description "Ph.D. student in machine learning"
 url                      : https://inf.usi.ch # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/phd/zambon" # the subpath of your site, e.g. "/blog"
-repository               : #"dzambon/dzambon.github.io"
+repository               : "dzambon/dzambon.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -148,6 +148,8 @@ exclude:
   - tmp
   - vendor
   - TODO.md
+  - WIKI.md
+  - create_new_publication.py
 keep_files:
   - .git
   - .svn

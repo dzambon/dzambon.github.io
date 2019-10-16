@@ -1,13 +1,13 @@
 ---
 collection: publications
 permalink: /publications/zambon2019distance
-label: zambon2019autoregressive
+label: zambon2019distance
+year: 2019
+date: 2019-09-09
 type: 'preprint'
 title: 'Distance-Preserving Graph Embeddings from Random Neural Features'
 authors: 'Daniele Zambon, Cesare Alippi and Lorenzo Livi'
 venue: 'Preprint'
-year: 2019
-date: 2019-09-09
 preprint: 'https://arxiv.org/abs/1909.03790'
 bibtex: true
 code: false
