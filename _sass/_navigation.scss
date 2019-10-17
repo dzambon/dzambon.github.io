@@ -186,6 +186,7 @@
 
     &:hover {
       color: $masthead-link-color-hover;
+      text-shadow: 0 0 0.5px;
     }
   }
 
@@ -241,11 +242,11 @@
                 transform: scaleX(0); /* hide*/
       }
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
-      }
+      // &:hover:before {
+      //   -webkit-transform: scaleX(1);
+      //       -ms-transform: scaleX(1);
+      //           transform: scaleX(1); /* reveal*/
+      //}
     }
   }
 
@@ -327,6 +328,7 @@
 
     &:hover {
       text-decoration: underline;
+      text-shadow: 0 0 0.5px;
     }
   }
 

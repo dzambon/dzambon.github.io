@@ -122,6 +122,7 @@ a {
   &:hover,
   &:active {
     outline: 0;
+    text-shadow: 0 0 1.5px $link-shadow-color-hover;
   }
 }
 
