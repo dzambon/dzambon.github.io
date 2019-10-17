@@ -16,6 +16,9 @@
   {% if post.doi %}
     [<a href="https://doi.org/{{ post.doi }}" target="_blank">DOI: {{ post.doi }}</a>]&nbsp;
   {% endif %}
+  {% if post.paper %}
+    [<a href="{{ base_path }}{{ post.paper }}" target="_blank">paper</a>]&nbsp;
+  {% endif %}
   {% if post.code %}
     [<a href="{{ base_path }}/code/{{ post.label }}">source code</a>]&nbsp;
   {% endif %}
