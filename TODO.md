@@ -1,8 +1,8 @@
+- [ ] inserire TL;DR 
 - [ ] disable talks, guide
-- [ ] remove blog, portfolio, CV
-- [ ] sistemare colori
-- [ ] inserire pubblicazioni
-- [ ] remove facebook ecc da pagina singola pubblicazione
-- [ ] sistemare la pagina dei singoli paper con autori ecc
+- [x] remove facebook ecc da pagina singola pubblicazione
+- [ ] rimpicciolire titoli nella pagina dei singoli paper con autori ecc
 - [ ] dalla pagina sitemap, capire cosa cancellare
-- [ ] rivedere colori tendina mobile
+- [ ] inserire immagine in pagina pubblicazione e thumbnails in lista pubblicazioni
+- [ ] valutare se fare dei blogpost
+
