@@ -32,7 +32,10 @@ img.author__avatar{
 .arch_elem_img{
   width: $min-small-img-size;
 }
-
+.larger_img{
+  width: $min-large-img-size;
+  margin: 15px;
+}
 @media all and (min-width: 800px) {
   .arch_elem_desc_container    { flex: 3 0px; }
   .arch_elem_img { order: 1; } 
