@@ -18,26 +18,29 @@
     <h3 class="archive__item-title" itemprop="headline">
       <a href="{{ base_path }}{{ post.permalink }}">{{ title }}</a>
     </h3>
-
-    {% if post.collection == 'teaching' %}
-      <p class="nopad writesmall">Course director: {{ post.authors }}</p>
-      <p class="nopad writesmall"><i>{{ post.venue }}</i>, {{ post.year }}.</p>
-    {% elsif post.collection == 'publications' %}
-      {% assign emph_author = "<b>" | append: site.author.name | append: "</b>" %}
-      <p class="nopad writesmall">{{ post.authors | replace: site.author.name, emph_author }}</p>
-      <p class="nopad writesmall"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</p>
-    {% elsif post.collection == 'code' %}
-      {% if post.desc %}
-        <p class="nopad writesmall">{{ post.desc }}.</p>
+    <div class="arch_elem_container">
+      <div class="arch_elem_desc_container">
+        {% if post.collection == 'teaching' %}
+          <p class="nopad writesmall">Course director: {{ post.authors }}</p>
+          <p class="nopad writesmall"><i>{{ post.venue }}</i>, {{ post.year }}.</p>
+        {% elsif post.collection == 'publications' %}
+          {% assign emph_author = "<b>" | append: site.author.name | append: "</b>" %}
+          <p class="nopad writesmall">{{ post.authors | replace: site.author.name, emph_author }}</p>
+          <p class="nopad writesmall"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</p>
+        {% elsif post.collection == 'code' %}
+          {% if post.desc %}
+            <p class="nopad writesmall">{{ post.desc }}</p>
+          {% endif %}
+        {% endif %}
+        <p class="nopad writesmall">
+          {% include squared_list.html %}    
+        </p>
+      </div>
+      {% if post.thumbnail %}
+        <img class="arch_elem_img" src="{{ base_path }}{{ post.thumbnail }}"/>
       {% endif %}
-    {% endif %}
+    </div>
 
-
-    <p class="nopad writesmall">
-
-      {% include squared_list.html %}
-      
-    </p>
   
   </article>
 </div>

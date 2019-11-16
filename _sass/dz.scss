@@ -21,3 +21,20 @@ pre{
 img.author__avatar{
     transform: scaleX(-1);
 }
+
+.arch_elem_container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.arch_elem_img{
+  width: $min-small-img-size;
+}
+
+@media all and (min-width: 800px) {
+  .arch_elem_desc_container    { flex: 3 0px; }
+  .arch_elem_img { order: 1; } 
+  .arch_elem_desc_container    { order: 2; }
+}

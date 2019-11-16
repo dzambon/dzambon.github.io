@@ -22,9 +22,8 @@ In my spare time, I love to play any game and sport and I am a hobbyist woodwork
 My research deals with the design of methodologies and methods to monitor stochastic processes generating sequences of structured data, like graphs.
 
 I mostly focus on theoretical aspects regarding:
-- Processing of generic attributed graphs, including those with variable topology and order;
-- Statistical tests for anomaly and concept drift detection;
 - Representation learning for attributed graph;
+- Statistical tests for anomaly and concept-drift detection in graph streams;
 - Learning in non-stationary environments.
 
 I work in the [ALPSFORT](https://search.usi.ch/en/projects/947/alpsfort-a-learning-graph-based-framework-for-cyber-physical-systems){:target="_blank"} project, undertaking the development of machine learning methodologies to monitor over time the behaviour of cyber-physical systems, like sensor networks, smart grids, industry 4.0, body and brain network.
