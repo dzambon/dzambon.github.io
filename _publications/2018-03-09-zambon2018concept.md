@@ -10,10 +10,11 @@ year: 2018
 date: 2018-03-09
 doi: '10.1109/TNNLS.2018.2804443'
 pages: '1-14'
-preprint: 'https://arxiv.org/abs/1805.06299'
+preprint: 'https://arxiv.org/abs/1706.06941'
 bibtex: true
 code: true
 abstract: true
+thumbnail: "/images/relating-the-inference.png"
 ---
 
 
