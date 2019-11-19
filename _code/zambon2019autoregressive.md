@@ -15,10 +15,3 @@ The following libraries are required to run the code :
 
 - [Keras](https://keras.io/), a high-level API for deep learning;
 - [Spektral](https://danielegrattarola.github.io/spektral/), a library for building graph neural networks with Keras.
-
-Both libraries are available throug PyPi: 
-
-```bash
-pip install keras
-pip install spektral
-```
