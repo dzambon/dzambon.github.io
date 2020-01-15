@@ -8,6 +8,7 @@ authors: 'Daniele Zambon, Lorenzo Livi and Cesare Alippi'
 venue: 'IEEE Symposium Series on Computational Intelligence'
 year: 2017
 doi: '10.1109/SSCI.2017.8285273'
+preprint: /dl/papers/zambon2017detecting.pdf
 date: 2017-11-27
 bibtex: true
 code: true
