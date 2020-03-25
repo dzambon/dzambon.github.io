@@ -14,6 +14,7 @@ redirect_from:
 I am a Ph.D. student in computational intelligence and machine learning in the [GMLG](https://gmlg.ch) at [USI](http://inf.usi.ch){:target="_blank"} (Lugano, Switzerland) under the supervision of Prof. [Cesare Alippi](http://home.deib.polimi.it/alippi/){:target="_blank"} (USI) and Prof. [Lorenzo Livi](https://sites.google.com/site/lorenzlivi/){:target="_blank"} (Univ. of Manitoba, Canada).
 
 I received Bachelor's and Master's degrees in mathematics at [UNIMI](http://unimi.it){:target="_blank"} (Milan, Italy) focusing on approximation theory and mathematical statistics. I developed my master thesis in [STMicroelectronics](https://www.st.com){:target="_blank"} on sparse models for anomaly detection.
+I have been a visiting researcher at [UFL](http://www.ufl.edu/){:target="_blank"} (Gainesville, Florida) working on kernel adaptive methods.
 
 In my spare time, I love to play any game and sport and I am a hobbyist woodworker.
 
