@@ -43,6 +43,6 @@ Go to your preferred directory, then
 ```bash
 git clone https://github.com/dzambon/cdg
 cd cdg
-sudo pip3 install -e .
+pip install -e .
 ```
 
