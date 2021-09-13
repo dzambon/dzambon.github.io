@@ -8,6 +8,4 @@ label: paassen2021graph
 experiment: true
 ---
 
-{% include base_path %}
-
-The code will be available shortly.
+The code is available on GitLab: [gitlab.com/bpaassen/graph-edit-networks](https://gitlab.com/bpaassen/graph-edit-networks)
