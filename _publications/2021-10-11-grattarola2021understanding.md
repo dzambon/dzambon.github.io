@@ -10,7 +10,7 @@ authors: 'Daniele Grattarola, Daniele Zambon, Filippo Maria Bianchi and Cesare A
 
 venue: 'Preprint'
 preprint: 'https://arxiv.org/abs/2110.05292'
-bibtex: false
+bibtex: true
 abstract: true
 code: true
 

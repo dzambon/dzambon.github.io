@@ -11,6 +11,15 @@ author_profile: true
 
 {% include base_path %}
 
+
+## Preprints
+
+{% for post in site.publications reversed %}
+  {% if post.type == "preprint" %}
+    {% include archive-item.html %}
+  {% endif %}
+{% endfor %}
+
 ## Journal articles
 
 {% for post in site.publications reversed %}
@@ -28,10 +37,3 @@ author_profile: true
 {% endfor %}
 
 
-## Preprints
-
-{% for post in site.publications reversed %}
-  {% if post.type == "preprint" %}
-    {% include archive-item.html %}
-  {% endif %}
-{% endfor %}
