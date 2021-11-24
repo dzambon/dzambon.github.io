@@ -5,7 +5,7 @@ permalink: /code/zambon2017detecting
 
 label: zambon2017detecting
 
-experiment: true
+download: true
 ---
 
 {% include base_path %}

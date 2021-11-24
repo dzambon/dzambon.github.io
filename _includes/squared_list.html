@@ -4,12 +4,11 @@
     [<a href="{{ base_path }}/code/{{ post.label }}">description</a>]&nbsp;
   {% endif %}
   {% if post.github %}
-    [<a href="{{ post.github }}">GitHub</a>]&nbsp;
+    [<a href="{{ post.git }}">Git Repo</a>]&nbsp;
   {% endif %}
-  {% if post.experiment %}
+  {% if post.download %}
     [<a href="{{ base_path }}/dl/experiments/{{ post.label }}.zip">download</a>]&nbsp;
   {% endif %}
-  [<a href="{{ base_path }}/publications/{{ post.label }}">related paper</a>]&nbsp;
 
 {% else %}
 

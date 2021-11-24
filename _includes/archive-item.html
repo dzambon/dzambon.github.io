@@ -3,7 +3,7 @@
 {% if post.collection == 'code' and post.type == 'experiment' %}
   {% for pub in site.publications reversed %}
     {% if pub.label == post.label %}
-      {% assign title = "Paper: <i>" | append: pub.title  | append: "</i>" %}
+      {% assign title = "Code for paper: <i>" | append: pub.title  | append: "</i>" %}
     {% endif %}
   {% endfor %}
 {% elsif post.id %}

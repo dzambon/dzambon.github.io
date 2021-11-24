@@ -3,8 +3,7 @@ title: 'GRNF: Graph Random Neural Features.'
 permalink: /code/grnf
 collection: code
 type: 'software'
-desc: 'Graph Random Neural Features proposed in Zambon et al. 2020.'
-experiment: false
+desc: 'Graph Random Neural Features proposed in [Zambon et al. 2020]({{ base_path }}/publications/zambon2020graph).'
 github: 'https://github.com/dzambon/graph-random-neural-features.git'
 ---
 

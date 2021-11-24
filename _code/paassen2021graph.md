@@ -5,7 +5,7 @@ permalink: /code/paassen2021graph
 
 label: paassen2021graph
 
-experiment: true
+git: https://github.com/danielegrattarola/SRC
 ---
 
-The code is available on GitLab: [gitlab.com/bpaassen/graph-edit-networks](https://gitlab.com/bpaassen/graph-edit-networks)
+We published the code on [GitLab](https://gitlab.com/bpaassen/graph-edit-networks).

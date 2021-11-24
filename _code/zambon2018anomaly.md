@@ -5,7 +5,7 @@ permalink: /code/zambon2018anomaly
 
 label: zambon2018anomaly
 
-experiment: true
+download: true
 ---
 
 {% include base_path %}

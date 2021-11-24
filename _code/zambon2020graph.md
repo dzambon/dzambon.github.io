@@ -5,8 +5,7 @@ permalink: /code/zambon2020graph
 
 label: zambon2020graph
 
-experiment: false
-github: https://github.com/dzambon/graph-random-neural-features.git
+git: https://github.com/dzambon/graph-random-neural-features.git
 ---
 
 The repository [graph-random-neural-features](https://github.com/dzambon/graph-random-neural-features.git) provides a [Spektral](graphneural.network) (TensorFlow) and a [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) implementations of Graph Random Neural Features presented in [Zambon et al. 2020]({{ base_path }}/publications/zambon2020graph) and [Zambon et al. 2019]({{ base_path }}/publications/zambon2019graph).

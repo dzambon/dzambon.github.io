@@ -5,7 +5,7 @@ permalink: /code/zambon2019change
 
 label: zambon2019change
 
-github: https://github.com/dzambon/cpm-graph-sequence.git
+git: https://github.com/dzambon/cpm-graph-sequence.git
 ---
 
 {% include base_path %}
