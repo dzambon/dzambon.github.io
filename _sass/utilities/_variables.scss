@@ -1,0 +1,45 @@
+/**
+  * _variables.scss
+  * Contains SCSS variables used in this website's stylesheet.
+  */
+
+$dz-blue: #1b4f94;
+$dz-bg-green: #e3ebe1;
+$dz-bg-gray: #f8f8f8;
+
+// Globals
+$font-stack: 'Source Sans Pro', sans-serif;
+$font-size: 17px;
+$font-size-mobile: 15px;
+
+$code-font-stack: 'Source Code Pro', monospace;
+
+// Body
+$body-text-color: #313131;
+$body-background-color: $dz-bg-gray;
+$body-top-border-color: $dz-blue; 
+$body-top-border-width: 5px;
+$nav-bar-color-bg: $dz-bg-green; 
+
+// Links
+$link-color: $dz-blue;
+
+// Navigation
+$nav-bottom-border-color: $dz-blue;
+$nav-bottom-border-width: 1px;
+
+$nav-link-color: $dz-blue;  
+$nav-link-padding-y: 0.7rem;
+$nav-link-padding-x: 1.5rem;
+$nav-link-underline-color: $dz-blue; 
+
+$nav-icon-color: #ffffff;
+$nav-icon-background-color: $dz-blue; 
+
+// Blog post headings and page titles
+$post-title-color: $dz-blue; 
+$post-date-color: #9a9a9a;
+
+// Message box
+$message-color: #717171;
+$message-background-color: $dz-bg-gray;

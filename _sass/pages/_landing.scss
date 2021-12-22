@@ -1,0 +1,33 @@
+/**
+ * _landing.scss
+ * Styles for the landing page
+ */
+
+.landing-title {
+    color: $post-title-color;
+    text-align: left;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 0.7rem;
+}
+
+.profile {
+    display: flex; 
+    justify-content: flex-begin; 
+    align-items: left; 
+    text-align: left; 
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    width:20%;
+    max-width:200px;
+    max-height:200px;
+    /*min-width:100px;*/
+    height: auto;
+    width: auto;
+}
+
+.profile-card {
+    max-width:50em;    
+    width: 70%;
+}

@@ -1,30 +1,30 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% include base_path %}
-
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  {% include head.html %}
 
   <body>
+    <nav class="nav-main">
+      <ul class="container">
+        <li class="hvr-underline-reveal home-button" style=""><a href="{{ site.baseurl }}/"><b>{{ site.author.name }}</b></a></li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/#publications">Publications</a></li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/code/">Code</a></li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/#teaching">Teaching</a></li>
+        <!-- <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog/">Blog</a></li> -->
+      </ul>
+    </nav>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer.html %}
+      <footer class="footer">
+        <small>
+            <span class="copyright"><i class="fa fa-copyright"></i> <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}</span>
+        </small>
       </footer>
     </div>
-
-    {% include scripts.html %}
 
   </body>
 </html>

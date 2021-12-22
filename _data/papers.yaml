@@ -1,0 +1,127 @@
+ #    id: 
+ #    title: 
+ #    author: 
+ #    short_author: 
+ #    year: 
+ #    bibtex: 
+ #    type: 
+ #    short_venue: 
+ #    doi:
+ #    arxiv_id: 
+ #    openreview_id: 
+ #    experiments:
+ #    github:
+ #    gitlab:
+
+ - 
+    id: paassen2021graph
+    title: "Graph Edit Networks"
+    author: "Paassen, Benjamin and Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Hammer, Barbara Eva"
+    short_author: "Paassen, Grattarola, Zambon, Alippi, Hammer"
+    year: 2021
+    bibtex: "@inproceedings{paassen2021graph, title={Graph Edit Networks}, author={Paassen, Benjamin and Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Hammer, Barbara Eva}, booktitle={International Conference on Learning Representations (ICLR)}, year={2021}, url={https://openreview.net/forum?id=dlEJsyHGeaL} }"
+    type: conference
+    short_venue: "ICLR"
+    openreview_id: dlEJsyHGeaL
+    gitlab: https://gitlab.com/bpaassen/graph-edit-networks
+ - 
+    id: grattarola2021understanding
+    title: "Understanding Pooling in Graph Neural Networks"
+    author: "Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare"
+    short_author: "Grattarola, Zambon, Bianchi, Alippi"
+    year: 2021
+    bibtex: "@article{grattarola2021understanding, title={Understanding Pooling in Graph Neural Networks}, author={Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare}, journal={Under review}, year={2021} }"
+    short_venue: "Under review"
+    type: preprint
+    arxiv_id: "2110.05292"
+    github: https://github.com/danielegrattarola/SRC
+ - 
+    id: zambon2020graph
+    title: "Graph Random Neural Features for Distance-Preserving Graph Representations"
+    author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
+    short_author: "Zambon, Alippi, Livi"
+    year: 2020
+    bibtex: "@inproceedings{zambon2020graph, title={Graph Random Neural Features for Distance-Preserving Graph Representations}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, booktitle={Proceedings of the 37th International Conference on Machine Learning (ICML)}, pages={10968--10977}, editor={Hal Daumé III and Aarti Singh}, volume={119}, series={Proceedings of Machine Learning Research}, address={Virtual}, year={2020}, month={13--18 Jul}, publisher={PMLR}, pdf={http://proceedings.mlr.press/v119/zambon20a/zambon20a.pdf}, url={http://proceedings.mlr.press/v119/zambon20a.html}, abstract={We present Graph Random Neural Features (GRNF), a novel embedding method from graph-structured data to real vectors based on a family of graph neural networks. The embedding naturally deals with graph isomorphism and preserves the metric structure of the graph domain, in probability. In addition to being an explicit embedding method, it also allows us to efficiently and effectively approximate graph metric distances (as well as complete kernel functions); a criterion to select the embedding dimension trading off the approximation accuracy with the computational cost is also provided. GRNF can be used within traditional processing methods or as a training-free input layer of a graph neural network. The theoretical guarantees that accompany GRNF ensure that the considered graph distance is metric, hence allowing to distinguish any pair of non-isomorphic graphs.}}"
+    type: conference
+    arxiv_id: "1909.03790"
+    short_venue: "ICML"
+    github: https://github.com/dzambon/graph-random-neural-features.git
+ - 
+    id: zambon2019graph
+    title: "Graph Embeddings from Random Neural Features"
+    author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
+    short_author: "Zambon, Alippi, Livi"
+    year: 2019
+    bibtex: "@inproceedings{zambon2019graph, title={Graph Embeddings from Random Neural Features}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, booktitle={Advances in Neural Information Processing System (NeurIPS), Graph Representation Learning Workshop}, }"
+    type: conference
+    short_venue: "GLW ws @ NeurIPS"
+    github: https://github.com/dzambon/graph-random-neural-features.git
+ - 
+    id: zambon2019change
+    title: "Change-Point Methods on a Sequence of Graphs"
+    author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
+    short_author: "Zambon, Alippi, Livi"
+    year: 2019
+    bibtex: "@article{zambon2019change, title={Change-Point Methods on a Sequence of Graphs}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/TSP.2019.2953596}, journal={IEEE Transactions on Signal Processing}, }"
+    type: journal
+    doi: "10.1109/TSP.2019.2953596"
+    arxiv_id: "1805.07113"
+    short_venue: "IEEE TSP"
+    github: https://github.com/dzambon/cpm-graph-sequence.git
+ - 
+    id: zambon2019autoregressive
+    title: "Autoregressive Models for Sequences of Graphs"
+    author: "Zambon, Daniele and Grattarola, Daniele and Alippi, Cesare and Livi, Lorenzo"
+    short_author: "Zambon, Grattarola, Alippi, Livi"
+    year: 2019
+    bibtex: "@inproceedings{zambon2019autoregressive, title={Autoregressive Models for Sequences of Graphs}, author={Zambon, Daniele and Grattarola, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/IJCNN.2019.8852131}, booktitle={IEEE International Joint Conference on Neural Networks}, }"
+    type: conference
+    doi: "10.1109/IJCNN.2019.8852131"
+    arxiv_id: "1903.07299"
+    short_venue: "IEEE IJCNN"
+    github: https://github.com/dzambon/NGAR.git
+ - 
+    id: grattarola2019change
+    title: "Change Detection in Graph Streams by Learning Graph Embeddings on Constant-Curvature Manifolds"
+    author: "Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
+    short_author: "Grattarola, Zambon, Alippi, Livi"
+    year: 2019
+    bibtex: "@article{grattarola2019change, title={Change Detection in Graph Streams by Learning Graph Embeddings on Constant-Curvature Manifolds}, author={Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/TNNLS.2019.2927301}, journal={IEEE Transactions on Neural Networks and Learning Systems}, }"
+    type: journal
+    arxiv_id: "1805.06299"
+    short_venue: "IEEE TNNLS"
+    github: https://github.com/danielegrattarola/cdt-ccm-aae
+ - 
+    id: zambon2018concept
+    title: "Concept Drift and Anomaly Detection in Graph Streams"
+    author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
+    short_author: "Zambon, Alippi, Livi"
+    year: 2018
+    bibtex: "@article{zambon2018concept, title={Concept Drift and Anomaly Detection in Graph Streams}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2018}, doi={10.1109/TNNLS.2018.2804443}, journal={IEEE Transactions on Neural Networks and Learning Systems}, pages={1-14}, }"
+    type: journal
+    doi: "10.1109/TNNLS.2018.2804443"
+    arxiv_id: "1706.06941"
+    short_venue: "IEEE TNNLS"
+    experiments: https://dzambon.github.io/dl/experiments/zambon2018concept.zip
+ - 
+    id: zambon2018anomaly
+    title: "Anomaly and Change Detection in Graph Streams through Constant-Curvature Manifold Embeddings"
+    author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
+    short_author: "Zambon, Livi, Alippi"
+    year: 2018
+    bibtex: "@inproceedings{zambon2018anomaly, title={Anomaly and Change Detection in Graph Streams through Constant-Curvature Manifold Embeddings}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2018}, doi={10.1109/IJCNN.2018.8489762}, booktitle={IEEE International Joint Conference on Neural Networks}, }"
+    type: conference
+    doi: "10.1109/IJCNN.2018.8489762"
+    arxiv_id: "1805.01360"
+    short_venue: "IEEE IJCNN"
+    experiments: https://dzambon.github.io/dl/experiments/zambon2018anomaly.zip
+ - 
+    id: zambon2017detecting
+    title: "Detecting Changes in Sequences of Attributed Graphs"
+    author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
+    short_author: "Zambon, Livi, Alippi"
+    year: 2017
+    bibtex: "@inproceedings{zambon2017detecting, title={Detecting Changes in Sequences of Attributed Graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2017}, doi={10.1109/SSCI.2017.8285273}, booktitle={IEEE Symposium Series on Computational Intelligence}, }"
+    type: conference
+    short_venue: "IEEE SSCI"
+    experiments: https://dzambon.github.io/dl/experiments/zambon2017detecting.zip
