@@ -5,7 +5,6 @@ permalink: /code/grattarola2021understanding
 
 label: grattarola2021understanding
 
-experiment: false
 git: https://github.com/danielegrattarola/SRC
 ---
 

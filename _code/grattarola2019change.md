@@ -5,8 +5,7 @@ permalink: /code/grattarola2019change
 
 label: grattarola2019change
 
-experiment: false
-github: "https://github.com/danielegrattarola/cdt-ccm-aae"
+git: "https://github.com/danielegrattarola/cdt-ccm-aae"
 ---
 
 The code is based on two python frameworks:
