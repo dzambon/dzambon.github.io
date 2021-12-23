@@ -1,6 +1,7 @@
 title:               Daniele Zambon
 url:                 https://dzambon.github.io
 baseurl:             ""
+google_analytics_tag: 'UA-119549040-1'
 
 markdown:            kramdown
 highlighter:         rouge
@@ -23,8 +24,8 @@ author:
   url:               dzambon.github.io
   email:             daniele.zambon@usi.ch
   github:            https://github.com/dzambon
-  google_scholar:    https://orcid.org/0000-0003-3722-9784 
-  orcid:             https://scholar.google.ch/citations?user=JaQGQEwAAAAJ&hl=en&oi=ao
+  orcid:             hhttp://orcid.org/0000-0003-3722-9784
+  google_scholar:    https://scholar.google.ch/citations?user=JaQGQEwAAAAJ&hl=en&oi=ao
 
 
 plugins:

@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1 class="landing-title">Daniele Zambon</h1>
+<h1 class="landing-title">{{ site.author.name }}</h1>
 <div class="profile">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-pic"/>
   <p class="message profile-card">
@@ -13,11 +13,11 @@ title: Home
 <br/><br/>
 <a href="mailto:firstname.surname@usi.ch">firstname.surname@usi.ch</a>
 &nbsp;&middot;&nbsp;
-<a href="https://github.com/dzambon"><i class="fa fa-github"></i> GitHub</a>
+<a href="{{ site.author.github }}"><i class="fa fa-github"></i> GitHub</a>
 &nbsp;&middot;&nbsp;
-<a href="https://scholar.google.ch/citations?user=JaQGQEwAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+<a href="{{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
 &nbsp;&middot;&nbsp;
-<a href="http://orcid.org/0000-0003-3722-9784"><i class="ai ai-orcid"></i> ORCID</a>
+<a href="{{ site.author.orcid }}"><i class="ai ai-orcid"></i> ORCID</a>
   </p>
 </div>
 

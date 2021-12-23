@@ -1,3 +1,5 @@
+- [ ] sistemare i link agli esperimenti dei paper
+- [ ] trovare dove storare i dati dei paper
 - [ ] descrizione codice come blog post?
 - [ ] blog post dalla tesi
 - [x] google scholar
