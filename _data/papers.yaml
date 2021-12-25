@@ -102,7 +102,7 @@
     doi: "10.1109/TNNLS.2018.2804443"
     arxiv_id: "1706.06941"
     short_venue: "IEEE TNNLS"
-    experiments: https://dzambon.github.io/dl/experiments/zambon2018concept.zip
+    experiments: /dl/experiments/zambon2018concept.zip
  - 
     id: zambon2018anomaly
     title: "Anomaly and Change Detection in Graph Streams through Constant-Curvature Manifold Embeddings"
@@ -114,7 +114,7 @@
     doi: "10.1109/IJCNN.2018.8489762"
     arxiv_id: "1805.01360"
     short_venue: "IEEE IJCNN"
-    experiments: https://dzambon.github.io/dl/experiments/zambon2018anomaly.zip
+    experiments: /dl/experiments/zambon2018anomaly.zip
  - 
     id: zambon2017detecting
     title: "Detecting Changes in Sequences of Attributed Graphs"
@@ -124,4 +124,4 @@
     bibtex: "@inproceedings{zambon2017detecting, title={Detecting Changes in Sequences of Attributed Graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2017}, doi={10.1109/SSCI.2017.8285273}, booktitle={IEEE Symposium Series on Computational Intelligence}, }"
     type: conference
     short_venue: "IEEE SSCI"
-    experiments: https://dzambon.github.io/dl/experiments/zambon2017detecting.zip
+    experiments: /dl/experiments/zambon2017detecting.zip

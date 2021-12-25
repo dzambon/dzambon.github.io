@@ -10,24 +10,26 @@
     padding-bottom: 0.7rem;
 }
 
-.profile {
-    display: flex; 
-    justify-content: flex-begin; 
-    align-items: left; 
-    text-align: left; 
-    flex-wrap: wrap;
+.profile-container {
+    width: 100%;
 }
 
-.profile-pic {
-    width:20%;
-    max-width:200px;
-    max-height:200px;
-    /*min-width:100px;*/
-    height: auto;
-    width: auto;
+.profile-floated {
+    float: left;
+    width: 180px;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
 
-.profile-card {
-    max-width:50em;    
-    width: 70%;
+.profile-text {
+    margin: 0; 
+    padding: 0;
+    padding: 9px;
+}
+
+.profile-clear {
+    clear: both;
 }
