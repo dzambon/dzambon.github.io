@@ -3,40 +3,23 @@ layout: default
 title: Home
 ---
 
-<!-- <h1 class="landing-title">{{ site.author.name }}</h1>
-<div class="profile">
-  <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-pic"/>
-  <p class="message profile-card">
-    Hey there, I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a> working with Prof. <a href="http://home.deib.polimi.it/alippi/">Cesare Alippi</a>.
-<br/><br/>
-    Research interests: graph representation learning, learning in non-stationary environments, and statistical tests for anomaly and change detection.
-<br/><br/>
-<a href="mailto:firstname.surname@usi.ch">firstname.surname@usi.ch</a>
-&nbsp;&middot;&nbsp;
-<a href="{{ site.author.github }}"><i class="fa fa-github"></i> GitHub</a>
-&nbsp;&middot;&nbsp;
-<a href="{{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-&nbsp;&middot;&nbsp;
-<a href="{{ site.author.orcid }}"><i class="ai ai-orcid"></i> ORCID</a>
-  </p>
-</div>
- -->
-
 <h1 class="landing-title">{{ site.author.name }}</h1>
 <div class="profile-container">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-floated"/>
   <p class="profile-text">
-    Hey there, I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a> working with Prof. <a href="http://home.deib.polimi.it/alippi/">Cesare Alippi</a>.
+    Hey there, I am joining the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) as a post-doc in the <a href="https://gmlg.ch">graph machine learning group</a> working with Prof. <a href="http://home.deib.polimi.it/alippi/">Cesare Alippi</a>.
   </p>
   <p class="profile-text">
     Research interests: graph representation learning, learning in non-stationary environments, and statistical tests for anomaly and change detection.
   </p>
   <p class="profile-text">
-<a href="mailto:firstname.surname@usi.ch">firstname.surname@usi.ch</a>
+<a href="mailto:firstname.surname@usi.ch">&#9993; firstname.surname@usi.ch</a>
 &nbsp;&middot;&nbsp;
 <a href="{{ site.author.github }}"><i class="fa fa-github"></i> GitHub</a>
 &nbsp;&middot;&nbsp;
 <a href="{{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+&nbsp;&middot;&nbsp;
+<a href="{{ site.author.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
 &nbsp;&middot;&nbsp;
 <a href="{{ site.author.orcid }}"><i class="ai ai-orcid"></i> ORCID</a>
   </p>
@@ -47,7 +30,7 @@ title: Home
 ## About me
 
 
-I obtained my Ph.D. <i class="fa fa-graduation-cap"></i> at the Swiss AI Lab [IDSIA](https://idsia.ch) in the [graph machine learning group](https://gmlg.ch), [USI](http://inf.usi.ch) (CH).
+I have just defended my Ph.D. <i class="fa fa-graduation-cap"></i> thesis developed at the Swiss AI Lab [IDSIA](https://idsia.ch) in the [graph machine learning group](https://gmlg.ch), [USI](http://inf.usi.ch) (CH).
 My advisors were Prof. [Cesare Alippi](https://alippi.faculty.polimi.it/) (from [USI](http://inf.usi.ch) and [POLIMI](https://www.deib.polimi.it/eng/home-page)) and Prof. [Lorenzo Livi](https://sites.google.com/site/lorenzlivi/) (from [Univ. of Manitoba](https://sci.umanitoba.ca/cs/), CA, and [Univ. of Exeter](http://emps.exeter.ac.uk/), UK).
 My research dealt with statistical tests for anomaly and change detection in sequences of graphs, graph representation learning, and learning in non-stationary environments. You can find a list of my [publications here](#publications).
 
