@@ -1,0 +1,23 @@
+{% for type in include.type %} 
+
+<ul>
+  {% for paper in site.data.papers -%}
+    {% if paper.type == type -%}
+      <li>
+        <a id="{{ paper.id }}" href="">{{ paper.title }}</a>, {% if paper.short_venue %}{{ paper.short_venue }},{% endif %} {{ paper.year }}, <small>{{ paper.short_author | replace: "Zambon", "<b>Zambon</b>" }}</small>.<br/>    
+        <span style="top-margin:-5px; margin-left:30px; padding-bottom:125px"> 
+          {%- if paper.doi %}[<a class="square-button" href="https://doi.org/{{ paper.doi }}">DOI</a>]&nbsp;{% endif %}
+          {%- if paper.url %}[<a class="square-button" href="{{ paper.url }}">{{ paper.url }}</a>]&nbsp;{% endif %}
+          {%- if paper.arxiv_id %}[<a class="square-button" href="https://arxiv.org/abs/{{ paper.arxiv_id }}">arXiv</a>]&nbsp;{% endif %}
+          {%- if paper.openreview_id %}[<a class="square-button" href="https://openreview.net/forum?id={{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
+          {%- if paper.github %}[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]&nbsp;{% endif %}
+          {%- if paper.gitlab %}[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]&nbsp;{% endif %}
+          {%- if paper.experiments %}[<a class="square-button" href="{{ site.baseurl }}/{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}
+          {%- if paper.bibtex %}[<a class="square-button" href="{{ site.baseurl }}/publications/{{ paper.id }}/#{{ paper.bibtex }}">bibtex</a>]{% endif %}
+        </span>
+      </li>
+    {% endif %}   
+  {% endfor %}
+</ul>
+
+{% endfor %}

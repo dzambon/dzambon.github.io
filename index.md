@@ -42,19 +42,21 @@ I am (or have been) in the program committee of top-tier conferences and journal
 
 ## Publications
 
-{% for paper in site.data.papers -%}
-- <a id="{{ paper.id }}" href="">{{ paper.title }}</a>, {% if paper.short_venue %}{{ paper.short_venue }},{% endif %} {{ paper.year }}, <small>{{ paper.short_author | replace: "Zambon", "<b>Zambon</b>" }}</small>.    
-<span style="top-margin:-5px; margin-left:30px; padding-bottom:125px"> 
-{%- if paper.doi %}[<a class="square-button" href="https://doi.org/{{ paper.doi }}">DOI</a>]&nbsp;{% endif %}
-{%- if paper.url %}[<a class="square-button" href="{{ paper.url }}">{{ paper.url }}</a>]&nbsp;{% endif %}
-{%- if paper.arxiv_id %}[<a class="square-button" href="https://arxiv.org/abs/{{ paper.arxiv_id }}">arXiv</a>]&nbsp;{% endif %}
-{%- if paper.openreview_id %}[<a class="square-button" href="https://openreview.net/forum?id={{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
-{%- if paper.github %}[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]&nbsp;{% endif %}
-{%- if paper.gitlab %}[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]&nbsp;{% endif %}
-{%- if paper.experiments %}[<a class="square-button" href="{{ site.baseurl }}/{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}
-{%- if paper.bibtex %}[<a class="square-button" href="{{ site.baseurl }}/publications/{{ paper.id }}/#{{ paper.bibtex }}">bibtex</a>]{% endif %}
-</span>   
-{% endfor %}
+### Preprints
+
+{% include paper_list.html type="preprint" %}
+
+### Journals
+
+{% include paper_list.html type="journal" %}
+
+### Conferences
+
+{% include paper_list.html type="conference" %}
+
+### Thesis
+
+{% include paper_list.html type="thesis" %}
 
 
 
