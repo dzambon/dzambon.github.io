@@ -14,6 +14,16 @@
  #    gitlab:
 
  - 
+    id: zambon2022phdthesis
+    title: "Anomaly and Change Detection in Sequences of Graphs"
+    author: "Zambon, Daniele"
+    short_author: "Zambon"
+    year: 2022
+    bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Università della Svizzera italiana}, publisher={Università della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
+    type: thesis
+    short_venue: "PhD Thesis"
+
+ - 
     id: paassen2021graph
     title: "Graph Edit Networks"
     author: "Paassen, Benjamin and Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Hammer, Barbara Eva"
@@ -125,3 +135,13 @@
     type: conference
     short_venue: "IEEE SSCI"
     experiments: /dl/experiments/zambon2017detecting.zip
+ - 
+    id: carrera2016ecg
+    title: "Ecg monitoring in wearable devices by sparse models"
+    author: "Carrera, Diego and Rossi, Beatrice and Zambon, Daniele and Fragneto, Pasqualina and Boracchi, Giacomo"
+    short_author: "Carrera, Rossi, Zambon, Fragneto, Boracchi"
+    year: 2016
+    bibtex: "@inproceedings{carrera2016ecg, title={Ecg monitoring in wearable devices by sparse models}, author={Carrera, Diego and Rossi, Beatrice and Zambon, Daniele and Fragneto, Pasqualina and Boracchi, Giacomo}, booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases}, pages={145--160}, year={2016}, organization={Springer} }"
+    type: conference
+    doi: "10.1007/978-3-319-46131-1_21"
+    short_venue: "ECML-PKDD"

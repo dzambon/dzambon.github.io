@@ -7,10 +7,10 @@ title: Home
 <div class="profile-container">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-floated"/>
   <p class="profile-text">
-    Hey there, I am joining the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) as a post-doc in the <a href="https://gmlg.ch">graph machine learning group</a> working with Prof. <a href="http://home.deib.polimi.it/alippi/">Cesare Alippi</a>.
+    I am post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a>.
   </p>
   <p class="profile-text">
-    Research interests: graph representation learning, learning in non-stationary environments, and statistical tests for anomaly and change detection.
+    The focus of my research is graph representation learning, learning in non-stationary environments, and graph stream processing.
   </p>
   <p class="profile-text">
 <a href="mailto:firstname.surname@usi.ch">&#9993; firstname.surname@usi.ch</a>
@@ -27,11 +27,11 @@ title: Home
 </div>
 
 
+
 ## About me
 
 
-I have just defended my Ph.D. <i class="fa fa-graduation-cap"></i> thesis developed at the Swiss AI Lab [IDSIA](https://idsia.ch) in the [graph machine learning group](https://gmlg.ch), [USI](http://inf.usi.ch) (CH).
-My advisors were Prof. [Cesare Alippi](https://alippi.faculty.polimi.it/) (from [USI](http://inf.usi.ch) and [POLIMI](https://www.deib.polimi.it/eng/home-page)) and Prof. [Lorenzo Livi](https://sites.google.com/site/lorenzlivi/) (from [Univ. of Manitoba](https://sci.umanitoba.ca/cs/), CA, and [Univ. of Exeter](http://emps.exeter.ac.uk/), UK).
+I obtained my Ph.D. <i class="fa fa-graduation-cap"></i> from Univerità della Svizzera italiana [USI](http://inf.usi.ch) (CH) under the supervision of Prof. [Cesare Alippi](https://alippi.faculty.polimi.it/) (from [USI](http://inf.usi.ch) and [POLIMI](https://www.deib.polimi.it/eng/home-page)) and Prof. [Lorenzo Livi](https://sites.google.com/site/lorenzlivi/) (from [Univ. of Manitoba](https://sci.umanitoba.ca/cs/), CA, and [Univ. of Exeter](http://emps.exeter.ac.uk/), UK).
 My research dealt with statistical tests for anomaly and change detection in sequences of graphs, graph representation learning, and learning in non-stationary environments. You can find a list of my [publications here](#publications).
 
 I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) (US) working on kernel adaptive methods and the [University of Exeter](http://emps.exeter.ac.uk/) (UK) exploring embeddings onto Riemannian manifolds. I have also been intern at [STMicroelectronics](https://www.st.com) (Italy) where I developed my Master's thesis on sparse models for anomaly detection. 
