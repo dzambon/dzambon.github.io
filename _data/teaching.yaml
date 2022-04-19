@@ -1,15 +1,15 @@
 courses:
+  - name: "Graph Deep Learning"
+    link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
+    year: 2020-2022 
+    director: "Prof. Alippi"
   - name: "Advanced Topics in Machine Learning"
     link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
     year: 2020-2021 
     director: "Prof. Alippi"
   - name: "Machine Learning"
     link: "https://search.usi.ch/courses/35260596/machine-learning" 
-    year: 2019-2020 
-    director: "Prof. Alippi"
-  - name: "Machine Learning"
-    link: "https://search.usi.ch/courses/35259461/machine-learning" 
-    year: 2018-2019 
+    year: 2018-2020 
     director: "Prof. Alippi"
   - name: "Probability and Statistics"
     link: "https://search.usi.ch/courses/35259416/probability-statistics" 
