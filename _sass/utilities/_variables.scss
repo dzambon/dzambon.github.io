@@ -3,9 +3,12 @@
   * Contains SCSS variables used in this website's stylesheet.
   */
 
-$dz-blue: #1b4f94;
-$dz-bg-green: #e3ebe1;
-$dz-bg-gray: #f8f8f8;
+$dz-blue: #76b5c5;
+$dz-bg-green: #e3ebe1; //#b6ce82;
+$dz-bg-gray: #202032;
+$dz-bg-gray-lighter: #203044; // #203351;
+$dz-heading-color: #e8e8e8;
+$dz-nav-color: #203044; //#404072;
 
 // Globals
 $font-stack: 'Source Sans Pro', sans-serif;
@@ -15,7 +18,7 @@ $font-size-mobile: 15px;
 $code-font-stack: 'Source Code Pro', monospace;
 
 // Body
-$body-text-color: #313131;
+$body-text-color: #eee;
 $body-background-color: $dz-bg-gray;
 $body-top-border-color: $dz-blue; 
 $body-top-border-width: 5px;
@@ -28,17 +31,17 @@ $link-color: $dz-blue;
 $nav-bottom-border-color: $dz-blue;
 $nav-bottom-border-width: 1px;
 
-$nav-link-color: $dz-blue;  
+$nav-link-color: $dz-nav-color; //$dz-blue;  
 $nav-link-padding-y: 0.7rem;
 $nav-link-padding-x: 1.5rem;
 $nav-link-underline-color: $dz-blue; 
 
-$nav-icon-color: #ffffff;
+$nav-icon-color: #333;
 $nav-icon-background-color: $dz-blue; 
 
 // Blog post headings and page titles
 $post-title-color: $dz-blue; 
-$post-date-color: #9a9a9a;
+$post-date-color: #222;
 
 // Message box
 $message-color: #717171;
