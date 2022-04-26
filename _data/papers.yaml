@@ -14,6 +14,17 @@
  #    gitlab:
 
  - 
+    id: zambon2022az
+    title: "AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs"
+    author: "Zambon, Daniele and Alippi, Cesare"
+    short_author: "Zambon, Alippi"
+    year: 2022
+    bibtex: "@misc{zambon2022az, doi={10.48550/ARXIV.2204.11135}, url={https://arxiv.org/abs/2204.11135}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs}, publisher={arXiv}, year={2022}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    short_venue: "Under review"
+    type: preprint
+    arxiv_id: "2204.11135"
+    github: https://github.com/dzambon/az-whiteness-test
+ - 
     id: zambon2022phdthesis
     title: "Anomaly and Change Detection in Sequences of Graphs"
     author: "Zambon, Daniele"
@@ -22,7 +33,6 @@
     bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Università della Svizzera italiana}, publisher={Università della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
     type: thesis
     short_venue: "PhD Thesis"
-
  - 
     id: paassen2021graph
     title: "Graph Edit Networks"
