@@ -12,7 +12,16 @@
  #    experiments:
  #    github:
  #    gitlab:
-
+ - 
+    id: zambon2022graph
+    title: "Graph iForest: Isolation of anomalous and outlier graphs"
+    author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
+    short_author: "Zambon, Livi, Alippi"
+    year: 2022
+    bibtex: "@inproceedings{zambon2022graph, title={Graph {iForest}: Isolation of anomalous and outlier graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2022}, booktitle={IEEE International Joint Conference on Neural Networks}, }"
+    type: conference
+    short_venue: "To appear in IEEE IJCNN"
+    github: https://github.com/dzambon/graph-iforest
  - 
     id: zambon2022az
     title: "AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs"
