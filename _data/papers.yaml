@@ -18,10 +18,19 @@
     author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
     short_author: "Zambon, Livi, Alippi"
     year: 2022
-    bibtex: "@inproceedings{zambon2022graph, title={Graph {iForest}: Isolation of anomalous and outlier graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2022}, booktitle={IEEE International Joint Conference on Neural Networks}, }"
+    bibtex: "@inproceedings{zambon2022graph, title={Graph {iForest}: Isolation of anomalous and outlier graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2022}, booktitle={To appear in IEEE International Joint Conference on Neural Networks}, }"
     type: conference
     short_venue: "To appear in IEEE IJCNN"
     github: https://github.com/dzambon/graph-iforest
+ - 
+    id: munari2022understanding
+    title: "Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning"
+    author: "Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin Nicol\`o"
+    short_author: "Munari, Pasa, Zambon, Alippi, Navarin Nicol\`o a"
+    year: 2022
+    bibtex: "@inproceedings{munari2022understanding, title={Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning}, author={Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin Nicolò}, year={2022}, booktitle={To appear in IEEE International Joint Conference on Neural Networks}, }"
+    type: conference
+    short_venue: "To appear in IEEE IJCNN"
  - 
     id: zambon2022az
     title: "AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs"
@@ -83,7 +92,7 @@
     year: 2019
     bibtex: "@inproceedings{zambon2019graph, title={Graph Embeddings from Random Neural Features}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, booktitle={Advances in Neural Information Processing System (NeurIPS), Graph Representation Learning Workshop}, }"
     type: conference
-    short_venue: "GLW ws @ NeurIPS"
+    short_venue: "GLW @ NeurIPS"
     github: https://github.com/dzambon/graph-random-neural-features.git
  - 
     id: zambon2019change
@@ -117,6 +126,7 @@
     year: 2019
     bibtex: "@article{grattarola2019change, title={Change Detection in Graph Streams by Learning Graph Embeddings on Constant-Curvature Manifolds}, author={Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/TNNLS.2019.2927301}, journal={IEEE Transactions on Neural Networks and Learning Systems}, }"
     type: journal
+    doi: "10.1109/TNNLS.2019.2927301"
     arxiv_id: "1805.06299"
     short_venue: "IEEE TNNLS"
     github: https://github.com/danielegrattarola/cdt-ccm-aae
