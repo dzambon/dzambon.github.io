@@ -1,15 +1,25 @@
+{%- assign doi_base = "https://doi.org/" %}
+{%- assign openreview_base = "https://openreview.net/forum?id=" %}
+{%- assign arxiv_base = "https://arxiv.org/abs/" %}
+
 {% for type in include.type %} 
 
 <ul>
   {% for paper in site.data.papers -%}
     {% if paper.type == type -%}
       <li>
-        <a id="{{ paper.id }}" href="">{{ paper.title }}</a>, {% if paper.short_venue %}{{ paper.short_venue }},{% endif %} {{ paper.year }}, <small>{{ paper.short_author | replace: "Zambon", "<b>Zambon</b>" }}</small>.<br/>    
+        {%- if paper.url %}{% assign paperhref = paper.url %} 
+        {%- elsif paper.openreview_id %}{% assign paperhref = openreview_base | append: paper.openreview_id %} 
+        {%- elsif paper.arxiv_id %}{% assign paperhref = arxiv_base | append: paper.arxiv_id %} 
+        {%- elsif paper.doi %}{% assign paperhref = doi_base | append: paper.doi %} 
+        {%- else %}{% assign paperhref = "" %}
+        {%- endif %}
+        <a id="{{ paper.id }}" href="{{ paperhref }}">{{ paper.title }}</a>, {% if paper.short_venue %}{{ paper.short_venue }},{% endif %} {{ paper.year }}, <small>{{ paper.short_author | replace: "Zambon", "<b>Zambon</b>" }}</small>.<br/>    
         <span style="top-margin:-5px; margin-left:30px; padding-bottom:125px"> 
-          {%- if paper.doi %}[<a class="square-button" href="https://doi.org/{{ paper.doi }}">DOI</a>]&nbsp;{% endif %}
-          {%- if paper.url %}[<a class="square-button" href="{{ paper.url }}">{{ paper.url }}</a>]&nbsp;{% endif %}
-          {%- if paper.arxiv_id %}[<a class="square-button" href="https://arxiv.org/abs/{{ paper.arxiv_id }}">arXiv</a>]&nbsp;{% endif %}
-          {%- if paper.openreview_id %}[<a class="square-button" href="https://openreview.net/forum?id={{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
+          {%- if paper.doi %}[<a class="square-button" href="{{ doi_base }}{{ paper.doi }}">DOI</a>]&nbsp;{% endif %}
+          <!-- {%- if paper.url %}[<a class="square-button" href="{{ paper.url }}">{{ paper.url }}</a>]&nbsp;{% endif %} -->
+          {%- if paper.arxiv_id %}[<a class="square-button" href="{{ arxiv_base }}{{ paper.arxiv_id }}">arXiv</a>]&nbsp;{% endif %}
+          {%- if paper.openreview_id %}[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
           {%- if paper.github %}[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]&nbsp;{% endif %}
           {%- if paper.gitlab %}[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]&nbsp;{% endif %}
           {%- if paper.experiments %}[<a class="square-button" href="{{ site.baseurl }}/{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}

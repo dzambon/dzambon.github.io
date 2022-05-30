@@ -13,6 +13,15 @@
  #    github:
  #    gitlab:
  - 
+    id: zambon2022phdthesis
+    title: "Anomaly and Change Detection in Sequences of Graphs"
+    author: "Zambon, Daniele"
+    short_author: "Zambon"
+    year: 2022
+    bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Università della Svizzera italiana}, publisher={Università della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
+    type: thesis
+    short_venue: "PhD Thesis"
+ - 
     id: zambon2022graph
     title: "Graph iForest: Isolation of anomalous and outlier graphs"
     author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
@@ -44,14 +53,15 @@
     arxiv_id: "2204.11135"
     github: https://github.com/dzambon/az-whiteness-test
  - 
-    id: zambon2022phdthesis
-    title: "Anomaly and Change Detection in Sequences of Graphs"
-    author: "Zambon, Daniele"
-    short_author: "Zambon"
+    id: cini2022sparse
+    title: "Sparse Graph Learning for Spatiotemporal Time Series"
+    author: "Cini, Andrea and Zambon, Daniele and Alippi, Cesare"
+    short_author: "Cini, Zambon, Alippi"
     year: 2022
-    bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Università della Svizzera italiana}, publisher={Università della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
-    type: thesis
-    short_venue: "PhD Thesis"
+    bibtex: "@misc{cini2022sparse, doi={10.48550/ARXIV.2205.13492}, url={https://arxiv.org/abs/2205.13492}, author={Cini, Andrea and Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Sparse Graph Learning for Spatiotemporal Time Series}, publisher={arXiv}, year={2022}, copyright={Creative Commons Attribution 4.0 International} }"
+    short_venue: "Under review"
+    arxiv_id: "2205.13492"
+    type: preprint
  - 
     id: paassen2021graph
     title: "Graph Edit Networks"
@@ -84,6 +94,7 @@
     type: conference
     arxiv_id: "1909.03790"
     short_venue: "ICML"
+    url: http://proceedings.mlr.press/v119/zambon20a.html
     github: https://github.com/dzambon/graph-random-neural-features.git
  - 
     id: zambon2019graph
@@ -94,6 +105,7 @@
     bibtex: "@inproceedings{zambon2019graph, title={Graph Embeddings from Random Neural Features}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, booktitle={Advances in Neural Information Processing System (NeurIPS), Graph Representation Learning Workshop}, }"
     type: conference
     short_venue: "GLW @ NeurIPS"
+    url: https://grlearning.github.io/papers/51.pdf
     github: https://github.com/dzambon/graph-random-neural-features.git
  - 
     id: zambon2019change
@@ -164,6 +176,7 @@
     bibtex: "@inproceedings{zambon2017detecting, title={Detecting Changes in Sequences of Attributed Graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2017}, doi={10.1109/SSCI.2017.8285273}, booktitle={IEEE Symposium Series on Computational Intelligence}, }"
     type: conference
     short_venue: "IEEE SSCI"
+    doi: "10.1109/SSCI.2017.8285273"
     experiments: /dl/experiments/zambon2017detecting.zip
  - 
     id: carrera2016ecg
