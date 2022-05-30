@@ -31,6 +31,7 @@
     bibtex: "@inproceedings{munari2022understanding, title={Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning}, author={Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin Nicolò}, year={2022}, booktitle={To appear in IEEE International Joint Conference on Neural Networks}, }"
     type: conference
     short_venue: "To appear in IEEE IJCNN"
+    github: https://github.com/matteo-munari/GrowPGLN
  - 
     id: zambon2022az
     title: "AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs"
