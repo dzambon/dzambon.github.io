@@ -7,6 +7,17 @@
     gtag('js', new Date());
 
     gtag('config', '{{ site.google_analytics_tag }}');
+
+    function togglebibtex(paperid) {
+      var x = document.getElementById(paperid);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        x.innerHTML = x.innerHTML.replace(/, ([a-z]+)={/g,',\n  $1={');
+      } else {
+        x.style.display = "none";
+      }
+    } 
+
   </script>
 
   <meta charset="UTF-8">
