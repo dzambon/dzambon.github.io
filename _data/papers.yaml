@@ -156,7 +156,7 @@
     arxiv_id: "1706.06941"
     short_venue: "IEEE TNNLS"
     type: journal
-    experiments: "/dl/experiments/zambon2018concept.zip"
+    experiments: "https://drive.switch.ch/index.php/s/4KrycBbGPmGQEhN"
  - 
     id: zambon2018anomaly
     title: "Anomaly and Change Detection in Graph Streams through Constant-Curvature Manifold Embeddings"
@@ -168,7 +168,7 @@
     arxiv_id: "1805.01360"
     short_venue: "IEEE IJCNN"
     type: conference
-    experiments: "/dl/experiments/zambon2018anomaly.zip"
+    experiments: "https://drive.switch.ch/index.php/s/cqh8Cbo1bmM3Ih0"
  - 
     id: zambon2017detecting
     title: "Detecting Changes in Sequences of Attributed Graphs"
@@ -179,7 +179,7 @@
     doi: "10.1109/SSCI.2017.8285273"
     short_venue: "IEEE SSCI"
     type: conference
-    experiments: "/dl/experiments/zambon2017detecting.zip"
+    experiments: "https://drive.switch.ch/index.php/s/FvX15ogSBBMgCYe"
  - 
     id: carrera2016ecg
     title: "Ecg monitoring in wearable devices by sparse models"

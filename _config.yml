@@ -6,7 +6,7 @@ google_analytics_tag: 'UA-119549040-1'
 markdown:            kramdown
 highlighter:         rouge
 
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle', 'TODO.md', 'blog']
 
 permalink:           pretty
 paginate:            5
