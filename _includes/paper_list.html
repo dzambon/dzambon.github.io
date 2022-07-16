@@ -22,7 +22,7 @@
           {%- if paper.openreview_id %}[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
           {%- if paper.github %}[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]&nbsp;{% endif %}
           {%- if paper.gitlab %}[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]&nbsp;{% endif %}
-          {%- if paper.experiments %}[<a class="square-button" href="{{ site.baseurl }}/{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}
+          {%- if paper.experiments %}[<a class="square-button" href="{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}
           {%- if paper.bibtex %}[<a class="square-button" href="javascript:void(0);" onclick='togglebibtex("bibtex-{{ paper.id }}")'>bibtex</a>]{% endif %}
         </span>
         <pre class="bibtex-block" id="bibtex-{{ paper.id }}" style="display: none"><code>{{ paper.bibtex | replace: "goods", "bread" }}</code></pre>

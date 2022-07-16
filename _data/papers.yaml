@@ -50,7 +50,7 @@
     short_author: "Munari, Pasa, Zambon, Alippi, Navarin"
     year: 2022
     bibtex: "@inproceedings{munari2022understanding, title={Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning}, author={Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicol\\`o}, year={2022}, booktitle={To appear in IEEE International Joint Conference on Neural Networks}, }"
-    short_venue: "To appear in IEEE IJCNN"
+    short_venue: "to appear in IEEE IJCNN"
     type: conference
     github: "https://github.com/matteo-munari/GrowPGLN"
  - 
@@ -160,7 +160,7 @@
     short_venue: "IEEE TNNLS"
     type: journal
     url: "https://arxiv.org/abs/1706.06941"
-    experiments: "https://drive.switch.ch/index.php/s/4KrycBbGPmGQEhN"
+    experiments: "https://drive.switch.ch/index.php/s/4KrycBbGPmGQEhN/download"
  - 
     id: zambon2018anomaly
     title: "Anomaly and Change Detection in Graph Streams through Constant-Curvature Manifold Embeddings"
@@ -173,7 +173,7 @@
     short_venue: "IEEE IJCNN"
     type: conference
     url: "https://arxiv.org/abs/1805.01360"
-    experiments: "https://drive.switch.ch/index.php/s/cqh8Cbo1bmM3Ih0"
+    experiments: "https://drive.switch.ch/index.php/s/cqh8Cbo1bmM3Ih0/download"
  - 
     id: zambon2017detecting
     title: "Detecting Changes in Sequences of Attributed Graphs"
@@ -184,8 +184,8 @@
     doi: "10.1109/SSCI.2017.8285273"
     short_venue: "IEEE SSCI"
     type: conference
-    url: "n.d."
-    experiments: "https://drive.switch.ch/index.php/s/FvX15ogSBBMgCYe"
+    url: "https://drive.switch.ch/index.php/s/4IsmITiE0zrBUJN/download"
+    experiments: "https://drive.switch.ch/index.php/s/FvX15ogSBBMgCYe/download"
  - 
     id: carrera2016ecg
     title: "Ecg monitoring in wearable devices by sparse models"
