@@ -1,5 +1,5 @@
-- [ ] sistemare i link agli esperimenti dei paper
-- [ ] trovare dove storare i dati dei paper
+- [x] sistemare i link agli esperimenti dei paper (switch drive)
+- [x] trovare dove storare i dati dei paper (switch drive)
 - [ ] descrizione codice come blog post?
 - [ ] blog post dalla tesi
 - [x] google scholar

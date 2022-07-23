@@ -61,7 +61,7 @@
     year: 2022
     bibtex: "@article{grattarola2022understanding, title={Understanding Pooling in Graph Neural Networks}, author={Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare}, journal={to appear in IEEE Transactions on Neural Networks and Learning Systems}, year={2022} }"
     arxiv_id: "2110.05292"
-    short_venue: "to appear in IEEE TNNLS"
+    short_venue: "IEEE TNNLS"
     type: journal
     url: "https://arxiv.org/abs/2110.05292"
     github: "https://github.com/danielegrattarola/SRC"
