@@ -59,7 +59,8 @@
     author: "Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare"
     short_author: "Grattarola, Zambon, Bianchi, Alippi"
     year: 2022
-    bibtex: "@article{grattarola2022understanding, title={Understanding Pooling in Graph Neural Networks}, author={Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare}, journal={to appear in IEEE Transactions on Neural Networks and Learning Systems}, year={2022} }"
+    bibtex: "@article{grattarola2022understanding, title={Understanding Pooling in Graph Neural Networks}, author={Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare}, journal={IEEE Transactions on Neural Networks and Learning Systems}, year={2022}, volume={}, number={}, pages={1-11}, doi={10.1109/TNNLS.2022.3190922} }"
+    doi: "10.1109/TNNLS.2022.3190922"
     arxiv_id: "2110.05292"
     short_venue: "IEEE TNNLS"
     type: journal
@@ -73,7 +74,7 @@
     year: 2022
     bibtex: "@misc{cini2022sparse, doi={10.48550/ARXIV.2205.13492}, url={https://arxiv.org/abs/2205.13492}, author={Cini, Andrea and Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Sparse Graph Learning for Spatiotemporal Time Series}, publisher={arXiv}, year={2022}, copyright={Creative Commons Attribution 4.0 International} }"
     arxiv_id: "2205.13492"
-    type: other
+    type: preprint
     url: "https://arxiv.org/abs/2205.13492"
  - 
     id: paassen2021graph
