@@ -25,7 +25,7 @@
           {%- if paper.experiments %}[<a class="square-button" href="{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}
           {%- if paper.bibtex %}[<a class="square-button" href="javascript:void(0);" onclick='togglebibtex("bibtex-{{ paper.id }}")'>bibtex</a>]{% endif %}
         </span>
-        <pre class="bibtex-block" id="bibtex-{{ paper.id }}" style="display: none"><code>{{ paper.bibtex | replace: "goods", "bread" }}</code></pre>
+        <pre class="bibtex-block" id="bibtex-{{ paper.id }}" style="display: none"><code>{{ paper.bibtex }}</code></pre>
       </li>
     {% endif %}   
   {% endfor %}
