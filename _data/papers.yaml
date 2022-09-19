@@ -1,39 +1,26 @@
- #    id: 
- #    title: 
- #    author: 
- #    short_author: 
- #    year: 
- #    bibtex: 
- #    type: 
- #    short_venue: 
- #    doi:
- #    arxiv_id: 
- #    openreview_id: 
- #    experiments:
- #    github:
- #    gitlab:
  - 
-    id: zambon2022phdthesis
-    title: "Anomaly and Change Detection in Sequences of Graphs"
-    author: "Zambon, Daniele"
-    short_author: "Zambon"
-    year: 2022
-    bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Universit{\\`a} della Svizzera italiana}, publisher={Universit{\\`a} della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
-    type: thesis
-    url: "https://drive.switch.ch/index.php/s/FXRG3ZV079PfVyx/download"
-    short_venue: "PhD Thesis"
- - 
-    id: zambon2022az
+    id: zambon2022aztest
     title: "AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs"
     author: "Zambon, Daniele and Alippi, Cesare"
     short_author: "Zambon, Alippi"
     year: 2022
-    bibtex: "@misc{zambon2022az, doi={10.48550/ARXIV.2204.11135}, url={https://arxiv.org/abs/2204.11135}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs}, publisher={arXiv}, year={2022}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    bibtex: "@misc{zambon2022aztest, doi={10.48550/ARXIV.2204.11135}, url={https://arxiv.org/abs/2204.11135}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs}, publisher={arXiv}, year={2022}, copyright={arXiv.org perpetual, non-exclusive license} }"
     short_venue: "to appear in NeurIPS"
     arxiv_id: "2204.11135"
     type: conference
     url: "https://arxiv.org/abs/2204.11135"
     github: "https://github.com/dzambon/az-whiteness-test"
+ - 
+    id: bacciu2022deep
+    title: "Deep Learning for Graphs"
+    author: "Bacciu, Davide and Federico, Errica and Nicol\\'o, Navarin and Luca, Pasa and Daniele, Zambon"
+    short_author: "Bacciu, Federico, Nicol\\'o, Luca, Daniele"
+    year: 2022
+    bibtex: "@inproceedings{bacciu2022deep, title={Deep Learning for Graphs}, author={Bacciu, Davide and Federico, Errica and Nicol\\\\'o, Navarin and Luca, Pasa and Daniele, Zambon}, booktitle={30th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2019}, year={2022}, organization={ESANN (i6doc. com)} }"
+    doi: "10.14428/esann/2022.ES2022-7"
+    short_venue: "ESANN"
+    type: conference
+    url: "https://www.esann.org/proceedings/2022#485"
  - 
     id: zambon2022graph
     title: "Graph iForest: Isolation of anomalous and outlier graphs"
@@ -67,6 +54,16 @@
     type: journal
     url: "https://arxiv.org/abs/2110.05292"
     github: "https://github.com/danielegrattarola/SRC"
+ - 
+    id: zambon2022phdthesis
+    title: "Anomaly and Change Detection in Sequences of Graphs"
+    author: "Zambon, Daniele"
+    short_author: "Zambon"
+    year: 2022
+    bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Universit{\\`a} della Svizzera italiana}, publisher={Universit{\\`a} della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
+    short_venue: "PhD Thesis"
+    type: thesis
+    url: "https://drive.switch.ch/index.php/s/FXRG3ZV079PfVyx/download"
  - 
     id: cini2022sparse
     title: "Sparse Graph Learning for Spatiotemporal Time Series"
