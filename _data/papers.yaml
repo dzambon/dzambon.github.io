@@ -1,3 +1,17 @@
+ #    id: 
+ #    title: 
+ #    author: 
+ #    short_author: 
+ #    year: 
+ #    bibtex: 
+ #    type: 
+ #    short_venue: 
+ #    doi:
+ #    arxiv_id: 
+ #    openreview_id: 
+ #    experiments:
+ #    github:
+ #    gitlab:
  - 
     id: zambon2022aztest
     title: "AZ-whiteness test: a test for uncorrelated noise on spatio-temporal graphs"
@@ -13,10 +27,10 @@
  - 
     id: bacciu2022deep
     title: "Deep Learning for Graphs"
-    author: "Bacciu, Davide and Federico, Errica and Nicol\\'o, Navarin and Luca, Pasa and Daniele, Zambon"
-    short_author: "Bacciu, Federico, Nicol\\'o, Luca, Daniele"
+    author: "Bacciu, Davide and Errica, Federico and Navarin, Nicolò and Pasa, Luca and Zambon, Daniele"
+    short_author: "Bacciu, Errica, Navarin, Pasa, Zambon"
     year: 2022
-    bibtex: "@inproceedings{bacciu2022deep, title={Deep Learning for Graphs}, author={Bacciu, Davide and Federico, Errica and Nicol\\\\'o, Navarin and Luca, Pasa and Daniele, Zambon}, booktitle={30th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2019}, year={2022}, organization={ESANN (i6doc. com)} }"
+    bibtex: "@inproceedings{bacciu2022deep, title={Deep Learning for Graphs}, author={Bacciu, Davide and Errica, Federico and Navarin, Nicol\\`o and Pasa, Luca and Zambon, Daniele}, booktitle={30th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2019}, year={2022}, organization={ESANN (i6doc. com)} }"
     doi: "10.14428/esann/2022.ES2022-7"
     short_venue: "ESANN"
     type: conference
