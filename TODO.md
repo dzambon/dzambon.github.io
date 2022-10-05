@@ -4,3 +4,4 @@
 - [ ] blog post dalla tesi
 - [x] google scholar
 - [x] sistemare immagine che crolla male
+- [ ] aggiungere az test alla sezione code

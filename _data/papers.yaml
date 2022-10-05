@@ -41,8 +41,9 @@
     author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
     short_author: "Zambon, Livi, Alippi"
     year: 2022
-    bibtex: "@inproceedings{zambon2022graph, title={Graph {iForest}: Isolation of anomalous and outlier graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2022}, booktitle={To appear in IEEE International Joint Conference on Neural Networks}, }"
-    short_venue: "to appear in IEEE IJCNN"
+    bibtex: "@inproceedings{zambon2022graph, title={Graph {iForest}: Isolation of anomalous and outlier graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, booktitle={2022 International Joint Conference on Neural Networks (IJCNN)}, pages={1--8}, year={2022}, organization={IEEE} }"
+    doi: "10.1109/IJCNN55064.2022.9892295"
+    short_venue: "IEEE IJCNN"
     type: conference
     github: "https://github.com/dzambon/graph-iforest"
  - 
@@ -51,8 +52,9 @@
     author: "Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
     short_author: "Munari, Pasa, Zambon, Alippi, Navarin"
     year: 2022
-    bibtex: "@inproceedings{munari2022understanding, title={Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning}, author={Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicol\\`o}, year={2022}, booktitle={To appear in IEEE International Joint Conference on Neural Networks}, }"
-    short_venue: "to appear in IEEE IJCNN"
+    bibtex: "@inproceedings{munari2022understanding, title={Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning}, author={Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicol\\`o}, booktitle={2022 International Joint Conference on Neural Networks (IJCNN)}, pages={1--8}, year={2022}, organization={IEEE} }"
+    doi: "10.1109/IJCNN55064.2022.9892142"
+    short_venue: "IEEE IJCNN"
     type: conference
     github: "https://github.com/matteo-munari/GrowPGLN"
  - 
