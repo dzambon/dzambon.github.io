@@ -1,4 +1,8 @@
 courses:
+  - name: "Machine learning for medical students"
+    link: "https://search.usi.ch/en/courses/35266209/o-015-machine-learning-for-medical-students" 
+    year: 2022-2023 
+    director: "Dr. Zambon"
   - name: "Graph Deep Learning"
     link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
     year: 2020-2022 

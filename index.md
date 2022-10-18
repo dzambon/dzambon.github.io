@@ -7,7 +7,7 @@ title: Home
 <div class="profile-container">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-floated"/>
   <p class="profile-text">
-    I am post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a>.
+    I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a>.
   </p>
   <p class="profile-text">
     The focus of my research is graph representation learning, learning in non-stationary environments, and graph stream processing.
@@ -34,7 +34,7 @@ title: Home
 I obtained my Ph.D. <i class="fa fa-graduation-cap"></i> from [USI Università della Svizzera italiana](http://inf.usi.ch) (CH) under the supervision of Prof. [Cesare Alippi](https://alippi.faculty.polimi.it/) (from [USI](http://inf.usi.ch) and [POLIMI](https://www.deib.polimi.it/eng/home-page)) and Prof. [Lorenzo Livi](https://sites.google.com/site/lorenzlivi/) (from [Univ. of Manitoba](https://sci.umanitoba.ca/cs/), CA, and [Univ. of Exeter](http://emps.exeter.ac.uk/), UK).
 My research dealt with statistical tests for anomaly and change detection in sequences of graphs, graph representation learning, and learning in non-stationary environments. You can find a list of my [publications here](#publications).
 
-I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) (US) working on kernel adaptive methods and the [University of Exeter](http://emps.exeter.ac.uk/) (UK) exploring embeddings onto Riemannian manifolds. I have also been intern at [STMicroelectronics](https://www.st.com) (Italy) where I developed my Master's thesis on sparse models for anomaly detection. 
+I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) (US) working on kernel adaptive methods and at the [University of Exeter](http://emps.exeter.ac.uk/) (UK) exploring embeddings onto Riemannian manifolds. I have also been an intern at [STMicroelectronics](https://www.st.com) (Italy) where I developed my Master's thesis on sparse models for anomaly detection. 
 I received Master's and Bachelor's degrees from the [Università degli Studi di Milano](http://www.matematica.unimi.it/ecm/home) (Italy) focusing on approximation theory and mathematical statistics.
 
 I am (or have been) in the program committee of top-tier conferences and journals of the field, including IEEE TNNLS, IEEE TSP, IEEE PAMI, IEEE IJCNN, NeurIPS, ICLR, ICML, CVPR.
@@ -62,10 +62,9 @@ I am (or have been) in the program committee of top-tier conferences and journal
 
 ## Teaching 
 
-I regularly serve a teaching assistant for Master and Bachelor courses at USI helding lectures, lab sessions and examinations.   
-
+I regularly serve as a teacher in Master's and Bachelor's degree programs at USI holding lectures, lab sessions, and examinations.   
 
 {% for course in site.data.teaching.courses -%}
-- [{{ course.name }}]({{ course.link }}) ({{ course.year }}, {{ course.director }}).
+- [{{ course.name }}]({{ course.link }}) ({{ course.year }}). 
 {% endfor %}
 
