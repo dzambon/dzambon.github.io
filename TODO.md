@@ -4,4 +4,5 @@
 - [ ] blog post dalla tesi
 - [x] google scholar
 - [x] sistemare immagine che crolla male
-- [ ] aggiungere az test alla sezione code
+- [ ] post su az test nella sezione code
+- [ ] aggiungere slide e video? eg https://slideslive.com/38927757/graph-random-neural-features-for-distancepreserving-graph-representations?ref=recommended

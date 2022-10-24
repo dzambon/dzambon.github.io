@@ -7,14 +7,14 @@ title: Home
 <div class="profile-container">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-floated"/>
   <p class="profile-text">
-    I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a>.
+    I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> and <a href="https://usi.ch">USI</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a>.
   </p>
   <p class="profile-text">
     The focus of my research is graph representation learning, learning in non-stationary environments, and graph stream processing.
   </p>
   <p class="profile-text">
-<a href="mailto:firstname.surname@usi.ch">&#9993; firstname.surname@usi.ch</a>
-&nbsp;&middot;&nbsp;
+<a href="mailto:firstname.surname@usi.ch"><i class="fa fa-envelope"></i> firstname.surname@usi.ch</a>
+<br/>
 <a href="{{ site.author.github }}"><i class="fa fa-github"></i> GitHub</a>
 &nbsp;&middot;&nbsp;
 <a href="{{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
@@ -26,6 +26,10 @@ title: Home
   <div class="profile-clear"></div>
 </div>
 
+## News!
+
+* Paper accepted @ NeurIPS '22. [AZ-whiteness test](#zambon2022aztest): with it you can test the optimality of GNN's.
+* We got funded by [OCRE](https://www.ocre-project.eu/news-insights/news/ocre-awards-cloud-adoption-funding-15-exciting-research-projects?utm_source=linkedin.com&utm_medium=social&utm_campaign=15-projects-funded) with cloud computing resources for a project in collaboration with [UniPD](https://www.unipd.it/).
 
 
 ## About me
