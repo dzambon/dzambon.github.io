@@ -6,3 +6,4 @@
 - [x] sistemare immagine che crolla male
 - [ ] post su az test nella sezione code
 - [ ] aggiungere slide e video? eg https://slideslive.com/38927757/graph-random-neural-features-for-distancepreserving-graph-representations?ref=recommended
+- [ ] dark mode https://dinhanhthi.com/dark-mode-static-site/

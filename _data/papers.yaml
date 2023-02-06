@@ -13,6 +13,16 @@
  #    github:
  #    gitlab:
  - 
+    id: zambon2023where
+    title: "Where and How to Improve Graph-based Spatio-temporal Predictors"
+    author: "Zambon, Daniele and Alippi, Cesare"
+    short_author: "Zambon, Cini, Livi, Alippi"
+    year: 2023
+    bibtex: "@misc{zambon2023where, doi={10.48550/ARXIV.2302.01701}, url={https://arxiv.org/abs/2302.01701}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Where and How to Improve Graph-based Spatio-temporal Predictors}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    arxiv_id: "2302.01701"
+    type: preprint
+    url: "https://arxiv.org/abs/2302.01701"
+ - 
     id: zambon2023graph
     title: "Graph state-space models"
     author: "Zambon, Daniele and Cini, Andrea and Livi, Lorenzo and Alippi, Cesare"
@@ -26,7 +36,7 @@
     id: zambon2022aztest
     title: "AZ-whiteness test: a test for signal uncorrelation on spatio-temporal graphs"
     author: "Daniele Zambon and Cesare Alippi"
-    short_author: "Daniele Zambon and Cesare Alippi a"
+    short_author: "Zambon, Alippi"
     year: 2022
     bibtex: "@inproceedings{ zambon2022aztest, title={{AZ}-whiteness test: a test for signal uncorrelation on spatio-temporal graphs}, author={Daniele Zambon and Cesare Alippi}, booktitle={Advances in Neural Information Processing Systems}, editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho}, year={2022}, url={https://openreview.net/forum?id=SFeKNSxect} }"
     arxiv_id: "2204.11135"

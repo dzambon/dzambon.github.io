@@ -16,9 +16,9 @@
         {%- endif %}
         <a id="{{ paper.id }}" href="{{ paperhref }}">{{ paper.title }}</a>, {% if paper.short_venue %}{{ paper.short_venue }},{% endif %} {{ paper.year }}, <small>{{ paper.short_author | replace: "Zambon", "<b>Zambon</b>" }}</small>.<br/>    
         <span style="top-margin:-5px; margin-left:30px; padding-bottom:125px"> 
-          {%- if paper.doi %}[<a class="square-button" href="{{ doi_base }}{{ paper.doi }}">DOI</a>]&nbsp;{% endif %}
+          {%- if paper.doi %}[<a class="square-button" href="{{ doi_base }}{{ paper.doi }}"><i class="ai ai-doi"></i> DOI</a>]&nbsp;{% endif %}
           <!-- {%- if paper.url %}[<a class="square-button" href="{{ paper.url }}">{{ paper.url }}</a>]&nbsp;{% endif %} -->
-          {%- if paper.arxiv_id %}[<a class="square-button" href="{{ arxiv_base }}{{ paper.arxiv_id }}">arXiv</a>]&nbsp;{% endif %}
+          {%- if paper.arxiv_id %}[<a class="square-button" href="{{ arxiv_base }}{{ paper.arxiv_id }}"><i class="ai ai-arxiv"></i>   arXiv</a>]&nbsp;{% endif %}
           {%- if paper.openreview_id %}[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
           {%- if paper.github %}[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]&nbsp;{% endif %}
           {%- if paper.gitlab %}[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]&nbsp;{% endif %}
