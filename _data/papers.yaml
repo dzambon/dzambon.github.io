@@ -24,11 +24,11 @@
     url: "https://arxiv.org/abs/2302.04071"
  - 
     id: zambon2023where
-    title: "Where and How to Improve Graph-based Spatio-temporal Predictors"
+    title: "Where and How to Improve Graph-based Spatio-Temporal Predictors"
     author: "Zambon, Daniele and Alippi, Cesare"
-    short_author: "Zambon, Cini, Livi, Alippi"
+    short_author: "Zambon, Alippi"
     year: 2023
-    bibtex: "@misc{zambon2023where, doi={10.48550/ARXIV.2302.01701}, url={https://arxiv.org/abs/2302.01701}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Where and How to Improve Graph-based Spatio-temporal Predictors}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    bibtex: "@misc{zambon2023where, doi={10.48550/ARXIV.2302.01701}, url={https://arxiv.org/abs/2302.01701}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Where and How to Improve Graph-based Spatio-Temporal Predictors}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
     arxiv_id: "2302.01701"
     type: preprint
     url: "https://arxiv.org/abs/2302.01701"
@@ -100,6 +100,16 @@
     type: journal
     url: "https://arxiv.org/abs/2110.05292"
     github: "https://github.com/danielegrattarola/SRC"
+ - 
+    id: zambon2022erkennung
+    title: "Erkennung von Anomalien und Veränderung in Graphsequenzen"
+    author: "Zambon, Daniele"
+    short_author: "Zambon"
+    year: 2022
+    bibtex: "@inproceedings{zambon2022erkennung, author = {Zambon, Daniele}, title = {Erkennung von Anomalien und Veränderung in Graphsequenzen}, booktitle={D22}, year={2022}, editor={Hölldobler, Steffen}, pages={311-320}, publisher={Köllen Druck + Verlag GmbH}, address={Bonn} }"
+    short_venue: "D22" #"Ausgezeichnete Informatikdissertationen"
+    type: conference
+    url: "https://dl.gi.de/handle/20.500.12116/39855"
  - 
     id: zambon2022phdthesis
     title: "Anomaly and Change Detection in Sequences of Graphs"
