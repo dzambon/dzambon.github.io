@@ -1,27 +1,27 @@
 courses:
-  - name: "Machine learning for medical students"
+  - name: "Machine Learning for Medical Students"
     link: "https://search.usi.ch/en/courses/35266209/o-015-machine-learning-for-medical-students" 
-    year: 2022-2023 
+    year: Fall 2022-2023, Spring 2022-2023  
     director: "Dr. Zambon"
   - name: "Graph Deep Learning"
     link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
-    year: 2020-2021, 2021-2022 
+    year: Spring 2020-2021, Spring 2021-2022, Spring 2022-2023
     director: "Prof. Alippi"
   - name: "Advanced Topics in Machine Learning"
     link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
-    year: 2020-2021 
+    year: Fall 2020-2021 
     director: "Prof. Alippi"
   - name: "Machine Learning"
     link: "https://search.usi.ch/courses/35260596/machine-learning" 
-    year: 2018-2019, 2019-2020 
+    year: Spring 2018-2019, Spring 2019-2020 
     director: "Prof. Alippi"
   - name: "Probability and Statistics"
     link: "https://search.usi.ch/courses/35259416/probability-statistics" 
-    year: 2018-2019 
+    year: Fall 2018-2019 
     director: "Dr. Eynard"
   - name: "Intellingence for Cyber-Physical Systems"
     link: "https://search.usi.ch/courses/35257131/cps-intelligence" 
-    year: 2017-2018 
+    year: Spring 2017-2018 
     director: "Prof. Alippi"
   # - name: "Programming Styles"
   #   link: "https://search.usi.ch/courses/35257209/programming-styles" 

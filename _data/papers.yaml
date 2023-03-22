@@ -13,6 +13,16 @@
  #    github:
  #    gitlab:
  -    
+    id: alippi2023graph
+    title: "Graph Kalman Filters"
+    author: "Alippi, Cesare and Zambon, Daniele"
+    short_author: "Alippi*, Zambon*"
+    year: 2023
+    bibtex: "@misc{alippi2023graph, title = {Graph {{Kalman Filters}}}, author = {Alippi, Cesare and Zambon, Daniele}, year = {2023}, month = mar, number = {arXiv:2303.12021}, publisher = {{arXiv}}, doi = {10.48550/arXiv.2303.12021}, archiveprefix = {arxiv}}"
+    arxiv_id: "2303.12021"
+    type: preprint
+    url: "https://arxiv.org/abs/2303.12021"
+ -    
     id: cini2023taming
     title: "Taming Local Effects in Graph-based Spatiotemporal Forecasting"
     author: "Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare"
