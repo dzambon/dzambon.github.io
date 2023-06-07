@@ -7,7 +7,7 @@ title: Home
 <div class="profile-container">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-floated"/>
   <p class="profile-text">
-    I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> and <a href="https://usi.ch">USI</a> (CH) in the <a href="https://gmlg.ch">graph machine learning group</a>.
+    I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a> at <a href="https://usi.ch">USI</a> (CH), in the <a href="https://gmlg.ch">Graph Machine Learning Group</a>, and member of the <a href="https://www.learning4graphs.org">IEEE Task Force on Learning for Graphs</a>.
   </p>
   <p class="profile-text">
     The focus of my research is graph representation learning, learning in non-stationary environments, and graph stream processing.
@@ -26,12 +26,11 @@ title: Home
   <div class="profile-clear"></div>
 </div>
 
+
 ## News!
 
-* A bunch of preprints on arXiv about: Kalman filters [[1](#alippi2023graph)], spatio-temporal models [[2](#zambon2023graph), [3](#cini2022sparse), [4](#cini2023taming)], and model optimality [[5](#zambon2023where)].
-* Our special sessions on [DL4G @ IEEE IJCNN 2023](https://2023.ijcnn.org/paper-submission/special-sessions#session-4-37) and [GRL @ ESANN 2023](https://www.esann.org/special-sessions#session4) will be held soon in Gold Coast (Queensland, AU) and Bruges (BE).
-* Paper accepted @ NeurIPS '22. [AZ-whiteness test](#zambon2022aztest): with it you can test the optimality of GNN's.
-* We got funded by [OCRE](https://www.ocre-project.eu/news-insights/news/ocre-awards-cloud-adoption-funding-15-exciting-research-projects?utm_source=linkedin.com&utm_medium=social&utm_campaign=15-projects-funded) with cloud computing resources for a project in collaboration with [UniPD](https://www.unipd.it/).
+{% include news.md %}
+
 
 
 ## About me
