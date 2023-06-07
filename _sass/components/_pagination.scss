@@ -54,3 +54,27 @@ a.pagination-item {
     display: none;
   }
 }
+
+ul#paper-element-list,
+ul#code-element-list{
+  padding:0;
+  margin-left:10px;
+}
+
+ul#paper-element-list li,
+ul#code-element-list li {
+  display:inline;
+  padding-right:4pt;
+}
+
+ul#code-element-list{
+  margin-bottom:30px;
+}
+ul#code-element-list li{
+  padding-right:8pt;
+}
+
+ul#paper-element-list{
+  margin-top:-2px;
+  margin-bottom:0px;
+}

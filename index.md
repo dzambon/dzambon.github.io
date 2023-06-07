@@ -63,6 +63,7 @@ I am (or have been) in the program committee of top-tier conferences and journal
 
 {% include paper_list.html type="thesis" %}
 
+<small>(\* equal contribution.)</small>
 
 
 ## Teaching 

@@ -15,16 +15,36 @@
         {%- else %}{% assign paperhref = "" %}
         {%- endif %}
         <a id="{{ paper.id }}" href="{{ paperhref }}">{{ paper.title }}</a>, {% if paper.short_venue %}{{ paper.short_venue }},{% endif %} {{ paper.year }}, <small>{{ paper.short_author | replace: "Zambon", "<b>Zambon</b>" }}</small>.<br/>    
-        <span style="top-margin:-5px; margin-left:30px; padding-bottom:125px"> 
-          {%- if paper.doi %}[<a class="square-button" href="{{ doi_base }}{{ paper.doi }}"><i class="ai ai-doi"></i> DOI</a>]&nbsp;{% endif %}
+
+        <ul id="paper-element-list" style="top-margin:-5px; bottom-margin:-5px">
+        <!-- <span style="top-margin:-5px; margin-left:30px; padding-bottom:125px">  -->
+          {%- if paper.doi %}
+          <li>[<a class="square-button" href="{{ doi_base }}{{ paper.doi }}"><i class="ai ai-doi"></i> DOI</a>]
+          </li>{% endif %}
           <!-- {%- if paper.url %}[<a class="square-button" href="{{ paper.url }}">{{ paper.url }}</a>]&nbsp;{% endif %} -->
-          {%- if paper.arxiv_id %}[<a class="square-button" href="{{ arxiv_base }}{{ paper.arxiv_id }}"><i class="ai ai-arxiv"></i>   arXiv</a>]&nbsp;{% endif %}
-          {%- if paper.openreview_id %}[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]&nbsp;{% endif %}
-          {%- if paper.github %}[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]&nbsp;{% endif %}
-          {%- if paper.gitlab %}[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]&nbsp;{% endif %}
-          {%- if paper.experiments %}[<a class="square-button" href="{{ paper.experiments }}">experiments</a>]&nbsp;{% endif %}
-          {%- if paper.bibtex %}[<a class="square-button" href="javascript:void(0);" onclick='togglebibtex("bibtex-{{ paper.id }}")'>bibtex</a>]{% endif %}
-        </span>
+          {%- if paper.arxiv_id %}
+          <li>[<a class="square-button" href="{{ arxiv_base }}{{ paper.arxiv_id }}"><i class="ai ai-arxiv"></i>   arXiv</a>]
+          </li>{% endif %}
+          {%- if paper.openreview_id %}
+          <li>[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]
+          </li>{% endif %}
+          {%- if paper.github %}
+          <li>[<a class="square-button" href="{{ paper.github }}"><i class="fa fa-github"></i> GitHub</a>]
+          </li>{% endif %}
+          {%- if paper.gitlab %}
+          <li>[<a class="square-button" href="{{ paper.gitlab }}"><i class="fa fa-gitlab"></i> GitLab</a>]
+          </li>{% endif %}
+          {%- if paper.experiments %}
+          <li>[<a class="square-button" href="{{ paper.experiments }}"><i class="fa fa-flask"></i> experiments</a>]
+          </li>{% endif %}
+          {%- if paper.bibtex %}
+          <li>[<a class="square-button" href="javascript:void(0);" onclick='togglebibtex("bibtex-{{ paper.id }}")'><i class="fa fa-book"></i> bibtex</a>]
+          </li>{% endif %}
+          {%- if paper.video %}
+          <li>[<a class="square-button" href="{{ paper.video }}"><i class="fa fa-video-camera"></i> video</a>]
+          </li>{% endif %}
+        <!-- </span> -->
+        </ul>
         <pre class="bibtex-block" id="bibtex-{{ paper.id }}" style="display: none"><code>{{ paper.bibtex }}</code></pre>
       </li>
     {% endif %}   
