@@ -15,12 +15,23 @@
  #    video:
 
  -    
+    id: jin2023survey
+    title: "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection"
+    author: "Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui"
+    short_author: "Jin, Koh, Wen, Zambon, Alippi, Webb, King, Pan"
+    year: 2023
+    bibtex: "@misc{jin2023survey, title={A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}: {{Forecasting}}, {{Classification}}, {{Imputation}}, and {{Anomaly Detection}}}, shorttitle={A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}}, author={Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui}, year={2023}, month=jul, number={arXiv:2307.03759}, primaryclass={cs}, publisher={{arXiv}}, doi={10.48550/arXiv.2307.03759}, archiveprefix={arxiv}}"
+    arxiv_id: "2305.19183"
+    type: preprint
+    github: "https://github.com/KimMeen/Awesome-GNN4TS"
+    url: "https://arxiv.org/abs/2305.19183"
+ -    
     id: alippi2023graph
     title: "Graph Kalman Filters"
     author: "Alippi, Cesare and Zambon, Daniele"
     short_author: "Alippi*, Zambon*"
     year: 2023
-    bibtex: "@misc{alippi2023graph, title = {Graph {{Kalman Filters}}}, author = {Alippi, Cesare and Zambon, Daniele}, year = {2023}, month = mar, number = {arXiv:2303.12021}, publisher = {{arXiv}}, doi = {10.48550/arXiv.2303.12021}, archiveprefix = {arxiv}}"
+    bibtex: "@misc{alippi2023graph, title={Graph {{Kalman Filters}}}, author={Alippi, Cesare and Zambon, Daniele}, year={2023}, month=mar, number={arXiv:2303.12021}, publisher={{arXiv}}, doi={10.48550/arXiv.2303.12021}, archiveprefix={arxiv} }"
     arxiv_id: "2303.12021"
     type: preprint
     url: "https://arxiv.org/abs/2303.12021"
@@ -120,7 +131,7 @@
     author: "Zambon, Daniele"
     short_author: "Zambon"
     year: 2022
-    bibtex: "@inproceedings{zambon2022erkennung, author = {Zambon, Daniele}, title = {Erkennung von Anomalien und Veränderung in Graphsequenzen}, booktitle={D22}, year={2022}, editor={Hölldobler, Steffen}, pages={311-320}, publisher={Köllen Druck + Verlag GmbH}, address={Bonn} }"
+    bibtex: "@inproceedings{zambon2022erkennung, author={Zambon, Daniele}, title={Erkennung von Anomalien und Veränderung in Graphsequenzen}, booktitle={D22}, year={2022}, editor={Hölldobler, Steffen}, pages={311-320}, publisher={Köllen Druck + Verlag GmbH}, address={Bonn} }"
     short_venue: "D22" #"Ausgezeichnete Informatikdissertationen"
     type: conference
     url: "https://dl.gi.de/handle/20.500.12116/39855"

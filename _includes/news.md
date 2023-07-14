@@ -1,3 +1,4 @@
+* Working on a **survey** on GNN architectures for time series analysis: check out our preprint [GNN4TS](https://arxiv.org/abs/2305.19183)
 * Our **tutorial** on [graph deep learning for time-series processing](https://gmlg.ch/tutorials/graph-based-processing/ecml-2023) has been accepted at [ECML PKDD 2023](https://2023.ecmlpkdd.org/)!
 * I've become **member** of the [IEEE Task Force on Learning for Graphs](https://www.learning4graphs.org/).
 * A bunch of **preprints** on arXiv about: Kalman filters [[1](#alippi2023graph)], spatio-temporal models [[2](#zambon2023graph), [3](#cini2022sparse), [4](#cini2023taming)], and model optimality [[5](#zambon2023where)].
