@@ -16,4 +16,5 @@ _site/
 vendor/
 
 # custom
+**/*.DS_Store
 *.bat

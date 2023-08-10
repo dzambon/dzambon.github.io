@@ -13,15 +13,17 @@ title: Home
     The focus of my research is graph representation learning, learning in non-stationary environments, and graph stream processing.
   </p>
   <p class="profile-text">
-<a href="mailto:firstname.surname@usi.ch"><i class="fa fa-envelope"></i> firstname.surname@usi.ch</a>
-<br/>
-<a href="{{ site.author.github }}"><i class="fa fa-github"></i> GitHub</a>
-&nbsp;&middot;&nbsp;
-<a href="{{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-&nbsp;&middot;&nbsp;
-<a href="{{ site.author.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
-&nbsp;&middot;&nbsp;
-<a href="{{ site.author.orcid }}"><i class="ai ai-orcid"></i> ORCID</a>
+    <a href="mailto:firstname.surname@usi.ch"><i class="fa fa-envelope"></i> firstname.surname@usi.ch</a>
+  <br/>
+    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i> GitHub</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://scholar.google.ch/citations?user={{ site.author.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid"></i> ORCID</a>
   </p>
   <div class="profile-clear"></div>
 </div>
@@ -29,8 +31,7 @@ title: Home
 
 ## News!
 
-{% include news.md %}
-
+{% include news_list.md %}
 
 
 ## About me
@@ -42,7 +43,7 @@ My research dealt with statistical tests for anomaly and change detection in seq
 I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) (US) working on kernel adaptive methods and at the [University of Exeter](http://emps.exeter.ac.uk/) (UK) exploring embeddings onto Riemannian manifolds. I have also been an intern at [STMicroelectronics](https://www.st.com) (Italy) where I developed my Master's thesis on sparse models for anomaly detection. 
 I received Master's and Bachelor's degrees from the [Università degli Studi di Milano](http://www.matematica.unimi.it/ecm/home) (Italy) focusing on approximation theory and mathematical statistics.
 
-I am (or have been) in the program committee of top-tier conferences and journals of the field, including IEEE TNNLS, IEEE TSP, IEEE PAMI, IEEE IJCNN, NeurIPS, ICLR, ICML, CVPR.
+I am (or have been) in the program committee of top-tier conferences and journals of the field, including IEEE TNNLS, IEEE TSP, IEEE PAMI, JMLR, NeurIPS, ICLR, ICML, IEEE IJCNN.
 
 
 ## Publications
