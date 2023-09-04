@@ -71,13 +71,13 @@
     title: "Sparse Graph Learning for Spatiotemporal Time Series"
     author: "Cini, Andrea and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini, Zambon, Alippi"
-    bibtex: "@misc{cini2022sparse, doi={10.48550/ARXIV.2205.13492}, url={https://arxiv.org/abs/2205.13492}, author={Cini, Andrea and Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Sparse Graph Learning for Spatiotemporal Time Series}, publisher={arXiv}, year={2022}, copyright={Creative Commons Attribution 4.0 International} }"
+    bibtex: "@article{cini2023sparse, title={Sparse graph learning from spatiotemporal time series}, author={Cini, Andrea and Zambon, Daniele and Alippi, Cesare}, journal={Journal of Machine Learning Research}, volume={24}, number={242}, pages={1--36}, year={2023} }"
     arxiv_id: "2205.13492"
     year: 2023
     type: journal
-    short_venue: "To appear in JMLR"
+    short_venue: "JMLR"
     github: https://github.com/andreacini/sparse-graph-learning
-    url: "https://arxiv.org/abs/2205.13492"
+    url: "https://www.jmlr.org/papers/v24/22-1154.html"
  - 
     id: zambon2022aztest
     title: "AZ-whiteness test: a test for signal uncorrelation on spatio-temporal graphs"
