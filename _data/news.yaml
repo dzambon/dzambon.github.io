@@ -3,7 +3,7 @@
    msg: 'Our paper on [graph learning from time series](#cini2022sparse) will be published in JMLR!'
 - 
    date: 7-2023
-   msg: 'Working on a **survey** on GNN architectures for time series analysis: check out our preprint [GNN4TS](https://arxiv.org/abs/2305.19183)'
+   msg: 'Working on a **survey** on GNN architectures for time series analysis: check out our preprint [GNN4TS](https://arxiv.org/abs/2307.03759)'
 - 
    date: 6-2023
    msg: 'Our **tutorial** on [graph deep learning for time-series processing](https://gmlg.ch/tutorials/graph-based-processing/ecml-2023) has been accepted at [ECML PKDD 2023](https://2023.ecmlpkdd.org/)!'
