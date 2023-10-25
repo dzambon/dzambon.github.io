@@ -1,5 +1,8 @@
 - 
    date: 9-2023
+   msg: '[New paper](#cini2023graph) putting together our knownledge on desinging **graph DL** models for **time series** forecasting.'
+- 
+   date: 9-2023
    msg: 'Our study on modeling [local effects](#cini2023taming) in STGNNs has been accepted at **NeurIPS ''23**.'
 - 
    date: 9-2023
