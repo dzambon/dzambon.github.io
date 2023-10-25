@@ -43,7 +43,7 @@ My research dealt with statistical tests for anomaly and change detection in seq
 I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) (US) working on kernel adaptive methods and at the [University of Exeter](http://emps.exeter.ac.uk/) (UK) exploring embeddings onto Riemannian manifolds. I have also been an intern at [STMicroelectronics](https://www.st.com) (Italy) where I developed my Master's thesis on sparse models for anomaly detection. 
 I received Master's and Bachelor's degrees from the [Università degli Studi di Milano](http://www.matematica.unimi.it/ecm/home) (Italy) focusing on approximation theory and mathematical statistics.
 
-I am (or have been) in the program committee of top-tier conferences and journals of the field, including IEEE TNNLS, IEEE TSP, IEEE PAMI, JMLR, NeurIPS, ICLR, ICML, IEEE IJCNN.
+I am (or have been) in the program committee of top-tier conferences and journals of the field, including JMLR, IEEE TPAMI, IEEE TNNLS, IEEE TSP, NeurIPS, ICLR, and ICML.
 
 
 ## Publications

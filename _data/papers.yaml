@@ -13,7 +13,16 @@
  #    github:
  #    gitlab:
  #    video:
-
+ -    
+    id: cini2023graph
+    title: "Graph Deep Learning for Time Series Forecasting"
+    author: "Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare"
+    short_author: "Cini, Marisca, Zambon, Alippi"
+    year: 2023
+    bibtex: "@misc{cini2023graph, title={Graph {{Deep Learning}} for {{Time Series Forecasting}}}, author={Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare}, year={2023}, month=oct, number={arXiv:2310.15978}, primaryclass={cs}, publisher={{arXiv}}, doi={10.48550/arXiv.2310.15978}, archiveprefix={arxiv}}"
+    arxiv_id: "2310.15978"
+    type: preprint
+    url: "https://arxiv.org/abs/2310.15978"
  -    
     id: jin2023survey
     title: "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection"
@@ -25,6 +34,7 @@
     type: preprint
     github: "https://github.com/KimMeen/Awesome-GNN4TS"
     url: "https://arxiv.org/abs/2307.03759"
+    video: "https://youtu.be/8qPWcq0C4Pg"
  -    
     id: alippi2023graph
     title: "Graph Kalman Filters"
