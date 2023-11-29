@@ -13,6 +13,28 @@
  #    github:
  #    gitlab:
  #    video:
+ - 
+    id: bacciu2023graph
+    title: "Graph Representation Learning"
+    author: "Bacciu, Davide and Errica, Federico and Micheli, Alessio and Navarin, Nicolò and Pasa, Luca and Podda, Marco and Zambon, Daniele"
+    short_author: "Bacciu, Errica, Micheli, Navarin, Pasa, Podda, Zambon"
+    year: 2023
+    bibtex: "@inproceedings{bacciu2023graph, title={Graph Representation Learning}, author={Bacciu, Davide and Errica, Federico and Micheli, Alessio and Navarin, Nicol\\`o and Pasa, Luca and Podda, Marco and Zambon, Daniele}, booktitle={31th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2023}, year={2023}, organization={ESANN} }"
+    doi: "10.14428/esann/2023.ES2023-4"
+    short_venue: "ESANN"
+    type: conference
+    url: "https://www.esann.org/proceedings/2023#ES2023-4" 
+ -
+    id: zambon2023tgl
+    title: "Graph Kalman Filters"
+    author: "Zambon, Daniele and Alippi, Cesare"
+    short_author: "Zambon*, Alippi*"
+    year: 2023
+    bibtex: "@inproceedings{zambon2023tgl, title={Graph Kalman Filters}, author={Daniele Zambon and Cesare Alippi}, booktitle={Temporal Graph Learning Workshop @ NeurIPS 2023}, year={2023}, url={https://openreview.net/forum?id=KGqtCfYJon} }"
+    arxiv_id: "2303.12021"
+    short_venue: "TGL @ NeurIPS"
+    type: conference
+    url: "https://openreview.net/forum?id=KGqtCfYJon"
  -    
     id: cini2023graph
     title: "Graph Deep Learning for Time Series Forecasting"
@@ -282,6 +304,16 @@
     type: conference
     url: "https://drive.switch.ch/index.php/s/4IsmITiE0zrBUJN/download"
     experiments: "https://drive.switch.ch/index.php/s/FvX15ogSBBMgCYe/download"
+ - 
+    id: rossi2017method
+    title: "Method for the Detecting Electrocardiogram Anomalies and Corresponding System"
+    author: "Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo"
+    short_author: "Rossi, Fragneto, Zambon, Carrera, Boracchi"
+    year: 2017
+    bibtex: "@patent{rossi2017method, title={Method for the Detecting Electrocardiogram Anomalies and Corresponding System}, author={Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo}, year={2017}, month=dec, number={EP3251594A1}, assignee={STMicroelectronics SRL}, nationality={EP}}"
+    short_venue: "Patent"
+    url: "https://patents.google.com/patent/EP3251594A1/en"
+    type: patent
  - 
     id: carrera2016ecg
     title: "Ecg monitoring in wearable devices by sparse models"
