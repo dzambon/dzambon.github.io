@@ -1,29 +1,58 @@
 courses:
   - name: "Machine Learning for Medical Students"
-    link: "https://search.usi.ch/en/courses/35266209/o-015-machine-learning-for-medical-students" 
-    year: Fall 2022-2023, Spring 2022-2023  
+    editions: 
+      - year: "Fall 2022-2023"
+        link: "https://search.usi.ch/courses/35266209/o-015-machine-learning-for-medical-students" 
+      - year: "Spring 2022-2023"  
+        link: "https://search.usi.ch/courses/35266983/o-015-machine-learning-for-medical-students" 
     director: "Dr. Zambon"
+    ects: 1
+    level: "MMed"
   - name: "Graph Deep Learning"
-    link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
-    year: Spring 2020-2021, Spring 2021-2022, Spring 2022-2023
+    editions: 
+      - year: "Spring 2020-2021"
+        link: "https://search.usi.ch/courses/35262194/graph-deep-learning" 
+      - year: "Spring 2021-2022"
+        link: "https://search.usi.ch/courses/35263629/graph-deep-learning" 
+      - year: "Spring 2022-2023"
+        link: "https://search.usi.ch/courses/35265655/graph-deep-learning" 
     director: "Prof. Alippi"
+    ects: 3
+    level: "MSc AI, MSc CS, PhD Inf"
   - name: "Advanced Topics in Machine Learning"
-    link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
-    year: Fall 2020-2021 
+    editions: 
+      - year: "Fall 2020-2021" 
+        link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
     director: "Prof. Alippi"
+    ects: 3
+    level: "MSc AI, MSc CS, PhD Inf"
   - name: "Machine Learning"
-    link: "https://search.usi.ch/courses/35260596/machine-learning" 
-    year: Spring 2018-2019, Spring 2019-2020 
+    editions:
+      - year: "Spring 2018-2019"
+        link: "https://search.usi.ch/courses/35259461/machine-learning" 
+      - year: "Spring 2019-2020"
+        link: "https://search.usi.ch/courses/35260596/machine-learning" 
     director: "Prof. Alippi"
+    ects: 6
+    level: "BSc Inf, MSc Fin"
   - name: "Probability and Statistics"
-    link: "https://search.usi.ch/courses/35259416/probability-statistics" 
-    year: Fall 2018-2019 
+    editions: 
+      - year: "Fall 2018-2019" 
+        link: "https://search.usi.ch/courses/35259416/probability-statistics" 
     director: "Dr. Eynard"
+    ects: 6
+    level: "BSc Inf, MSc MI"
   - name: "Intellingence for Cyber-Physical Systems"
-    link: "https://search.usi.ch/courses/35257131/cps-intelligence" 
-    year: Spring 2017-2018 
+    editions: 
+      - year: "Spring 2017-2018" 
+        link: "https://search.usi.ch/courses/35257131/cps-intelligence" 
     director: "Prof. Alippi"
-  # - name: "Programming Styles"
-  #   link: "https://search.usi.ch/courses/35257209/programming-styles" 
-  #   year: 2017-2018 
-  #   director: "Prof. Hauswirth"
+    ects: 6
+    level: "MSc AI, PhD"
+  - name: "Programming Styles"
+    editions: 
+      - year: "Fall 2017-2018" 
+        link: "https://search.usi.ch/courses/35257209/programming-styles" 
+    director: "Prof. Hauswirth"
+    ects: 3
+    level: "MSc SDE"

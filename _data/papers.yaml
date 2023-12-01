@@ -77,7 +77,8 @@
     bibtex: "@inproceedings{cini2023taming, doi={10.48550/ARXIV.2302.04071}, url={https://arxiv.org/abs/2302.04071}, author={Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare}, booktitle={Advances in Neural Information Processing Systems}, keywords={Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Taming Local Effects in Graph-based Spatiotemporal Forecasting}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
     arxiv_id: "2302.04071"
     type: conference
-    url: "https://arxiv.org/abs/2302.04071"
+    url: "https://openreview.net/forum?id=x2PH6q32LR"
+    video: "https://neurips.cc/virtual/2023/poster/70034"
     short_venue: "NeurIPS"
  - 
     id: zambon2023where
@@ -121,7 +122,8 @@
     arxiv_id: "2204.11135"
     short_venue: "NeurIPS"
     type: conference
-    url: "https://openreview.net/forum?id=SFeKNSxect"
+    openreview_id: SFeKNSxect
+    url: "https://papers.nips.cc/paper_files/paper/2022/hash/4e9fa6e716940a7cfc60c46e6f702f52-Abstract-Conference.html"
     github: "https://github.com/dzambon/az-whiteness-test"
     video: "https://neurips.cc/virtual/2022/poster/54220"
     tldr: "A statistical test for uncorrelated graph signals that can be used for assessing GNN optimality."
@@ -305,14 +307,14 @@
     url: "https://drive.switch.ch/index.php/s/4IsmITiE0zrBUJN/download"
     experiments: "https://drive.switch.ch/index.php/s/FvX15ogSBBMgCYe/download"
  - 
-    id: rossi2017method
+    id: rossi2020method
     title: "Method for the Detecting Electrocardiogram Anomalies and Corresponding System"
     author: "Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo"
     short_author: "Rossi, Fragneto, Zambon, Carrera, Boracchi"
     year: 2017
-    bibtex: "@patent{rossi2017method, title={Method for the Detecting Electrocardiogram Anomalies and Corresponding System}, author={Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo}, year={2017}, month=dec, number={EP3251594A1}, assignee={STMicroelectronics SRL}, nationality={EP}}"
+    bibtex: "@patent{rossi2020method, title={Method for the Detecting Electrocardiogram Anomalies and Corresponding System}, author={Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo}, year={2020}, month=mar, number={US10595788B2}, assignee={STMicroelectronics SRL}, nationality={US}}"
     short_venue: "Patent"
-    url: "https://patents.google.com/patent/EP3251594A1/en"
+    url: "https://patents.google.com/patent/US10595788B2"
     type: patent
  - 
     id: carrera2016ecg

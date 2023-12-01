@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Daniele's home
 ---
 
 <h1 class="landing-title">{{ site.author.name }}</h1>
@@ -34,8 +34,7 @@ title: Home
 {% include news_list.md %}
 
 
-## About me
-
+## Short bio
 
 I obtained my Ph.D. <i class="fa-solid fa-graduation-cap"></i> from [USI](http://inf.usi.ch) <span class="fi fi-ch"></span> (CH) in 2022.
 My research dealt with statistical tests for anomaly and change detection, graph representation learning, and learning in non-stationary environments. You can find a list of my [publications here](#publications).
@@ -45,36 +44,13 @@ I received Master's and Bachelor's degrees in mathematics from the [Università 
 
 I have published in and have been reviewer for top-tier journals and conferences of the field, including JMLR, IEEE TPAMI, IEEE TNNLS, IEEE TSP, NeurIPS, ICLR, and ICML; I was certified Outstanding Reviewer of 2022 by the IEEE Computational Intelligence society and Top 33% Reviewer for ICML 2020. I hold a patent. I have organized special sessions and tutorials at international conferences on graph deep learning. 
 
+
 ## Publications
 
-### Preprints
-
-{% include paper_list.html type="preprint" %}
-
-### Journals
-
-{% include paper_list.html type="journal" %}
-
-### Conferences
-
-{% include paper_list.html type="conference" %}
-
-### Patents
-
-{% include paper_list.html type="patent" %}
-
-### Thesis
-
-{% include paper_list.html type="thesis" %}
-
-<small>(\* equal contribution.)</small>
+Please, find a list of my publications [here <i class="fa-solid fa-up-right-from-square"></i>]({{ site.baseurl }}/publications/) and on 
+[Google Scholar <i class="fa-brands fa-google-scholar"></i>](https://scholar.google.ch/citations?user={{ site.author.google_scholar }}).
 
 
 ## Teaching 
 
-I regularly serve as a teacher in Master's and Bachelor's degree programs at USI holding lectures, lab sessions, and examinations.   
-
-{% for course in site.data.teaching.courses -%}
-- [{{ course.name }}]({{ course.link }}) ({{ course.year }}). 
-{% endfor %}
-
+I regularly serve as a teacher in Master's and Bachelor's degree programs at USI, holding lectures, lab sessions, and examinations. Find a detailed list [here <i class="fa-solid fa-person-chalkboard"></i>]({{ site.baseurl }}/teaching/).
