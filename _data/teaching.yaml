@@ -6,8 +6,12 @@ courses:
       - year: "Spring 2022-2023"  
         link: "https://search.usi.ch/courses/35266983/o-015-machine-learning-for-medical-students" 
     director: "Dr. Zambon"
+    role: Lecturer
+    duties: "Lectures and final evaluation"
     ects: 1
     level: "MMed"
+    level_verb: ["Master of Medicine"]
+    institute: Università della Svizzera italiana, Lugano, Switzerland
   - name: "Graph Deep Learning"
     editions: 
       - year: "Spring 2020-2021"
@@ -17,15 +21,23 @@ courses:
       - year: "Spring 2022-2023"
         link: "https://search.usi.ch/courses/35265655/graph-deep-learning" 
     director: "Prof. Alippi"
+    role: Lecturer
+    duties: "Support to the course design; lectures, student projects evaluation, final grading"
     ects: 3
     level: "MSc AI, MSc CS, PhD Inf"
+    level_verb: ["Master in Artificial Intelligence", "Master in Computational Science", "Ph.D. Informatics"]
+    institute: Università della Svizzera italiana, Lugano, Switzerland
   - name: "Advanced Topics in Machine Learning"
     editions: 
       - year: "Fall 2020-2021" 
         link: "https://search.usi.ch/courses/35262237/advanced-topics-in-machine-learning" 
     director: "Prof. Alippi"
+    role: Teaching assistant
+    duties: "Support to the course design; student projects evaluation, final grading"
     ects: 3
     level: "MSc AI, MSc CS, PhD Inf"
+    level_verb: ["Master in Artificial Intelligence", "Master in Computational Science", "Ph.D. Informatics"]
+    institute: Università della Svizzera italiana, Lugano, Switzerland
   - name: "Machine Learning"
     editions:
       - year: "Spring 2018-2019"
@@ -33,26 +45,51 @@ courses:
       - year: "Spring 2019-2020"
         link: "https://search.usi.ch/courses/35260596/machine-learning" 
     director: "Prof. Alippi"
+    role: Lecturer, teaching assistant
+    duties: "Design of lectures, assignments, final exams; lab sessions and grading"
     ects: 6
     level: "BSc Inf, MSc Fin"
+    level_verb: ["Bachelor in Informatics", "Master of Science in Economics in Finance"]
+    institute: Università della Svizzera italiana, Lugano, Switzerland
   - name: "Probability and Statistics"
     editions: 
       - year: "Fall 2018-2019" 
         link: "https://search.usi.ch/courses/35259416/probability-statistics" 
     director: "Dr. Eynard"
+    role: Teaching assistant
+    duties: "Lab sessions, student projects evaluation, final grading"
     ects: 6
     level: "BSc Inf, MSc MI"
-  - name: "Intellingence for Cyber-Physical Systems"
+    level_verb: ["Bachelor in Informatics", "Master of Science in Management and Informatics"]
+    institute: Università della Svizzera italiana, Lugano, Switzerland
+  - name: "Intelligence for Cyber-Physical Systems"
     editions: 
       - year: "Spring 2017-2018" 
         link: "https://search.usi.ch/courses/35257131/cps-intelligence" 
     director: "Prof. Alippi"
+    role: Teaching assistant
+    duties: "Lab sessions, student assignments evaluation, final grading"
     ects: 6
     level: "MSc AI, PhD"
+    level_verb: ["Master in Artificial Intelligence", "Ph.D. Informatics"]
+    institute: Università della Svizzera italiana, Lugano, Switzerland
   - name: "Programming Styles"
     editions: 
       - year: "Fall 2017-2018" 
         link: "https://search.usi.ch/courses/35257209/programming-styles" 
     director: "Prof. Hauswirth"
+    role: Teaching assistant
+    duties: "Student assignment evaluation"
     ects: 3
     level: "MSc SDE"
+    level_verb: ["Master in Sofware and Data Engineering"]
+    institute: Università della Svizzera italiana
+
+tutorial:
+  - name: "Graph Deep Learning for Spatiotemporal Time Series"
+    year: "Sep 2023" 
+    link: "https://gmlg.ch/tutorials/graph-based-processing/ecml-2023" 
+    role: Lecturer
+    duties: "Designer of the tutorial and lecturer"
+    institute: ECML PKDD 2023, Turin, Italy.
+    duration: "4 hours"

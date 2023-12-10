@@ -1,4 +1,8 @@
 - 
+   date: 12-2023
+   msg: 'We will be holding a **special session** on [deep learning for graphs]() at IEEE WCCI 2024. Deadline for paper submissione is January 15, 2024. Don't miss out!'
+   type: paper
+- 
    date: 9-2023
    msg: '[New paper](#cini2023graph) putting together our knowledge on designing **graph DL** models for **time series** forecasting.'
    type: paper
