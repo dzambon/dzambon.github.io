@@ -309,12 +309,12 @@
  - 
     id: rossi2020method
     title: "Method for the Detecting Electrocardiogram Anomalies and Corresponding System"
-    author: "Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo"
-    short_author: "Rossi, Fragneto, Zambon, Carrera, Boracchi"
+    author: "Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele"
+    short_author: "Rossi, Fragneto, Carrera, Boracchi, Zambon"
     year: 2017
-    bibtex: "@patent{rossi2020method, title={Method for the Detecting Electrocardiogram Anomalies and Corresponding System}, author={Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo}, year={2020}, month=mar, number={US10595788B2}, assignee={STMicroelectronics SRL}, nationality={US}}"
+    bibtex: "@patent{rossi2020method, title={Method for the Detecting Electrocardiogram Anomalies and Corresponding System}, author={Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele}, year={2020}, month=apr, number={US10610162B2}, assignee={STMicroelectronics SRL}, nationality={US}}"
     short_venue: "Patent"
-    url: "https://patents.google.com/patent/US10595788B2"
+    url: "https://patents.google.com/patent/US10610162B2"
     type: patent
  - 
     id: carrera2016ecg
