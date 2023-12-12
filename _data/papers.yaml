@@ -74,12 +74,14 @@
     author: "Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini*, Marisca*, Zambon, Alippi"
     year: 2023
-    bibtex: "@inproceedings{cini2023taming, doi={10.48550/ARXIV.2302.04071}, url={https://arxiv.org/abs/2302.04071}, author={Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare}, booktitle={Advances in Neural Information Processing Systems}, keywords={Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Taming Local Effects in Graph-based Spatiotemporal Forecasting}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    bibtex: "@inproceedings{cini2023taming, author={Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare}, title={Taming Local Effects in Graph-based Spatiotemporal Forecasting}, booktitle={Thirty-seventh Conference on Neural Information Processing Systems}, year={2023}, url={https://openreview.net/forum?id=x2PH6q32LR}}"
     arxiv_id: "2302.04071"
     type: conference
     url: "https://openreview.net/forum?id=x2PH6q32LR"
     video: "https://neurips.cc/virtual/2023/poster/70034"
     short_venue: "NeurIPS"
+    openreview_id: x2PH6q32LR
+    github: "https://github.com/Graph-Machine-Learning-Group/taming-local-effects-stgnns"
  - 
     id: zambon2023where
     title: "Where and How to Improve Graph-based Spatio-Temporal Predictors"
