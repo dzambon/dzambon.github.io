@@ -10,7 +10,7 @@ title: Daniele's home
     Hello! My name is Daniele, I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a>, <a href="https://usi.ch">USI</a>, in the <a href="https://gmlg.ch">Graph Machine Learning Group</a>, and member of the <a href="https://www.learning4graphs.org">IEEE Task Force on Learning for Graphs</a>.
   </p>
   <p class="profile-text">
-    The focus of my research is graph representation learning, learning in non-stationary environments, and graph stream processing.
+    The focus of my research is graph representation learning, learning in non-stationary environments, and time series analysis.
   </p>
   <p class="profile-text">
     <a href="mailto:name.surname@usi.ch"><i class="fa-solid fa-envelope"></i> name.surname@usi.ch</a>
