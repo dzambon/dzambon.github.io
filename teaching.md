@@ -15,9 +15,10 @@ Director: {{ course.director }}, {% if course.ects -%}ECTS: {{ course.ects }}{%-
 {% endfor %}
 
 
-## Advised students
+<!-- ## Advised students
 
 {% for student in site.data.students.students -%}
 - __{{ student.name }}__, {{student.level}}, {{student.year}}{%- if student.thesis -%}, _{{student.thesis}}_{%- endif -%}. 
 {% endfor %}
 
+ -->
