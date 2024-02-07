@@ -13,17 +13,18 @@ title: Daniele's home
     The focus of my research is graph representation learning, learning in non-stationary environments, and time series analysis.
   </p>
   <p class="profile-text">
-    <a href="mailto:name.surname@usi.ch"><i class="fa-solid fa-envelope"></i> name.surname@usi.ch</a>
-  <br/>
-    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+    <a href="mailto:name.surname@usi.ch"><i class="fa-solid fa-envelope"></i> <code> name.surname@usi.ch </code></a>
+  </p>
+  <p>
+    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa-brands fa-x-twitter"></i></a>
     &nbsp;&middot;&nbsp;
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/{{ site.author.github }}"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://github.com/{{ site.author.github }}"><i class="fa-brands fa-github"></i></a>
     &nbsp;&middot;&nbsp;
-    <a href="https://scholar.google.ch/citations?user={{ site.author.google_scholar }}"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+    <a href="https://scholar.google.ch/citations?user={{ site.author.google_scholar }}"><i class="fa-brands fa-google-scholar"></i></a>
     &nbsp;&middot;&nbsp;
-    <a href="https://orcid.org/{{ site.author.orcid }}"><i class="fa-brands fa-orcid"></i> ORCID</a>
+    <a href="https://orcid.org/{{ site.author.orcid }}"><i class="fa-brands fa-orcid"></i></a>
   </p>
   <div class="profile-clear"></div>
 </div>
