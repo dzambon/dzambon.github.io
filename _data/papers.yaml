@@ -14,6 +14,16 @@
  #    gitlab:
  #    video:
  - 
+    id: defelice2024graphbased
+    title: "Graph-Based Virtual Sensing from Sparse and Partial Multivariate Observations"
+    author: "De Felice, Giovanni and Cini, Andrea and Zambon, Daniele and Gusev, Vladimir and Alippi, Cesare"
+    short_author: "De Felice, Cini, Zambon, Gusev, Alippi"
+    year: 2024
+    bibtex: "@inproceedings{defelice2024graphbased, title = {Graph-Based {{Virtual Sensing}} from {{Sparse}} and {{Partial Multivariate Observations}}}, booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}}, author = {De Felice, Giovanni and Cini, Andrea and Zambon, Daniele and Gusev, Vladimir and Alippi, Cesare}, year = {2024}}"
+    short_venue: "ICLR"
+    type: conference
+    url: "https://openreview.net/forum?id=CAqdG2dy5s" 
+ - 
     id: bacciu2023graph
     title: "Graph Representation Learning"
     author: "Bacciu, Davide and Errica, Federico and Micheli, Alessio and Navarin, Nicolò and Pasa, Luca and Podda, Marco and Zambon, Daniele"

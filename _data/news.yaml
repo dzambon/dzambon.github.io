@@ -1,4 +1,8 @@
 - 
+   date: 1-2024
+   msg: 'New **paper** on [virtual sensing](#defelice2024graphbased) accepted at **ICLR ''24**!'
+   type: paper
+- 
    date: 12-2023
    msg: 'We will be holding a **special session** on [deep learning for graphs](https://sites.google.com/view/dl4g-2024) at IEEE WCCI 2024. Deadline for paper submission is January 15, 2024. Don''t miss out!'
    type: paper
@@ -38,11 +42,11 @@
    date: 2-2023
    msg: 'Our **special sessions** on [DL4G @ IEEE IJCNN 2023](https://2023.ijcnn.org/paper-submission/special-sessions#session-4-37) and [GRL @ ESANN 2023](https://www.esann.org/special-sessions#session4) will be held soon in Gold Coast (Queensland, AU) and Bruges (BE).'
    type: service
-- 
-   date: 11-2022
-   msg: 'Paper accepted @ **NeurIPS ''22**. [AZ-whiteness test](#zambon2022aztest): with it you can test the optimality of GNN''s.'
-   type: paper
-- 
-   date: 11-2022
-   msg: 'We have got **funded** by [OCRE](https://www.ocre-project.eu/news-insights/news/ocre-awards-cloud-adoption-funding-15-exciting-research-projects?utm_source=linkedin.com&utm_medium=social&utm_campaign=15-projects-funded) with cloud computing resources for a project in collaboration with [UniPD](https://www.unipd.it/).'
-   type: grant
+# - 
+#    date: 11-2022
+#    msg: 'Paper accepted @ **NeurIPS ''22**. [AZ-whiteness test](#zambon2022aztest): with it you can test the optimality of GNN''s.'
+#    type: paper
+# - 
+#    date: 11-2022
+#    msg: 'We have got **funded** by [OCRE](https://www.ocre-project.eu/news-insights/news/ocre-awards-cloud-adoption-funding-15-exciting-research-projects?utm_source=linkedin.com&utm_medium=social&utm_campaign=15-projects-funded) with cloud computing resources for a project in collaboration with [UniPD](https://www.unipd.it/).'
+#    type: grant
