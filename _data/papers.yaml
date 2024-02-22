@@ -21,6 +21,9 @@
     year: 2024
     bibtex: "@inproceedings{defelice2024graphbased, title = {Graph-Based {{Virtual Sensing}} from {{Sparse}} and {{Partial Multivariate Observations}}}, booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}}, author = {De Felice, Giovanni and Cini, Andrea and Zambon, Daniele and Gusev, Vladimir and Alippi, Cesare}, year = {2024}}"
     short_venue: "ICLR"
+    arxiv_id: "2402.12598"
+    openreview_id: CAqdG2dy5s
+    github: "https://github.com/gdefe/ggnet-virtual-sensing"
     type: conference
     url: "https://openreview.net/forum?id=CAqdG2dy5s" 
  - 
