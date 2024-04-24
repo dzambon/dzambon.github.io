@@ -1,4 +1,8 @@
 - 
+   date: 4-2024
+   msg: 'New **paper** on [irregularly-sampled time series](#gravina2024temporal) accepted at **IJCAI ''24**!'
+   type: paper
+- 
    date: 1-2024
    msg: 'New **paper** on [virtual sensing](#defelice2024graphbased) accepted at **ICLR ''24**!'
    type: paper
@@ -20,7 +24,7 @@
    type: service
 - 
    date: 8-2023
-   msg: 'Our paper on [graph learning from time series](#cini2022sparse) will be published in **JMLR**!'
+   msg: 'Our paper on [graph learning from time series](#cini2023sparse) will be published in **JMLR**!'
    type: paper
 - 
    date: 7-2023
@@ -36,7 +40,7 @@
    type: service
 - 
    date: 3-2023
-   msg: 'A bunch of **preprints** about Kalman filters [[1](#alippi2023graph)], spatio-temporal models [[2](#zambon2023graph), [3](#cini2022sparse), [4](#cini2023taming)], and model optimality [[5](#zambon2023where)].'
+   msg: 'A bunch of **preprints** about Kalman filters [[1](#alippi2023graph)], spatio-temporal models [[2](#zambon2023graph), [3](#cini2023sparse), [4](#cini2023taming)], and model optimality [[5](#zambon2023where)].'
    type: paper
 - 
    date: 2-2023

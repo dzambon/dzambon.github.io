@@ -14,25 +14,59 @@
  #    gitlab:
  #    video:
  - 
+    id: gravina2024temporal
+    title: "Temporal Graph ODEs for Irregularly-Sampled Time Series"
+    author: "Gravina, Alessio and Zambon, Daniele and Bacciu, Davide and Alippi, Cesare"
+    short_author: "Gravina, Zambon, Bacciu, Alippi"
+    year: 2024
+    bibtex: |
+      @inproceedings{gravina2024temporal,
+         title = {Temporal Graph {{ODEs}} for Irregularly-Sampled Time Series},
+         booktitle = {Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, {IJCAI-24}},
+         publisher = {International Joint Conferences on Artificial Intelligence Organization},
+         author = {Gravina, Alessio and Zambon, Daniele and Bacciu, Davide and Alippi, Cesare},
+         year = {2024}
+      }
+    short_venue: "IJCAI"
+    type: conference
+ - 
     id: defelice2024graphbased
     title: "Graph-Based Virtual Sensing from Sparse and Partial Multivariate Observations"
     author: "De Felice, Giovanni and Cini, Andrea and Zambon, Daniele and Gusev, Vladimir and Alippi, Cesare"
     short_author: "De Felice, Cini, Zambon, Gusev, Alippi"
     year: 2024
-    bibtex: "@inproceedings{defelice2024graphbased, title = {Graph-Based {{Virtual Sensing}} from {{Sparse}} and {{Partial Multivariate Observations}}}, booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}}}, author = {De Felice, Giovanni and Cini, Andrea and Zambon, Daniele and Gusev, Vladimir and Alippi, Cesare}, year = {2024}}"
+    bibtex: |
+      @inproceedings{defelice2024graphbased,
+         title={Graph-Based {{Virtual Sensing}} from {{Sparse}} and {{Partial Multivariate Observations}}}, 
+         booktitle={The {{Twelfth International Conference}} on {{Learning Representations}}}, 
+         author={De Felice, Giovanni and Cini, Andrea and Zambon, Daniele and Gusev, Vladimir and Alippi, Cesare},
+         year={2024},
+         url={https://openreview.net/forum?id=CAqdG2dy5s}
+      }
     short_venue: "ICLR"
     arxiv_id: "2402.12598"
     openreview_id: CAqdG2dy5s
     github: "https://github.com/gdefe/ggnet-virtual-sensing"
     type: conference
     url: "https://openreview.net/forum?id=CAqdG2dy5s" 
+    video: "https://www.youtube.com/watch?v=l_3bv5b3LbM"
  - 
     id: bacciu2023graph
     title: "Graph Representation Learning"
     author: "Bacciu, Davide and Errica, Federico and Micheli, Alessio and Navarin, Nicolò and Pasa, Luca and Podda, Marco and Zambon, Daniele"
     short_author: "Bacciu, Errica, Micheli, Navarin, Pasa, Podda, Zambon"
     year: 2023
-    bibtex: "@inproceedings{bacciu2023graph, title={Graph Representation Learning}, author={Bacciu, Davide and Errica, Federico and Micheli, Alessio and Navarin, Nicol\\`o and Pasa, Luca and Podda, Marco and Zambon, Daniele}, booktitle={31th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2023}, year={2023}, organization={ESANN} }"
+    bibtex: |
+      @inproceedings{bacciu2023graph,
+        title = {Graph Representation Learning},
+        booktitle = {31st {{European Symposium}} on {{Artificial Neural Networks}}, {{Computational Intelligence}} and {{Machine Learning}}, {{ESANN}} 2023},
+        author = {Bacciu, Davide and Errica, Federico and Micheli, Alessio and Navarin, Nicol{\`o} and Pasa, Luca and Podda, Marco and Zambon, Daniele},
+        year = {2023},
+        pages = {1--10},
+        publisher = {i6doc. com},
+        doi = {10.14428/esann/2023.ES2023-4},
+        isbn = {978-2-87587-088-9}
+      }
     doi: "10.14428/esann/2023.ES2023-4"
     short_venue: "ESANN"
     type: conference
@@ -87,10 +121,21 @@
     author: "Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini*, Marisca*, Zambon, Alippi"
     year: 2023
-    bibtex: "@inproceedings{cini2023taming, author={Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare}, title={Taming Local Effects in Graph-based Spatiotemporal Forecasting}, booktitle={Thirty-seventh Conference on Neural Information Processing Systems}, year={2023}, url={https://openreview.net/forum?id=x2PH6q32LR}}"
+    bibtex: |
+      @inproceedings{cini2023taming,
+         title = {Taming {{Local Effects}} in {{Graph-based Spatiotemporal Forecasting}}},
+         booktitle = {Advances in {{Neural Information Processing Systems}}},
+         author = {Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare},
+         year = {2023},
+         volume = {36},
+         pages = {55375--55393},
+         editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+         publisher = {Curran Associates, Inc.}
+         url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/ad58c61c71efd5436134a3ecc87da6ea-Paper-Conference.pdf},
+      }
     arxiv_id: "2302.04071"
     type: conference
-    url: "https://openreview.net/forum?id=x2PH6q32LR"
+    url: "https://papers.nips.cc/paper_files/paper/2023/hash/ad58c61c71efd5436134a3ecc87da6ea-Abstract-Conference.html"
     video: "https://neurips.cc/virtual/2023/poster/70034"
     short_venue: "NeurIPS"
     openreview_id: x2PH6q32LR
@@ -116,11 +161,21 @@
     type: preprint
     url: "https://arxiv.org/abs/2301.01741"
  - 
-    id: cini2022sparse
+    id: cini2023sparse
     title: "Sparse Graph Learning for Spatiotemporal Time Series"
     author: "Cini, Andrea and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini, Zambon, Alippi"
-    bibtex: "@article{cini2023sparse, title={Sparse graph learning from spatiotemporal time series}, author={Cini, Andrea and Zambon, Daniele and Alippi, Cesare}, journal={Journal of Machine Learning Research}, volume={24}, number={242}, pages={1--36}, year={2023} }"
+    bibtex: |
+      @article{cini2023sparse,
+         title = {Sparse {{Graph Learning}} from {{Spatiotemporal Time Series}}},
+         author = {Cini, Andrea and Zambon, Daniele and Alippi, Cesare},
+         year = {2023},
+         journal = {Journal of Machine Learning Research},
+         volume = {24},
+         number = {242},
+         pages = {1--36},
+         issn = {1533-7928}
+      }
     arxiv_id: "2205.13492"
     year: 2023
     type: journal
@@ -128,12 +183,22 @@
     github: https://github.com/andreacini/sparse-graph-learning
     url: "https://www.jmlr.org/papers/v24/22-1154.html"
  - 
-    id: zambon2022aztest
+    id: zambon2022azwhiteness
     title: "AZ-whiteness test: a test for signal uncorrelation on spatio-temporal graphs"
     author: "Daniele Zambon and Cesare Alippi"
     short_author: "Zambon, Alippi"
     year: 2022
-    bibtex: "@inproceedings{ zambon2022aztest, title={{AZ}-whiteness test: a test for signal uncorrelation on spatio-temporal graphs}, author={Daniele Zambon and Cesare Alippi}, booktitle={Advances in Neural Information Processing Systems}, editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho}, year={2022}, url={https://openreview.net/forum?id=SFeKNSxect} }"
+    bibtex: |
+      @inproceedings{zambon2022azwhiteness,
+        title = {{{AZ-whiteness}} Test: A Test for Signal Uncorrelation on Spatio-Temporal Graphs},
+        booktitle = {Advances in Neural Information Processing Systems},
+        author = {Zambon, Daniele and Alippi, Cesare},
+        editor = {Koyejo, S. and Mohamed, S. and Agarwal, A. and Belgrave, D. and Cho, K. and Oh, A.},
+        year = {2022},
+        volume = {35},
+        pages = {11975--11986},
+        publisher = {Curran Associates, Inc.}
+      }
     arxiv_id: "2204.11135"
     short_venue: "NeurIPS"
     type: conference
@@ -148,7 +213,17 @@
     author: "Bacciu, Davide and Errica, Federico and Navarin, Nicolò and Pasa, Luca and Zambon, Daniele"
     short_author: "Bacciu, Errica, Navarin, Pasa, Zambon"
     year: 2022
-    bibtex: "@inproceedings{bacciu2022deep, title={Deep Learning for Graphs}, author={Bacciu, Davide and Errica, Federico and Navarin, Nicol\\`o and Pasa, Luca and Zambon, Daniele}, booktitle={30th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2019}, year={2022}, organization={ESANN (i6doc. com)} }"
+    bibtex: |
+      @inproceedings{bacciu2022deep,
+        title = {Deep Learning for Graphs},
+        booktitle = {30th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, {{ESANN}} 2022},
+        author = {Bacciu, Davide and Errica, Federico and Navarin, Nicol{\`o} and Pasa, Luca and Zambon, Daniele},
+        year = {2022},
+        pages = {481--490},
+        doi = {10.14428/esann/2022.ES2022-7},
+        isbn = {978-2-87587-084-1},
+        organization = {ESANN (i6doc. com)}
+      }
     doi: "10.14428/esann/2022.ES2022-7"
     short_venue: "ESANN"
     type: conference
@@ -159,7 +234,18 @@
     author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
     short_author: "Zambon, Livi, Alippi"
     year: 2022
-    bibtex: "@inproceedings{zambon2022graph, title={Graph {iForest}: Isolation of anomalous and outlier graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, booktitle={2022 International Joint Conference on Neural Networks (IJCNN)}, pages={1--8}, year={2022}, organization={IEEE} }"
+    bibtex: |
+      @inproceedings{zambon2022graph,
+         title = {Graph {{iForest}}: {{Isolation}} of Anomalous and Outlier Graphs},
+         shorttitle = {Graph {{iForest}}},
+         booktitle = {2022 {{International Joint Conference}} on {{Neural Networks}} ({{IJCNN}})},
+         author = {Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare},
+         year = {2022},
+         month = jul,
+         pages = {1--8},
+         issn = {2161-4407},
+         doi = {10.1109/IJCNN55064.2022.9892295}
+      }
     doi: "10.1109/IJCNN55064.2022.9892295"
     short_venue: "IEEE IJCNN"
     type: conference
@@ -170,18 +256,39 @@
     author: "Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
     short_author: "Munari, Pasa, Zambon, Alippi, Navarin"
     year: 2022
-    bibtex: "@inproceedings{munari2022understanding, title={Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning}, author={Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicol\\`o}, booktitle={2022 International Joint Conference on Neural Networks (IJCNN)}, pages={1--8}, year={2022}, organization={IEEE} }"
+    bibtex: |
+      @inproceedings{munari2022understanding,
+         title = {Understanding {{Catastrophic Forgetting}} of {{Gated Linear Networks}} in {{Continual Learning}}},
+         booktitle = {2022 {{International Joint Conference}} on {{Neural Networks}} ({{IJCNN}})},
+         author = {Munari, Matteo and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicol{\`o}},
+         year = {2022},
+         month = jul,
+         pages = {1--8},
+         issn = {2161-4407},
+         doi = {10.1109/IJCNN55064.2022.9892142}
+      }
     doi: "10.1109/IJCNN55064.2022.9892142"
     short_venue: "IEEE IJCNN"
     type: conference
     github: "https://github.com/matteo-munari/GrowPGLN"
  - 
-    id: grattarola2022understanding
+    id: grattarola2024understanding
     title: "Understanding Pooling in Graph Neural Networks"
     author: "Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare"
     short_author: "Grattarola, Zambon, Bianchi, Alippi"
-    year: 2022
-    bibtex: "@article{grattarola2022understanding, title={Understanding Pooling in Graph Neural Networks}, author={Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo and Alippi, Cesare}, journal={IEEE Transactions on Neural Networks and Learning Systems}, year={2022}, volume={}, number={}, pages={1-11}, doi={10.1109/TNNLS.2022.3190922} }"
+    year: 2024
+    bibtex: |
+      @article{grattarola2024understanding,
+         title = {Understanding {{Pooling}} in {{Graph Neural Networks}}},
+         author = {Grattarola, Daniele and Zambon, Daniele and Bianchi, Filippo Maria and Alippi, Cesare},
+         year = {2024},
+         month = feb,
+         journal = {IEEE Transactions on Neural Networks and Learning Systems},
+         volume = {35},
+         number = {2},
+         pages = {2708--2718},
+         doi = {10.1109/TNNLS.2022.3190922}
+      }
     doi: "10.1109/TNNLS.2022.3190922"
     arxiv_id: "2110.05292"
     short_venue: "IEEE TNNLS"
@@ -204,7 +311,14 @@
     author: "Zambon, Daniele"
     short_author: "Zambon"
     year: 2022
-    bibtex: "@phdthesis{zambon2022phdthesis, title={Anomaly and Change Detection in Sequences of Graphs}, school={Universit{\\`a} della Svizzera italiana}, publisher={Universit{\\`a} della Svizzera italiana}, author={Zambon, Daniele}, year={2022}, }"
+    bibtex: |
+      @phdthesis{zambon2022phdthesis, 
+         title={Anomaly and Change Detection in Sequences of Graphs}, 
+         school={Universit{\\`a} della Svizzera italiana}, 
+         publisher={Universit{\\`a} della Svizzera italiana}, 
+         author={Zambon, Daniele}, 
+         year={2022},
+      }
     short_venue: "PhD Thesis"
     type: thesis
     url: "https://drive.switch.ch/index.php/s/FXRG3ZV079PfVyx/download"
@@ -214,7 +328,14 @@
     author: "Paassen, Benjamin and Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Hammer, Barbara Eva"
     short_author: "Paassen, Grattarola, Zambon, Alippi, Hammer"
     year: 2021
-    bibtex: "@inproceedings{paassen2021graph, title={Graph Edit Networks}, author={Paassen, Benjamin and Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Hammer, Barbara Eva}, booktitle={International Conference on Learning Representations (ICLR)}, year={2021}, url={https://openreview.net/forum?id=dlEJsyHGeaL} }"
+    bibtex: |
+      @inproceedings{paassen2021graph,
+         title = {Graph Edit Networks},
+         booktitle = {International Conference on Learning Representations ({{ICLR}})},
+         author = {Paassen, Benjamin and Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Hammer, Barbara Eva},
+         year = {2021}
+         url={https://openreview.net/forum?id=dlEJsyHGeaL}
+      }
     short_venue: "ICLR"
     type: conference
     url: "https://openreview.net/forum?id=dlEJsyHGeaL"
@@ -226,7 +347,21 @@
     author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
     short_author: "Zambon, Alippi, Livi"
     year: 2020
-    bibtex: "@inproceedings{zambon2020graph, title={Graph Random Neural Features for Distance-Preserving Graph Representations}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, booktitle={Proceedings of the 37th International Conference on Machine Learning (ICML)}, pages={10968--10977}, editor={Hal Daumé III and Aarti Singh}, volume={119}, series={Proceedings of Machine Learning Research}, address={Virtual}, year={2020}, month={13--18 Jul}, publisher={PMLR}, pdf={http://proceedings.mlr.press/v119/zambon20a/zambon20a.pdf}, url={http://proceedings.mlr.press/v119/zambon20a.html}, abstract={We present Graph Random Neural Features (GRNF), a novel embedding method from graph-structured data to real vectors based on a family of graph neural networks. The embedding naturally deals with graph isomorphism and preserves the metric structure of the graph domain, in probability. In addition to being an explicit embedding method, it also allows us to efficiently and effectively approximate graph metric distances (as well as complete kernel functions); a criterion to select the embedding dimension trading off the approximation accuracy with the computational cost is also provided. GRNF can be used within traditional processing methods or as a training-free input layer of a graph neural network. The theoretical guarantees that accompany GRNF ensure that the considered graph distance is metric, hence allowing to distinguish any pair of non-isomorphic graphs.}}"
+    bibtex: |
+      @inproceedings{zambon2020graph, 
+         title={Graph {{Random Neural Features}} for {{Distance-Preserving Graph Representations}}},
+         author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, 
+         booktitle={Proceedings of the 37th International Conference on Machine Learning (ICML)}, 
+         pages={10968--10977}, 
+         editor={Hal Daumé III and Aarti Singh}, 
+         volume={119}, 
+         series={Proceedings of Machine Learning Research}, 
+         year={2020}, 
+         month={13--18 Jul}, 
+         publisher={PMLR}, 
+         issn = {2640-3498}
+         url={http://proceedings.mlr.press/v119/zambon20a.html}, 
+      }
     arxiv_id: "1909.03790"
     short_venue: "ICML"
     type: conference
@@ -245,12 +380,24 @@
     url: "https://grlearning.github.io/papers/51.pdf"
     github: "https://github.com/dzambon/graph-random-neural-features.git"
  - 
-    id: zambon2019change
+    id: zambon2019changepoint
     title: "Change-Point Methods on a Sequence of Graphs"
     author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
     short_author: "Zambon, Alippi, Livi"
     year: 2019
-    bibtex: "@article{zambon2019change, title={Change-Point Methods on a Sequence of Graphs}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/TSP.2019.2953596}, journal={IEEE Transactions on Signal Processing}, }"
+    bibtex: |
+      @article{zambon2019changepoint,
+        title = {Change-{{Point Methods}} on a {{Sequence}} of {{Graphs}}},
+        author = {Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo},
+        year = {2019},
+        month = dec,
+        journal = {IEEE Transactions on Signal Processing},
+        volume = {67},
+        number = {24},
+        pages = {6327--6341},
+        issn = {1941-0476},
+        doi = {10.1109/TSP.2019.2953596}
+      }
     doi: "10.1109/TSP.2019.2953596"
     arxiv_id: "1805.07113"
     short_venue: "IEEE TSP"
@@ -260,10 +407,20 @@
  - 
     id: zambon2019autoregressive
     title: "Autoregressive Models for Sequences of Graphs"
-    author: "Zambon, Daniele and Grattarola, Daniele and Alippi, Cesare and Livi, Lorenzo"
-    short_author: "Zambon*, Grattarola*, Alippi, Livi"
+    author: "Zambon, Daniele and Grattarola, Daniele and Livi, Lorenzo and Alippi, Cesare"
+    short_author: "Zambon*, Grattarola*, Livi, Alippi"
     year: 2019
-    bibtex: "@inproceedings{zambon2019autoregressive, title={Autoregressive Models for Sequences of Graphs}, author={Zambon, Daniele and Grattarola, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/IJCNN.2019.8852131}, booktitle={IEEE International Joint Conference on Neural Networks}, }"
+    bibtex: |
+      @inproceedings{zambon2019autoregressive,
+        title = {Autoregressive {{Models}} for {{Sequences}} of {{Graphs}}},
+        booktitle = {2019 {{International Joint Conference}} on {{Neural Networks}} ({{IJCNN}})},
+        author = {Zambon, Daniele and Grattarola, Daniele and Livi, Lorenzo and Alippi, Cesare},
+        year = {2019},
+        month = jul,
+        pages = {1--8},
+        issn = {2161-4407},
+        doi = {10.1109/IJCNN.2019.8852131}
+      }
     doi: "10.1109/IJCNN.2019.8852131"
     arxiv_id: "1903.07299"
     short_venue: "IEEE IJCNN"
@@ -271,12 +428,25 @@
     url: "https://arxiv.org/abs/1903.07299"
     github: "https://github.com/dzambon/NGAR.git"
  - 
-    id: grattarola2019change
+    id: grattarola2020change
     title: "Change Detection in Graph Streams by Learning Graph Embeddings on Constant-Curvature Manifolds"
-    author: "Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
-    short_author: "Grattarola, Zambon, Alippi, Livi"
-    year: 2019
-    bibtex: "@article{grattarola2019change, title={Change Detection in Graph Streams by Learning Graph Embeddings on Constant-Curvature Manifolds}, author={Grattarola, Daniele and Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, doi={10.1109/TNNLS.2019.2927301}, journal={IEEE Transactions on Neural Networks and Learning Systems}, }"
+    author: "Grattarola, Daniele and Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
+    short_author: "Grattarola, Zambon, Livi, Alippi"
+    year: 2020
+    bibtex: |
+      @article{grattarola2020change,
+        title = {Change {{Detection}} in {{Graph Streams}} by {{Learning Graph Embeddings}} on {{Constant-Curvature Manifolds}}},
+        author = {Grattarola, Daniele and Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare},
+        year = {2020},
+        month = jun,
+        journal = {IEEE Transactions on Neural Networks and Learning Systems},
+        volume = {31},
+        number = {6},
+        pages = {1856--1869},
+        issn = {2162-237X, 2162-2388},
+        doi = {10.1109/TNNLS.2019.2927301},
+        copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html}
+      }
     doi: "10.1109/TNNLS.2019.2927301"
     arxiv_id: "1805.06299"
     short_venue: "IEEE TNNLS"
@@ -289,7 +459,19 @@
     author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
     short_author: "Zambon, Alippi, Livi"
     year: 2018
-    bibtex: "@article{zambon2018concept, title={Concept Drift and Anomaly Detection in Graph Streams}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2018}, doi={10.1109/TNNLS.2018.2804443}, journal={IEEE Transactions on Neural Networks and Learning Systems}, pages={1-14}, }"
+    bibtex: |
+      @article{zambon2018concept,
+        title = {Concept {{Drift}} and {{Anomaly Detection}} in {{Graph Streams}}},
+        author = {Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo},
+        year = {2018},
+        month = nov,
+        journal = {IEEE Transactions on Neural Networks and Learning Systems},
+        volume = {29},
+        number = {11},
+        pages = {5592--5605},
+        issn = {2162-2388},
+        doi = {10.1109/TNNLS.2018.2804443}
+      }
     doi: "10.1109/TNNLS.2018.2804443"
     arxiv_id: "1706.06941"
     short_venue: "IEEE TNNLS"
@@ -302,7 +484,17 @@
     author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
     short_author: "Zambon, Livi, Alippi"
     year: 2018
-    bibtex: "@inproceedings{zambon2018anomaly, title={Anomaly and Change Detection in Graph Streams through Constant-Curvature Manifold Embeddings}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2018}, doi={10.1109/IJCNN.2018.8489762}, booktitle={IEEE International Joint Conference on Neural Networks}, }"
+    bibtex: |
+      @inproceedings{zambon2018anomaly,
+        title = {Anomaly and {{Change Detection}} in {{Graph Streams}} through {{Constant-Curvature Manifold Embeddings}}},
+        booktitle = {2018 {{International Joint Conference}} on {{Neural Networks}} ({{IJCNN}})},
+        author = {Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare},
+        year = {2018},
+        month = jul,
+        pages = {1--7},
+        issn = {2161-4407},
+        doi = {10.1109/IJCNN.2018.8489762}
+      }
     doi: "10.1109/IJCNN.2018.8489762"
     arxiv_id: "1805.01360"
     short_venue: "IEEE IJCNN"
@@ -315,7 +507,16 @@
     author: "Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare"
     short_author: "Zambon, Livi, Alippi"
     year: 2017
-    bibtex: "@inproceedings{zambon2017detecting, title={Detecting Changes in Sequences of Attributed Graphs}, author={Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare}, year={2017}, doi={10.1109/SSCI.2017.8285273}, booktitle={IEEE Symposium Series on Computational Intelligence}, }"
+    bibtex: |
+      @inproceedings{zambon2017detecting,
+        title = {Detecting Changes in Sequences of Attributed Graphs},
+        booktitle = {2017 {{IEEE Symposium Series}} on {{Computational Intelligence}} ({{SSCI}})},
+        author = {Zambon, Daniele and Livi, Lorenzo and Alippi, Cesare},
+        year = {2017},
+        month = nov,
+        pages = {1--7},
+        doi = {10.1109/SSCI.2017.8285273}
+      }
     doi: "10.1109/SSCI.2017.8285273"
     short_venue: "IEEE SSCI"
     type: conference
