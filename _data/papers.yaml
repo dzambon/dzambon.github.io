@@ -77,7 +77,15 @@
     author: "Zambon, Daniele and Alippi, Cesare"
     short_author: "Zambon*, Alippi*"
     year: 2023
-    bibtex: "@inproceedings{zambon2023tgl, title={Graph Kalman Filters}, author={Daniele Zambon and Cesare Alippi}, booktitle={Temporal Graph Learning Workshop @ NeurIPS 2023}, year={2023}, url={https://openreview.net/forum?id=KGqtCfYJon} }"
+    bibtex: |
+      @inproceedings{zambon2023tgl,
+        title = {Graph {{Kalman Filters}}},
+        booktitle = {Temporal {{Graph Learning Workshop}} @ {{NeurIPS}} 2023},
+        author = {Zambon, Daniele and Alippi, Cesare},
+        year = {2023},
+        month = dec,
+        url={https://openreview.net/forum?id=KGqtCfYJon}
+      }
     arxiv_id: "2303.12021"
     short_venue: "TGL @ NeurIPS"
     type: conference
@@ -88,7 +96,18 @@
     author: "Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini, Marisca, Zambon, Alippi"
     year: 2023
-    bibtex: "@misc{cini2023graph, title={Graph {{Deep Learning}} for {{Time Series Forecasting}}}, author={Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare}, year={2023}, month=oct, number={arXiv:2310.15978}, primaryclass={cs}, publisher={{arXiv}}, doi={10.48550/arXiv.2310.15978}, archiveprefix={arxiv}}"
+    bibtex: |
+      @misc{cini2023graph,
+        title = {Graph {{Deep Learning}} for {{Time Series Forecasting}}},
+        author = {Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare},
+        year = {2023},
+        month = oct,
+        number = {arXiv:2310.15978},
+        primaryclass = {cs},
+        publisher = {arXiv},
+        doi = {10.48550/arXiv.2310.15978},
+        archiveprefix = {arxiv}
+      }
     arxiv_id: "2310.15978"
     type: preprint
     url: "https://arxiv.org/abs/2310.15978"
@@ -98,7 +117,19 @@
     author: "Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui"
     short_author: "Jin, Koh, Wen, Zambon, Alippi, Webb, King, Pan"
     year: 2023
-    bibtex: "@misc{jin2023survey, title={A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}: {{Forecasting}}, {{Classification}}, {{Imputation}}, and {{Anomaly Detection}}}, shorttitle={A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}}, author={Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui}, year={2023}, month=jul, number={arXiv:2307.03759}, primaryclass={cs}, publisher={{arXiv}}, doi={10.48550/arXiv.2307.03759}, archiveprefix={arxiv}}"
+    bibtex: |
+      @misc{jin2023survey,
+         title = {A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}: {{Forecasting}}, {{Classification}}, {{Imputation}}, and {{Anomaly Detection}}},
+         shorttitle = {A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}},
+         author = {Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui},
+         year = {2023},
+         month = jul,
+         number = {arXiv:2307.03759},
+         primaryclass = {cs},
+         publisher = {arXiv},
+         doi = {10.48550/arXiv.2307.03759},
+         archiveprefix = {arxiv}
+      }
     arxiv_id: "2307.03759"
     type: preprint
     github: "https://github.com/KimMeen/Awesome-GNN4TS"
@@ -110,7 +141,18 @@
     author: "Alippi, Cesare and Zambon, Daniele"
     short_author: "Alippi*, Zambon*"
     year: 2023
-    bibtex: "@misc{alippi2023graph, title={Graph {{Kalman Filters}}}, author={Alippi, Cesare and Zambon, Daniele}, year={2023}, month=mar, number={arXiv:2303.12021}, publisher={{arXiv}}, doi={10.48550/arXiv.2303.12021}, archiveprefix={arxiv} }"
+    bibtex: |
+      @misc{alippi2023graph,
+        title = {Graph {{Kalman Filters}}},
+        author = {Alippi, Cesare and Zambon, Daniele},
+        year = {2023},
+        month = mar,
+        number = {arXiv:2303.12021},
+        primaryclass = {cs, stat},
+        publisher = {arXiv},
+        doi = {10.48550/arXiv.2303.12021},
+        archiveprefix = {arxiv}
+      }
     arxiv_id: "2303.12021"
     type: preprint
     url: "https://arxiv.org/abs/2303.12021"
@@ -146,7 +188,18 @@
     author: "Zambon, Daniele and Alippi, Cesare"
     short_author: "Zambon, Alippi"
     year: 2023
-    bibtex: "@misc{zambon2023where, doi={10.48550/ARXIV.2302.01701}, url={https://arxiv.org/abs/2302.01701}, author={Zambon, Daniele and Alippi, Cesare}, keywords={Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Where and How to Improve Graph-based Spatio-Temporal Predictors}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    bibtex: |
+      @misc{zambon2023where,
+        title = {Where and {{How}} to {{Improve Graph-based Spatio-temporal Predictors}}},
+        author = {Zambon, Daniele and Alippi, Cesare},
+        year = {2023},
+        month = feb,
+        number = {arXiv:2302.01701},
+        primaryclass = {cs, stat},
+        publisher = {arXiv},
+        doi = {10.48550/arXiv.2302.01701},
+        archiveprefix = {arxiv}
+      }
     arxiv_id: "2302.01701"
     type: preprint
     url: "https://arxiv.org/abs/2302.01701"
@@ -156,7 +209,18 @@
     author: "Zambon, Daniele and Cini, Andrea and Livi, Lorenzo and Alippi, Cesare"
     short_author: "Zambon, Cini, Livi, Alippi"
     year: 2023
-    bibtex: "@misc{zambon2023graph, doi={10.48550/ARXIV.2301.01741}, url={https://arxiv.org/abs/2301.01741}, author={Zambon, Daniele and Cini, Andrea and Livi, Lorenzo and Alippi, Cesare}, keywords={Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences}, title={Graph state-space models}, publisher={arXiv}, year={2023}, copyright={arXiv.org perpetual, non-exclusive license} }"
+    bibtex: |
+      @misc{zambon2023graph,
+        title = {Graph State-Space Models},
+        author = {Zambon, Daniele and Cini, Andrea and Livi, Lorenzo and Alippi, Cesare},
+        year = {2023},
+        month = jan,
+        number = {arXiv:2301.01741},
+        primaryclass = {cs},
+        publisher = {arXiv},
+        doi = {10.48550/arXiv.2301.01741},
+        archiveprefix = {arxiv}
+      }
     arxiv_id: "2301.01741"
     type: preprint
     url: "https://arxiv.org/abs/2301.01741"
@@ -301,7 +365,17 @@
     author: "Zambon, Daniele"
     short_author: "Zambon"
     year: 2022
-    bibtex: "@inproceedings{zambon2022erkennung, author={Zambon, Daniele}, title={Erkennung von Anomalien und Veränderung in Graphsequenzen}, booktitle={D22}, year={2022}, editor={Hölldobler, Steffen}, pages={311-320}, publisher={Köllen Druck + Verlag GmbH}, address={Bonn} }"
+    bibtex: |
+      @inproceedings{zambon2022erkennung,
+        title = {{Erkennung von Anomalien und Ver{\"a}nderung in Graphsequenzen}},
+        booktitle = {{D22}},
+        author = {Zambon, Daniele},
+        year = {2022},
+        pages = {311--320},
+        editor={H{\"o}lldobler, Steffen}, 
+        publisher = {K{\"o}llen Druck + Verlag GmbH},
+        isbn = {978-3-88579-980-1}
+      }
     short_venue: "D22" #"Ausgezeichnete Informatikdissertationen"
     type: conference
     url: "https://dl.gi.de/handle/20.500.12116/39855"
@@ -374,7 +448,13 @@
     author: "Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo"
     short_author: "Zambon, Alippi, Livi"
     year: 2019
-    bibtex: "@inproceedings{zambon2019graph, title={Graph Embeddings from Random Neural Features}, author={Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo}, year={2019}, booktitle={Advances in Neural Information Processing System (NeurIPS), Graph Representation Learning Workshop}, }"
+    bibtex: |
+      @inproceedings{zambon2019graph,
+        title = {Graph Embeddings from Random Neural Features},
+        booktitle = {Advances in Neural Information Processing System ({{NeurIPS}}), Graph Representation Learning Workshop},
+        author = {Zambon, Daniele and Alippi, Cesare and Livi, Lorenzo},
+        year = {2019}
+      }
     short_venue: "GRL @ NeurIPS"
     type: conference
     url: "https://grlearning.github.io/papers/51.pdf"
@@ -527,8 +607,17 @@
     title: "Method for the Detecting Electrocardiogram Anomalies and Corresponding System"
     author: "Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele"
     short_author: "Rossi, Fragneto, Carrera, Boracchi, Zambon"
-    year: 2017
-    bibtex: "@patent{rossi2020method, title={Method for the Detecting Electrocardiogram Anomalies and Corresponding System}, author={Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele}, year={2020}, month=apr, number={US10610162B2}, assignee={STMicroelectronics SRL}, nationality={US}}"
+    year: 2020
+    bibtex: |
+      @patent{rossi2020method,
+        title = {Method for the Detecting Electrocardiogram Anomalies and Corresponding System},
+        author = {Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele},
+        year = {2020},
+        month = apr,
+        number = {US10610162B2},
+        assignee = {STMicroelectronics SRL},
+        nationality = {US}
+      }
     short_venue: "Patent"
     url: "https://patents.google.com/patent/US10610162B2"
     type: patent
@@ -538,7 +627,19 @@
     author: "Carrera, Diego and Rossi, Beatrice and Zambon, Daniele and Fragneto, Pasqualina and Boracchi, Giacomo"
     short_author: "Carrera, Rossi, Zambon, Fragneto, Boracchi"
     year: 2016
-    bibtex: "@inproceedings{carrera2016ecg, title={Ecg monitoring in wearable devices by sparse models}, author={Carrera, Diego and Rossi, Beatrice and Zambon, Daniele and Fragneto, Pasqualina and Boracchi, Giacomo}, booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases}, pages={145--160}, year={2016}, organization={Springer} }"
+    bibtex: |
+      @inproceedings{carrera2016ecg,
+        title = {{{ECG Monitoring}} in {{Wearable Devices}} by {{Sparse Models}}},
+        booktitle = {Machine {{Learning}} and {{Knowledge Discovery}} in {{Databases}}},
+        author = {Carrera, Diego and Rossi, Beatrice and Zambon, Daniele and Fragneto, Pasqualina and Boracchi, Giacomo},
+        editor = {Berendt, Bettina and Bringmann, Bj{\"o}rn and Fromont, {\'E}lisa and Garriga, Gemma and Miettinen, Pauli and Tatti, Nikolaj and Tresp, Volker},
+        year = {2016},
+        pages = {145--160},
+        publisher = {Springer International Publishing},
+        address = {Cham},
+        doi = {10.1007/978-3-319-46131-1_21},
+        isbn = {978-3-319-46131-1}
+      }
     doi: "10.1007/978-3-319-46131-1_21"
     short_venue: "ECML PKDD"
     type: conference
