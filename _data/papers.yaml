@@ -28,6 +28,8 @@
          year = {2024}
       }
     short_venue: "IJCAI"
+    arxiv_id: "2404.19508"
+    github: "https://github.com/gravins/TG-ODE"
     type: conference
  - 
     id: defelice2024graphbased
