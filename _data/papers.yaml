@@ -14,6 +14,25 @@
  #    gitlab:
  #    video:
  - 
+    id: manenti2024learning
+    title: "Learning Latent Graph Structures and their Uncertainty"
+    author: "Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare"
+    short_author: "Manenti, Zambon, Alippi"
+    year: 2024
+    bibtex: |
+      @misc{manenti2024learning,
+        title = {Learning {{Latent Graph Structures}} and Their {{Uncertainty}}},
+        author = {Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
+        year = {2024},
+        month = may,
+        number = {arXiv:2405.19933},
+        primaryclass = {cs, stat},
+        publisher = {arXiv},
+        archiveprefix = {arxiv}
+      }
+    arxiv_id: "2405.19933"
+    type: preprint
+ - 
     id: gravina2024temporal
     title: "Temporal Graph ODEs for Irregularly-Sampled Time Series"
     author: "Gravina, Alessio and Zambon, Daniele and Bacciu, Davide and Alippi, Cesare"
