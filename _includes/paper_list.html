@@ -2,11 +2,9 @@
 {%- assign openreview_base = "https://openreview.net/forum?id=" %}
 {%- assign arxiv_base = "https://arxiv.org/abs/" %}
 
-{% for type in include.type %} 
-
 <ul>
   {% for paper in site.data.papers -%}
-    {% if paper.type == type -%}
+    {% if include.type contains paper.type -%}
       <li>
         {%- if paper.url %}{% assign paperhref = paper.url %} 
         {%- elsif paper.openreview_id %}{% assign paperhref = openreview_base | append: paper.openreview_id %} 
@@ -51,4 +49,3 @@
   {% endfor %}
 </ul>
 
-{% endfor %}

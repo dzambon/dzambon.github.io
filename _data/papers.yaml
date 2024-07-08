@@ -13,6 +13,25 @@
  #    github:
  #    gitlab:
  #    video:
+ -
+    id: manenti2024spigm
+    title: "Learning Latent Graph Structures and their Uncertainty"
+    author: "Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare"
+    short_author: "Manenti, Zambon, Alippi"
+    year: 2024
+    bibtex: |
+      @inproceedings{manenti2024spigm,
+        title = {Learning {{Latent Graph Structures}} and Their {{Uncertainty}}},
+        author = {Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
+        booktitle={ICML 2024 Workshop on Structured Probabilistic Inference {\&} Generative Modeling},
+        year = {2024},
+        url={https://openreview.net/forum?id=GRlNTDymoV}
+      }
+    arxiv_id: "2405.19933"
+    openreview_id: GRlNTDymoV
+    short_venue: "SPIGM @ ICML"
+    type: workshop
+    url: "https://openreview.net/forum?id=KGqtCfYJon"
  - 
     id: manenti2024learning
     title: "Learning Latent Graph Structures and their Uncertainty"
@@ -109,7 +128,7 @@
       }
     arxiv_id: "2303.12021"
     short_venue: "TGL @ NeurIPS"
-    type: conference
+    type: workshop
     url: "https://openreview.net/forum?id=KGqtCfYJon"
  -    
     id: cini2023graph
@@ -247,7 +266,7 @@
     url: "https://arxiv.org/abs/2301.01741"
  - 
     id: cini2023sparse
-    title: "Sparse Graph Learning for Spatiotemporal Time Series"
+    title: "Sparse Graph Learning from Spatiotemporal Time Series"
     author: "Cini, Andrea and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini, Zambon, Alippi"
     bibtex: |
@@ -389,7 +408,7 @@
     bibtex: |
       @inproceedings{zambon2022erkennung,
         title = {{Erkennung von Anomalien und Ver{\"a}nderung in Graphsequenzen}},
-        booktitle = {{D22}},
+        booktitle = {{D22} Ausgezeichnete Informatikdissertationen},
         author = {Zambon, Daniele},
         year = {2022},
         pages = {311--320},
@@ -397,7 +416,7 @@
         publisher = {K{\"o}llen Druck + Verlag GmbH},
         isbn = {978-3-88579-980-1}
       }
-    short_venue: "D22" #"Ausgezeichnete Informatikdissertationen"
+    short_venue: "D22 Excellent Computer Science Dissertations" #"Ausgezeichnete Informatikdissertationen"
     type: conference
     url: "https://dl.gi.de/handle/20.500.12116/39855"
  - 
@@ -477,7 +496,7 @@
         year = {2019}
       }
     short_venue: "GRL @ NeurIPS"
-    type: conference
+    type: workshop
     url: "https://grlearning.github.io/papers/51.pdf"
     github: "https://github.com/dzambon/graph-random-neural-features.git"
  - 

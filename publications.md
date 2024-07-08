@@ -20,7 +20,7 @@ title: Daniele's publications
 
 ### Conferences
 
-{% include paper_list.html type="conference" %}
+{% include paper_list.html type="conference,workshop" %}
 
 ### Patents
 
