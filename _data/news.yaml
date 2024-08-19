@@ -1,10 +1,14 @@
 - 
+   date: 8-2024
+   msg: 'Our survey of [GNN for time series](/publications/#jin2024survey) has been accepted at **IEEE TPAMI**.'
+   type: paper
+- 
    date: 4-2024
-   msg: 'New **paper** on [irregularly-sampled time series](#gravina2024temporal) accepted at **IJCAI ''24**!'
+   msg: 'New **paper** on [irregularly-sampled time series](/publications/#gravina2024temporal) accepted at **IJCAI ''24**!'
    type: paper
 - 
    date: 1-2024
-   msg: 'New **paper** on [virtual sensing](#defelice2024graphbased) accepted at **ICLR ''24**!'
+   msg: 'New **paper** on [virtual sensing](/publications/#defelice2024graphbased) accepted at **ICLR ''24**!'
    type: paper
 - 
    date: 12-2023
@@ -12,11 +16,11 @@
    type: paper
 - 
    date: 9-2023
-   msg: '[New paper](#cini2023graph) putting together our knowledge on designing **graph DL** models for **time series** forecasting.'
+   msg: '[New paper](/publications/#cini2023graph) putting together our knowledge on designing **graph DL** models for **time series** forecasting.'
    type: paper
 - 
    date: 9-2023
-   msg: 'Our study on modeling [local effects](#cini2023taming) in STGNNs has been accepted at **NeurIPS ''23**.'
+   msg: 'Our study on modeling [local effects](/publications/#cini2023taming) in STGNNs has been accepted at **NeurIPS ''23**.'
    type: paper
 - 
    date: 9-2023
@@ -24,7 +28,7 @@
    type: service
 - 
    date: 8-2023
-   msg: 'Our paper on [graph learning from time series](#cini2023sparse) will be published in **JMLR**!'
+   msg: 'Our paper on [graph learning from time series](/publications/#cini2023sparse) will be published in **JMLR**!'
    type: paper
 - 
    date: 7-2023
@@ -40,7 +44,7 @@
    type: service
 - 
    date: 3-2023
-   msg: 'A bunch of **preprints** about Kalman filters [[1](#alippi2023graph)], spatio-temporal models [[2](#zambon2023graph), [3](#cini2023sparse), [4](#cini2023taming)], and model optimality [[5](#zambon2023where)].'
+   msg: 'A bunch of **preprints** about Kalman filters [[1](/publications/#alippi2023graph)], spatio-temporal models [[2](/publications/#zambon2023graph), [3](/publications/#cini2023sparse), [4](/publications/#cini2023taming)], and model optimality [[5](/publications/#zambon2023where)].'
    type: paper
 - 
    date: 2-2023

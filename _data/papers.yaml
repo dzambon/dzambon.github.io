@@ -152,26 +152,23 @@
     type: preprint
     url: "https://arxiv.org/abs/2310.15978"
  -    
-    id: jin2023survey
+    id: jin2024survey
     title: "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection"
     author: "Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui"
     short_author: "Jin, Koh, Wen, Zambon, Alippi, Webb, King, Pan"
-    year: 2023
+    year: 2024
     bibtex: |
-      @misc{jin2023survey,
-         title = {A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}: {{Forecasting}}, {{Classification}}, {{Imputation}}, and {{Anomaly Detection}}},
-         shorttitle = {A {{Survey}} on {{Graph Neural Networks}} for {{Time Series}}},
-         author = {Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui},
-         year = {2023},
-         month = jul,
-         number = {arXiv:2307.03759},
-         primaryclass = {cs},
-         publisher = {arXiv},
-         doi = {10.48550/arXiv.2307.03759},
-         archiveprefix = {arxiv}
+      @article{jin2024survey,
+        author={Jin, Ming and Koh, Huan Yee and Wen, Qingsong and Zambon, Daniele and Alippi, Cesare and Webb, Geoffrey I. and King, Irwin and Pan, Shirui},
+        journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+        title={A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection}, 
+        year={2024},
+        doi={10.1109/TPAMI.2024.3443141}
       }
     arxiv_id: "2307.03759"
-    type: preprint
+    doi: 10.1109/TPAMI.2024.3443141
+    type: journal
+    short_venue: "IEEE TPAMI"
     github: "https://github.com/KimMeen/Awesome-GNN4TS"
     url: "https://arxiv.org/abs/2307.03759"
     video: "https://youtu.be/8qPWcq0C4Pg"
