@@ -1,4 +1,8 @@
 - 
+   date: 9-2024
+   msg: 'ESANN 2025 will host our  **special session** on [foundation and generative models for graphs](https://www.esann.org/ESANN2025specialsessions)! Deadline for paper submission is November 20, 2024.'
+   type: service
+- 
    date: 8-2024
    msg: 'Our survey of [GNN for time series](/publications/#jin2024survey) has been accepted at **IEEE TPAMI**.'
    type: paper
@@ -10,46 +14,46 @@
    date: 1-2024
    msg: 'New **paper** on [virtual sensing](/publications/#defelice2024graphbased) accepted at **ICLR ''24**!'
    type: paper
-- 
-   date: 12-2023
-   msg: 'We will be holding a **special session** on [deep learning for graphs](https://sites.google.com/view/dl4g-2024) at IEEE WCCI 2024. Deadline for paper submission is January 15, 2024. Don''t miss out!'
-   type: paper
-- 
-   date: 9-2023
-   msg: '[New paper](/publications/#cini2023graph) putting together our knowledge on designing **graph DL** models for **time series** forecasting.'
-   type: paper
-- 
-   date: 9-2023
-   msg: 'Our study on modeling [local effects](/publications/#cini2023taming) in STGNNs has been accepted at **NeurIPS ''23**.'
-   type: paper
-- 
-   date: 9-2023
-   msg: 'I have been selected as **Outstanding Reviewer** of 2022 for IEEE TNNLS.'
-   type: service
-- 
-   date: 8-2023
-   msg: 'Our paper on [graph learning from time series](/publications/#cini2023sparse) will be published in **JMLR**!'
-   type: paper
-- 
-   date: 7-2023
-   msg: 'Working on a **survey** on GNN architectures for time series analysis: check out our preprint [GNN4TS](https://arxiv.org/abs/2307.03759).'
-   type: paper
-- 
-   date: 6-2023
-   msg: 'Our **tutorial** on [graph deep learning for time-series processing](https://gmlg.ch/tutorials/graph-based-processing/ecml-2023) has been accepted at [ECML PKDD 2023](https://2023.ecmlpkdd.org/)!'
-   type: service
-- 
-   date: 5-2023
-   msg: 'I''ve become **member** of the [IEEE Task Force on Learning for Graphs](https://www.learning4graphs.org/).'
-   type: service
-- 
-   date: 3-2023
-   msg: 'A bunch of **preprints** about Kalman filters [[1](/publications/#alippi2023graph)], spatio-temporal models [[2](/publications/#zambon2023graph), [3](/publications/#cini2023sparse), [4](/publications/#cini2023taming)], and model optimality [[5](/publications/#zambon2023where)].'
-   type: paper
-- 
-   date: 2-2023
-   msg: 'Our **special sessions** on [DL4G @ IEEE IJCNN 2023](https://2023.ijcnn.org/paper-submission/special-sessions#session-4-37) and [GRL @ ESANN 2023](https://www.esann.org/special-sessions#session4) will be held soon in Gold Coast (Queensland, AU) and Bruges (BE).'
-   type: service
+# - 
+#    date: 12-2023
+#    msg: 'We will be holding a **special session** on [deep learning for graphs](https://sites.google.com/view/dl4g-2024) at IEEE WCCI 2024. Deadline for paper submission is January 15, 2024. Don''t miss out!'
+#    type: paper
+# - 
+#    date: 9-2023
+#    msg: '[New paper](/publications/#cini2023graph) putting together our knowledge on designing **graph DL** models for **time series** forecasting.'
+#    type: paper
+# - 
+#    date: 9-2023
+#    msg: 'Our study on modeling [local effects](/publications/#cini2023taming) in STGNNs has been accepted at **NeurIPS ''23**.'
+#    type: paper
+# - 
+#    date: 9-2023
+#    msg: 'I have been selected as **Outstanding Reviewer** of 2022 for IEEE TNNLS.'
+#    type: service
+# - 
+#    date: 8-2023
+#    msg: 'Our paper on [graph learning from time series](/publications/#cini2023sparse) will be published in **JMLR**!'
+#    type: paper
+# - 
+#    date: 7-2023
+#    msg: 'Working on a **survey** on GNN architectures for time series analysis: check out our preprint [GNN4TS](https://arxiv.org/abs/2307.03759).'
+#    type: paper
+# - 
+#    date: 6-2023
+#    msg: 'Our **tutorial** on [graph deep learning for time-series processing](https://gmlg.ch/tutorials/graph-based-processing/ecml-2023) has been accepted at [ECML PKDD 2023](https://2023.ecmlpkdd.org/)!'
+#    type: service
+# - 
+#    date: 5-2023
+#    msg: 'I''ve become **member** of the [IEEE Task Force on Learning for Graphs](https://www.learning4graphs.org/).'
+#    type: service
+# - 
+#    date: 3-2023
+#    msg: 'A bunch of **preprints** about Kalman filters [[1](/publications/#alippi2023graph)], spatio-temporal models [[2](/publications/#zambon2023graph), [3](/publications/#cini2023sparse), [4](/publications/#cini2023taming)], and model optimality [[5](/publications/#zambon2023where)].'
+#    type: paper
+# - 
+#    date: 2-2023
+#    msg: 'Our **special sessions** on [DL4G @ IEEE IJCNN 2023](https://2023.ijcnn.org/paper-submission/special-sessions#session-4-37) and [GRL @ ESANN 2023](https://www.esann.org/special-sessions#session4) will be held soon in Gold Coast (Queensland, AU) and Bruges (BE).'
+#    type: service
 # - 
 #    date: 11-2022
 #    msg: 'Paper accepted @ **NeurIPS ''22**. [AZ-whiteness test](#zambon2022aztest): with it you can test the optimality of GNN''s.'

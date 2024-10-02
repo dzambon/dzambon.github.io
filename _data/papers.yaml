@@ -59,13 +59,15 @@
     year: 2024
     bibtex: |
       @inproceedings{gravina2024temporal,
-         title = {Temporal Graph {{ODEs}} for Irregularly-Sampled Time Series},
-         booktitle = {Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, {IJCAI-24}},
-         publisher = {International Joint Conferences on Artificial Intelligence Organization},
-         author = {Gravina, Alessio and Zambon, Daniele and Bacciu, Davide and Alippi, Cesare},
-         year = {2024}
+        title = {Temporal Graph {{ODEs}} for Irregularly-Sampled Time Series},
+        booktitle = {Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, {IJCAI-24}},
+        publisher = {International Joint Conferences on Artificial Intelligence Organization},
+        author = {Gravina, Alessio and Zambon, Daniele and Bacciu, Davide and Alippi, Cesare},
+        doi = {10.24963/ijcai.2024/445},
+        url = {https://doi.org/10.24963/ijcai.2024/445},
       }
     short_venue: "IJCAI"
+    doi: "10.24963/ijcai.2024/445"
     arxiv_id: "2404.19508"
     github: "https://github.com/gravins/TG-ODE"
     type: conference
@@ -209,7 +211,7 @@
          volume = {36},
          pages = {55375--55393},
          editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
-         publisher = {Curran Associates, Inc.}
+         publisher = {Curran Associates, Inc.},
          url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/ad58c61c71efd5436134a3ecc87da6ea-Paper-Conference.pdf},
       }
     arxiv_id: "2302.04071"

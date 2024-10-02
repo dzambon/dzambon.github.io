@@ -43,7 +43,7 @@ My research dealt with statistical tests for anomaly and change detection, graph
 I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) <span class="fi fi-us"></span> (US, Nov '19--Feb '20) working on kernel adaptive methods and at the [University of Exeter](http://emps.exeter.ac.uk/) <span class="fi fi-gb"></span> (UK, Sep '17, Oct '18) exploring embeddings onto Riemannian manifolds. I have also been an intern at [STMicroelectronics](https://www.st.com) <span class="fi fi-it"></span> (IT, May '15--Apr '16, May '16--Sep '16) where I developed my Master's thesis on sparse models for anomaly detection and co-authored a pantent. 
 I received Master's and Bachelor's degrees in mathematics from the [Università degli Studi di Milano](http://www.matematica.unimi.it/ecm/home) <span class="fi fi-it"></span> (IT) focusing on approximation theory and mathematical statistics.
 
-I have published in and have been reviewer for top-tier journals and conferences of the field, including JMLR, IEEE TPAMI, IEEE TNNLS, IEEE TSP, NeurIPS, ICLR, and ICML; I was certified Outstanding Reviewer of 2022 by the IEEE Computational Intelligence society and Top 33% Reviewer for ICML 2020. I hold a patent. I have organized special sessions and tutorials at international conferences on graph deep learning. 
+I publish in and review for top-tier journals and conferences of the field, including JMLR, IEEE TPAMI, IEEE TNNLS, IEEE TSP, NeurIPS, ICLR, and ICML. I am associate editor for IEEE TNNLS. I hold a patent. I have organized special sessions and tutorials at international conferences on graph deep learning. 
 
 
 ## Publications
