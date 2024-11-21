@@ -1,10 +1,14 @@
 - 
+   date: 11-2024
+   msg: 'We will deliver a **tutorial** on [graph deep learning for time series processing](https://gmlg.ch/tutorials/graph-based-processing/log-2024) at the **LoG conference** (Nov 28, 2024) and its **Italy Meetup** in the gorgeous Siena (Dec 6, 2024).'
+   type: service
+- 
    date: 9-2024
-   msg: 'ESANN 2025 will host our  **special session** on [foundation and generative models for graphs](https://www.esann.org/ESANN2025specialsessions)! Deadline for paper submission is November 20, 2024.'
+   msg: 'ESANN 2025 will host our  **special session** on [foundation and generative models for graphs](https://www.esann.org/ESANN2025specialsessions#graphs)! Deadline for paper submission is November 20, 2024.'
    type: service
 - 
    date: 8-2024
-   msg: 'Our survey of [GNN for time series](/publications/#jin2024survey) has been accepted at **IEEE TPAMI**.'
+   msg: 'Our **survey** of [GNN for time series](/publications/#jin2024survey) has been accepted at **IEEE TPAMI**.'
    type: paper
 - 
    date: 4-2024

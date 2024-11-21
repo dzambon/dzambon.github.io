@@ -165,6 +165,9 @@
         journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
         title={A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection}, 
         year={2024},
+        volume={46},
+        number={12},
+        pages={10466-10485},
         doi={10.1109/TPAMI.2024.3443141}
       }
     arxiv_id: "2307.03759"
