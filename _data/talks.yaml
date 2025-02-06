@@ -1,0 +1,98 @@
+  # - 
+  #   venue: "..."
+  #   city: New Orleans, LA, USA.
+  #   date: 2023-12-16 
+  #   title: "..."
+  #   type: paper|seminar|tutorial|keynote
+  #   slides: 
+  #   url: 
+  #   video: 
+# Seminars
+talks:
+  - 
+    venue: Temporal Graph Learning workshop @ NeurIPS
+    city: New Orleans, LA, USA
+    date: 2023-12-16 
+    title: Graph Deep Learning for Time Series Processing
+    type: Keynote
+    video: https://neurips.cc/virtual/2023/76346
+  -
+    venue: "Frontiers of Machine Learning: Lifelong Learning workshop @ Ital-IA"
+    city: Pisa, Italy
+    date: 2023-05-30 
+    title: "Learning in Nonstationary Environments: Anomaly and Change Detection in Graph-based Machine Learning"
+    type: Seminar
+  -
+    venue: Colloquium for the GI Dissertation Prize 2021, Leibniz Center for Informatics
+    city: Schloss Dagstuhl, Germany
+    date: 2022-05-24 
+    title: Anomaly and Change Detection in Sequences of Graphs
+    type: Seminar
+  - 
+    date: 2020-01-01 
+    title: Concept-drift detection in graph data streams
+    venue: CNEL, University of Florida
+    city: Gainesville, FL, US
+    type: Seminar
+  - 
+    date: 2018-10-01 
+    title: Change Detection in Graph Streams
+    venue: EMPS, University of Exeter
+    city: Exeter, UK
+    type: Seminar
+  - 
+    date: 2018-11-01 
+    title: Concept drift detection in graph datastreams
+    venue: Workshop Machine Learning and Data Mining @ AI*IA
+    city: FBK, Trento, Italy
+    type: Seminar
+  - 
+    date: 2017-09-01 
+    title: Detecting Changes in a Stream of Graphs
+    venue: Living Systems Institute, University of Exeter
+    city: Exeter, UK
+    type: Seminar
+# Tutorials
+  -
+    venue: Learning on Graphs Conference (LoG)
+    city: Virtual conference
+    date: 2024-11-28 
+    title: Graph Deep Learning for Time Series Processing
+    type: Tutorial
+    url: https://gmlg.ch/tutorials/graph-based-processing/log-2024
+    video: https://www.youtube.com/watch?v=SqBGB3b3-UQ
+    slides: https://gmlg.ch/tutorials/graph-based-processing/pdf/2024_gdl4tsp_log_handout.pdf
+    demo: https://colab.research.google.com/drive/1F510uMFU1_j86R7u873lqZ4u3Oa-qC_L?usp=sharing
+  -
+    venue: Learning on Graphs Conference (LoG) Italy Meetup
+    city: Siena, Italy
+    date: 2024-12-06
+    title: Graph Deep Learning for Time Series Processing
+    type: Tutorial
+    url: https://gmlg.ch/tutorials/graph-based-processing/log-2024
+    slides: https://gmlg.ch/tutorials/graph-based-processing/pdf/2024_gdl4tsp_log_meetup_handout.pdf
+    demo: https://colab.research.google.com/drive/1F510uMFU1_j86R7u873lqZ4u3Oa-qC_L?usp=sharing
+  -
+    venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD)
+    city: Turin, Italy
+    date: 2023-09-22
+    title: Graph Deep Learning for Spatiotemporal Time Series
+    type: Tutorial
+    url: https://gmlg.ch/tutorials/graph-based-processing/ecml-2023
+    slides: https://gmlg.ch/tutorials/graph-based-processing/pdf/2023_gdl4sts_ecml_handout.pdf
+# Reading group
+  -
+    venue: External Literature Club, École polytechnique fédérale de Lausanne (EPFL)
+    city: Switzerland, Virtual
+    date: 2023-08-17 
+    title: AZ-analysis of residual correlation for spatio-temporal predictive models
+    type: Seminar
+  -
+    venue: Temporal Graph Reading Group
+    city: Virtual
+    date: 2023-09-22
+    title: Graph Kalman Filters
+    type: Seminar
+    url: https://www.cs.mcgill.ca/~shuang43/rg.html
+    video: https://www.youtube.com/watch?v=20zusjJZNdo
+# \mycventry{December 2023}{Panel Discussion on Temporal Graph Learning}{\emph{Panelist}, Temporal Graph Learning workshop @ NeurIPS 2023}{New Orleans, LA, USA.}{}{}

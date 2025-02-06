@@ -3,11 +3,11 @@ layout: default
 title: Daniele's home
 ---
 
-<h1 class="landing-title">{{ site.author.name }}</h1>
+<h1 class="landing-title">{{ site.author.givenname }} <u>{{ site.author.lastname }}</u></h1>
 <div class="profile-container">
   <img src="{{ site.baseurl }}/images/zambon_d.jpg" class="profile-floated"/>
   <p class="profile-text">
-    Hello! My name is Daniele, I am a post-doc at the Swiss AI Lab <a href="https://idsia.ch">IDSIA</a>, <a href="https://usi.ch">USI</a>, in the <a href="https://gmlg.ch">Graph Machine Learning Group</a>, and member of the <a href="https://www.learning4graphs.org">IEEE Task Force on Learning for Graphs</a>.
+    Hello! My name is Daniele, I am a post-doc at <a href="https://idsia.ch">IDSIA</a>, <a href="https://usi.ch">USI</a>, in the <a href="https://gmlg.ch">Graph Machine Learning Group</a>, and member of the <a href="https://www.learning4graphs.org">IEEE Task Force on Learning for Graphs</a>.
   </p>
   <p class="profile-text">
     The focus of my research is graph representation learning, learning in non-stationary environments, and time series analysis.
@@ -37,13 +37,12 @@ title: Daniele's home
 
 ## Short bio
 
-I obtained my Ph.D. <i class="fa-solid fa-graduation-cap"></i> from [USI](http://inf.usi.ch) <span class="fi fi-ch"></span> (CH) in 2022.
-My research dealt with statistical tests for anomaly and change detection, graph representation learning, and learning in non-stationary environments. You can find a list of my [publications here](#publications).
+I am a postdoctoral researcher at the Dalle Molle Institute for Artificial Intelligence ([IDSIA](https://www.idsia.usi-supsi.ch/)), affiliated with Università della Svizzera italiana ([USI](http://inf.usi.ch)) in Switzerland <span class="fi fi-ch"></span>. I am member of the [IEEE Task Force on Learning for Graphs](https://www.learning4graphs.org) and the [Graph Machine Learning Group](https://gmlg.ch) in Lugano.
 
-I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) <span class="fi fi-us"></span> (US, Nov '19--Feb '20) working on kernel adaptive methods and at the [University of Exeter](http://emps.exeter.ac.uk/) <span class="fi fi-gb"></span> (UK, Sep '17, Oct '18) exploring embeddings onto Riemannian manifolds. I have also been an intern at [STMicroelectronics](https://www.st.com) <span class="fi fi-it"></span> (IT, May '15--Apr '16, May '16--Sep '16) where I developed my Master's thesis on sparse models for anomaly detection and co-authored a pantent. 
-I received Master's and Bachelor's degrees in mathematics from the [Università degli Studi di Milano](http://www.matematica.unimi.it/ecm/home) <span class="fi fi-it"></span> (IT) focusing on approximation theory and mathematical statistics.
+I earned my Ph.D. in Informatics from [USI](http://inf.usi.ch) <span class="fi fi-ch"></span> (Jan '22), focusing on statistical tests for anomaly and change detection, graph representation learning, and learning in non-stationary environments. Prior to my PhD, I graduated with honors from the [University of Milan](http://www.matematica.unimi.it/ecm/home) <span class="fi fi-it"></span> (IT, Apr '16) with a degree in Mathematics specializing in approximation theory and mathematical statistics. During my doctoral studies, I have been visiting researcher at the [University of Florida](http://www.cnel.ufl.edu/) <span class="fi fi-us"></span> (US, Nov '19--Feb '20) working on kernel adaptive methods and at the [University of Exeter](http://emps.exeter.ac.uk/) <span class="fi fi-gb"></span> (UK, Sep '17, Oct '18) exploring embeddings onto Riemannian manifolds. I have also been an intern at [STMicroelectronics](https://www.st.com) <span class="fi fi-it"></span> (IT, May '15--Apr '16, May '16--Sep '16) where I developed my Master's thesis on sparse models for anomaly detection and co-authored a patent. 
 
-I publish in and review for top-tier journals and conferences of the field, including JMLR, IEEE TPAMI, IEEE TNNLS, IEEE TSP, NeurIPS, ICLR, and ICML. I am associate editor for IEEE TNNLS. I hold a patent. I have organized special sessions and tutorials at international conferences on graph deep learning. 
+My work has been published in top-tier journals and conferences of the field, including JMLR, IEEE TPAMI, IEEE TNNLS, IEEE TSP, NeurIPS, ICLR, and ICML. I am associate editor for IEEE TNNLS. I hold a patent. I have co-organized special sessions and tutorials at international conferences on graph deep learning. 
+
 
 
 ## Publications

@@ -20,7 +20,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Daniele Zambon 
+  givenname:         Daniele
+  lastname:          Zambon
+  name:              Daniele Zambon
   url:               dzambon.github.io
   email:             daniele.zambon@usi.ch
   github:            dzambon
