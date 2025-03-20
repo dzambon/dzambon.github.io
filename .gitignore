@@ -18,3 +18,4 @@ vendor/
 # custom
 **/*.DS_Store
 *.bat
+tmp/

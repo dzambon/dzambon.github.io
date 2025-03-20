@@ -1,4 +1,8 @@
 - 
+   date: 3-2025
+   msg: 'Green light to our [Temporal Graph Learning 2025](https://sites.google.com/view/tgl-workshop-2025/home) workshop at **KDD ''25**!'
+   type: service
+- 
    date: 11-2024
    msg: 'We will deliver a **tutorial** on [graph deep learning for time series processing](https://gmlg.ch/tutorials/graph-based-processing/log-2024) at the **LoG conference** (Nov 28, 2024) and its **Italy Meetup** in the gorgeous Siena (Dec 6, 2024).'
    type: service

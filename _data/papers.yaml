@@ -226,13 +226,13 @@
     github: "https://github.com/Graph-Machine-Learning-Group/taming-local-effects-stgnns"
  - 
     id: zambon2023where
-    title: "Where and How to Improve Graph-based Spatio-Temporal Predictors"
+    title: "Assessment of Spatio-Temporal Predictors in the Presence of Missing and Heterogeneous Data"
     author: "Zambon, Daniele and Alippi, Cesare"
     short_author: "Zambon, Alippi"
     year: 2023
     bibtex: |
       @misc{zambon2023where,
-        title = {Where and {{How}} to {{Improve Graph-based Spatio-temporal Predictors}}},
+        title = {Assessment of Spatio-Temporal Predictors in the Presence of Missing and Heterogeneous Data},
         author = {Zambon, Daniele and Alippi, Cesare},
         year = {2023},
         month = feb,
