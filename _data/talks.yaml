@@ -7,8 +7,8 @@
   #   slides: 
   #   url: 
   #   video: 
-# Seminars
 talks:
+# Seminars
   - 
     venue: DEIB, Politecnico di Milano
     city: Milan, Italy
@@ -16,6 +16,7 @@ talks:
     title: On the learnability and optimality of graph deep learning models for time series analysis
     type: Seminar
     url: https://www.deib.polimi.it/eng/events/details/3099
+    slides: https://drive.google.com/uc?export=download&id=13zFSpiHLCy-b27IbfDiXd5k4eNGN7pvE
   - 
     venue: Temporal Graph Learning workshop @ NeurIPS
     city: New Orleans, LA, USA
@@ -59,6 +60,37 @@ talks:
     venue: Living Systems Institute, University of Exeter
     city: Exeter, UK
     type: Seminar
+# Lectures
+  - 
+    venue: Graph Deep Learning course, Università della Svizzera italiana
+    city: Lugano, Switzerland
+    date: 2025-03-07 
+    title: Learning in nonstationary environments, anomaly and change detection in sequences of graphs
+    type: Lecture
+  - 
+    venue: Graph Deep Learning course, Università della Svizzera italiana
+    city: Lugano, Switzerland
+    date: 2024-03-15 
+    title: Learning in nonstationary environments, anomaly and change detection in sequences of graphs
+    type: Lecture
+  -
+    venue: Graph Deep Learning course, Università della Svizzera italiana
+    city: Lugano, Switzerland
+    date: 2023-03-21 
+    title: Learning in nonstationary environments, anomaly and change detection in sequences of graphs
+    type: Lecture
+  - 
+    venue: Graph Deep Learning course, Università della Svizzera italiana
+    city: Lugano, Switzerland
+    date: 2022-03-14 
+    title: Embeddings in Graph Deep Learning
+    type: Lecture
+  - 
+    venue: Graph Deep Learning course, Università della Svizzera italiana
+    city: Lugano, Switzerland
+    date: 2021-03-22 
+    title: Embeddings in Graph Deep Learning
+    type: Lecture
 # Tutorials
   -
     venue: Learning on Graphs Conference (LoG)

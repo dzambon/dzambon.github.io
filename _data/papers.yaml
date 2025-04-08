@@ -14,6 +14,22 @@
  #    gitlab:
  #    video:
  -
+    id: donghi2025online
+    title: "Online Continual Graph Learning"
+    author: "Donghi, Giovanni and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
+    short_author: "Donghi, Pasa, Zambon, Alippi, Navarin"
+    year: 2025
+    bibtex: |
+      @misc{donghi2025online,
+        title={Online Continual Graph Learning},
+        author={Giovanni Donghi and Luca Pasa and Daniele Zambon and Cesare Alippi and Nicol{\`o} Navarin},
+        year={2025},
+        url={https://openreview.net/forum?id=4sJJixGIZX}
+      }
+    openreview_id: 4sJJixGIZX
+    type: preprint
+    url: "https://openreview.net/forum?id=4sJJixGIZX"
+ -
     id: manenti2024spigm
     title: "Learning Latent Graph Structures and their Uncertainty"
     author: "Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare"
@@ -437,7 +453,7 @@
       }
     short_venue: "PhD Thesis"
     type: thesis
-    url: "https://drive.switch.ch/index.php/s/FXRG3ZV079PfVyx/download"
+    url: "https://drive.google.com/uc?export=download&id=1_cvfd1WibJ7Q6act0q757M8koiXJdf9E"
  - 
     id: paassen2021graph
     title: "Graph Edit Networks"
