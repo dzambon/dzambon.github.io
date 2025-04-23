@@ -14,6 +14,27 @@
  #    gitlab:
  #    video:
  -
+    id: bacciu2025foundation
+    title: "Foundation and Generative Models for Graphs"
+    author: "Bacciu, Davide and Errica, Federico and Moro, Stefano and Pasa, Luca and Rigoni, Daniele and Zambon, Daniele"
+    short_author: "Bacciu, Errica, Moro, Pasa, Rigoni, Zambon"
+    year: 2025
+    bibtex: |
+      @inproceedings{bacciu2025graph,
+        title = {Foundation and Generative Models for Graphs},
+        booktitle = {33rd {{European Symposium}} on {{Artificial Neural Networks}}, {{Computational Intelligence}} and {{Machine Learning}}, {{ESANN}} 2025},
+        author = {Bacciu, Davide and Errica, Federico and Moro, Stefano and Pasa, Luca and Rigoni, Daniele and Zambon, Daniele},
+        year = {2025},
+        pages = {255--264},
+        publisher = {i6doc. com},
+        doi = {10.14428/esann/2025.ES2025-24},
+        isbn = {978-2-87587-093-3}
+      }
+    doi: "10.14428/esann/2025.ES2025-24"
+    short_venue: "ESANN"
+    type: conference
+    url: "https://www.esann.org/proceedings/2025#556" 
+ -
     id: donghi2025online
     title: "Online Continual Graph Learning"
     author: "Donghi, Giovanni and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
