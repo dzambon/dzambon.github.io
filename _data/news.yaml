@@ -1,4 +1,12 @@
 - 
+   date: 5-2025
+   msg: '**ACM Computing Surveys** accepted our tutorial **paper** on [graph deep learning for time series forecasting](/publications/#cini2025graph).'
+   type: paper
+- 
+   date: 5-2025
+   msg: 'Happy to share that our **paper** on [learning latent graph distributions](/publications/#manenti2025learning) has been accepted at **ICML ''25**!'
+   type: paper
+- 
    date: 3-2025
    msg: 'Green light to our [Temporal Graph Learning 2025](https://sites.google.com/view/tgl-workshop-2025/home) workshop at **KDD ''25**!'
    type: service

@@ -50,6 +50,22 @@
     openreview_id: 4sJJixGIZX
     type: preprint
     url: "https://openreview.net/forum?id=4sJJixGIZX"
+ - 
+    id: manenti2025learning
+    title: "Learning Latent Graph Structures and their Uncertainty"
+    author: "Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare"
+    short_author: "Manenti, Zambon, Alippi"
+    year: 2025
+    bibtex: |
+      @inproceedings{manenti2025learning,
+        title = {Learning {{Latent Graph Structures}} and Their {{Uncertainty}}},
+        author = {Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
+        year = {2025},
+        booktitle={To appear in Proceedings of the 42nd International Conference on Machine Learning (ICML)}, 
+      }
+    arxiv_id: "2405.19933"
+    short_venue: "ICML"
+    type: conference
  -
     id: manenti2024spigm
     title: "Learning Latent Graph Structures and their Uncertainty"
@@ -69,25 +85,6 @@
     short_venue: "SPIGM @ ICML"
     type: workshop
     url: "https://openreview.net/forum?id=GRlNTDymoV"
- - 
-    id: manenti2024learning
-    title: "Learning Latent Graph Structures and their Uncertainty"
-    author: "Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare"
-    short_author: "Manenti, Zambon, Alippi"
-    year: 2024
-    bibtex: |
-      @misc{manenti2024learning,
-        title = {Learning {{Latent Graph Structures}} and Their {{Uncertainty}}},
-        author = {Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
-        year = {2024},
-        month = may,
-        number = {arXiv:2405.19933},
-        primaryclass = {cs, stat},
-        publisher = {arXiv},
-        archiveprefix = {arxiv}
-      }
-    arxiv_id: "2405.19933"
-    type: preprint
  - 
     id: gravina2024temporal
     title: "Temporal Graph ODEs for Irregularly-Sampled Time Series"
@@ -170,25 +167,21 @@
     type: workshop
     url: "https://openreview.net/forum?id=KGqtCfYJon"
  -    
-    id: cini2023graph
+    id: cini2025graph
     title: "Graph Deep Learning for Time Series Forecasting"
     author: "Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare"
     short_author: "Cini, Marisca, Zambon, Alippi"
-    year: 2023
+    year: 2025
     bibtex: |
-      @misc{cini2023graph,
+      @article{cini2025graph,
         title = {Graph {{Deep Learning}} for {{Time Series Forecasting}}},
         author = {Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare},
-        year = {2023},
-        month = oct,
-        number = {arXiv:2310.15978},
-        primaryclass = {cs},
-        publisher = {arXiv},
-        doi = {10.48550/arXiv.2310.15978},
-        archiveprefix = {arxiv}
+        year = {2025},
+        journal={To appear in ACM Computing Surveys}, 
       }
     arxiv_id: "2310.15978"
-    type: preprint
+    short_venue: "ACM CS"
+    type: journal
     url: "https://arxiv.org/abs/2310.15978"
  -    
     id: jin2024survey
