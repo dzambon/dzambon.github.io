@@ -177,12 +177,17 @@
         title = {Graph {{Deep Learning}} for {{Time Series Forecasting}}},
         author = {Cini, Andrea and Marisca, Ivan and Zambon, Daniele and Alippi, Cesare},
         year = {2025},
-        journal={To appear in ACM Computing Surveys}, 
+        publisher = {Association for Computing Machinery},
+        issn = {0360-0300},
+        url = {https://doi.org/10.1145/3742784},
+        doi = {10.1145/3742784},
+        journal = {ACM Comput. Surv.},
       }
     arxiv_id: "2310.15978"
     short_venue: "ACM CS"
     type: journal
-    url: "https://arxiv.org/abs/2310.15978"
+    doi: 10.1145/3742784
+    url: "https://doi.org/10.1145/3742784"
  -    
     id: jin2024survey
     title: "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection"
