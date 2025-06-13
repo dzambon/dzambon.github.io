@@ -65,6 +65,7 @@
       }
     arxiv_id: "2405.19933"
     short_venue: "ICML"
+    github: "https://github.com/allemanenti/Learning-Calibrated-Structures"
     type: conference
  -
     id: manenti2024spigm
@@ -464,11 +465,10 @@
     year: 2022
     bibtex: |
       @phdthesis{zambon2022phdthesis, 
-         title={Anomaly and Change Detection in Sequences of Graphs}, 
-         school={Universit{\\`a} della Svizzera italiana}, 
-         publisher={Universit{\\`a} della Svizzera italiana}, 
-         author={Zambon, Daniele}, 
-         year={2022},
+        title={Anomaly and Change Detection in Sequences of Graphs}, 
+        school={Universit{\\`a} della Svizzera italiana}, 
+        author={Zambon, Daniele}, 
+        year={2022},
       }
     short_venue: "PhD Thesis"
     type: thesis
