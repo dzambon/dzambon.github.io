@@ -26,6 +26,9 @@
           {%- if paper.openreview_id %}
           <li>[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]
           </li>{% endif %}
+          {%- if paper.huggingface %}
+          <li>[<a class="square-button" href="{{ paper.huggingface }}"><img src="{{ base_url }}/images/hf-logo-pirate.svg" alt="icon" style="display: inline; height: 1.1em; vertical-align: -1.2em;"> Hugging Face</a>]
+          </li>{% endif %}
           {%- if paper.github %}
           <li>[<a class="square-button" href="{{ paper.github }}"><i class="fa-brands fa-github"></i> GitHub</a>]
           </li>{% endif %}

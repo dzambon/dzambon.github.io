@@ -10,9 +10,32 @@
  #    arxiv_id: 
  #    openreview_id: 
  #    experiments:
+ #    huggingface:
  #    github:
  #    gitlab:
  #    video:
+ -
+    id: zambon2025peakweather
+    title: "PeakWeather: MeteoSwiss Weather Station Measurements for Spatiotemporal Deep Learning"
+    author: "Zambon, Daniele and Cattaneo, Michele and Marisca, Ivan and Bhend, Jonas and Nerini, Daniele and Alippi, Cesare"
+    short_author: "Zambon*, Cattaneo*, Marisca, Bhend, Nerini, Alippi"
+    year: 2025
+    bibtex: |
+      @misc{zambon2025peakweather,
+        title={PeakWeather: MeteoSwiss Weather Station Measurements for Spatiotemporal Deep Learning}, 
+        author={Zambon, Daniele and Cattaneo, Michele and Marisca, Ivan and Bhend, Jonas and Nerini, Daniele and Alippi, Cesare},
+        year={2025},
+        eprint={2506.13652},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG},
+        url={https://arxiv.org/abs/2506.13652}, 
+      }
+    type: preprint
+    url: "https://arxiv.org/abs/2506.13652" 
+    arxiv_id: 2506.13652
+    huggingface: "https://huggingface.co/datasets/MeteoSwiss/PeakWeather"
+    github: https://github.com/MeteoSwiss/PeakWeather
+    experiments: https://github.com/Graph-Machine-Learning-Group/peakweather-wind-forecasting
  -
     id: bacciu2025foundation
     title: "Foundation and Generative Models for Graphs"
