@@ -58,16 +58,16 @@
     type: conference
     url: "https://www.esann.org/proceedings/2025#556" 
  -
-    id: donghi2025online
+    id: donghi2024online
     title: "Online Continual Graph Learning"
     author: "Donghi, Giovanni and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
     short_author: "Donghi, Pasa, Zambon, Alippi, Navarin"
-    year: 2025
+    year: 2024
     bibtex: |
-      @misc{donghi2025online,
+      @misc{donghi2024online,
         title={Online Continual Graph Learning},
         author={Giovanni Donghi and Luca Pasa and Daniele Zambon and Cesare Alippi and Nicol{\`o} Navarin},
-        year={2025},
+        year={2024},
         url={https://openreview.net/forum?id=4sJJixGIZX}
       }
     openreview_id: 4sJJixGIZX
@@ -81,15 +81,18 @@
     year: 2025
     bibtex: |
       @inproceedings{manenti2025learning,
-        title = {Learning {{Latent Graph Structures}} and Their {{Uncertainty}}},
-        author = {Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
-        year = {2025},
-        booktitle={To appear in Proceedings of the 42nd International Conference on Machine Learning (ICML)}, 
+        title={Learning Latent Graph Structures and their Uncertainty},
+        author={Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
+        year={2025},
+        booktitle={Forty-second International Conference on Machine Learning},
+        url={https://openreview.net/forum?id=TMRh3ScSCb}
       }
     arxiv_id: "2405.19933"
+    openreview_id: TMRh3ScSCb
     short_venue: "ICML"
     github: "https://github.com/allemanenti/Learning-Calibrated-Structures"
     type: conference
+    url: https://openreview.net/forum?id=TMRh3ScSCb
  -
     id: manenti2024spigm
     title: "Learning Latent Graph Structures and their Uncertainty"
