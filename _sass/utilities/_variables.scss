@@ -5,6 +5,8 @@
 
 $dz-blue: #1b4f94;
 $dz-blue-lighter:#5e94dc;
+$dz-green: #577829;
+$dz-green-lighter:#98c276;
 $dz-bg-green: #e3ebe1;
 $dz-bg-gray: #f8f8f8;
 
@@ -26,12 +28,12 @@ $nav-bar-color-bg: $dz-bg-green;
 $body-text-color-dk: $dz-bg-green;
 $body-bold-text-color-dk: #f0f9ed;
 $body-background-color-dk: #21282b;
-$body-top-border-color-dk: $dz-blue; 
+$body-top-border-color-dk: $dz-green; 
 $nav-bar-color-bg-dk: $body-background-color-dk; 
 
 // Links
 $link-color: $dz-blue;
-$link-color-dk: $dz-blue-lighter;
+$link-color-dk: $dz-green-lighter;
 
 // Navigation
 $nav-bottom-border-color: $dz-blue;
@@ -55,7 +57,7 @@ $post-title-name-color: $dz-blue;
 // //dark
 // $post-title-color-dk: $dz-blue; 
 // $post-date-color-dk: #9a9a9a;
-$post-title-name-color-dk: $dz-blue-lighter; 
+$post-title-name-color-dk: $dz-green-lighter; 
 
 // Message box
 $message-color: #717171;
