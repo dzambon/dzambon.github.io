@@ -17,7 +17,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: $nav-link-underline-color;
+    background: var(--nav-link-underline-color);
     height: 2px;
 
     @include prefix(transform, translateY(4px));
