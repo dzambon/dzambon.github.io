@@ -14,6 +14,9 @@
  #    github:
  #    gitlab:
  #    video:
+ #    poster:
+ #    slides:
+ #    website:
  -
     id: zambon2025peakweather
     title: "PeakWeather: MeteoSwiss Weather Station Measurements for Spatiotemporal Deep Learning"
@@ -153,6 +156,9 @@
     type: conference
     url: "https://openreview.net/forum?id=CAqdG2dy5s" 
     video: "https://www.youtube.com/watch?v=l_3bv5b3LbM"
+    # video: https://iclr.cc/virtual/2024/poster/19185
+    poster: https://iclr.cc/media/PosterPDFs/ICLR%202024/19185.png?t=1714723086.814773
+    slides: https://iclr.cc/media/iclr-2024/Slides/19185.pdf
  - 
     id: bacciu2023graph
     title: "Graph Representation Learning"
@@ -286,6 +292,7 @@
     short_venue: "NeurIPS"
     openreview_id: x2PH6q32LR
     github: "https://github.com/Graph-Machine-Learning-Group/taming-local-effects-stgnns"
+    poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202023/70034.png?t=1701421904.8800166
  - 
     id: zambon2023where
     title: "Assessment of Spatio-Temporal Predictors in the Presence of Missing and Heterogeneous Data"
@@ -348,6 +355,8 @@
     year: 2023
     type: journal
     short_venue: "JMLR"
+    video: https://neurips.cc/virtual/2023/poster/73924
+    poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202023/73924.png?t=1701782875.9035187
     github: https://github.com/andreacini/sparse-graph-learning
     url: "https://www.jmlr.org/papers/v24/22-1154.html"
  - 
@@ -375,6 +384,7 @@
     github: "https://github.com/dzambon/az-whiteness-test"
     video: "https://neurips.cc/virtual/2022/poster/54220"
     tldr: "A statistical test for uncorrelated graph signals that can be used for assessing GNN optimality."
+    poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202022/54220.png?t=1668610973.4838347
  - 
     id: bacciu2022deep
     title: "Deep Learning for Graphs"
@@ -518,6 +528,7 @@
     url: "https://openreview.net/forum?id=dlEJsyHGeaL"
     gitlab: "https://gitlab.com/bpaassen/graph-edit-networks"
     video: "https://slideslive.com/38953508/graph-edit-networks"
+    slides: https://iclr.cc/media/iclr-2021/Slides/3122.pdf
  - 
     id: zambon2020graph
     title: "Graph Random Neural Features for Distance-Preserving Graph Representations"

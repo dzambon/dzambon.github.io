@@ -27,7 +27,7 @@
           <li>[<a class="square-button" href="{{ openreview_base }}{{ paper.openreview_id }}">OpenReview</a>]
           </li>{% endif %}
           {%- if paper.huggingface %}
-          <li>[<a class="square-button" href="{{ paper.huggingface }}"><img src="{{ base_url }}/images/hf-logo-pirate.svg" alt="icon" style="display: inline; height: 1.1em; vertical-align: -1.2em;"> Hugging Face</a>]
+          <li>[<a class="square-button" href="{{ paper.huggingface }}"><img src="{{ base_url }}/images/hf-logo-pirate.svg" alt="icon" style="display: inline; height: 1.1em; vertical-align: -.2em; margin: 0"> Hugging Face</a>]
           </li>{% endif %}
           {%- if paper.github %}
           <li>[<a class="square-button" href="{{ paper.github }}"><i class="fa-brands fa-github"></i> GitHub</a>]
@@ -41,8 +41,17 @@
           {%- if paper.bibtex %}
           <li>[<a class="square-button" href="javascript:void(0);" onclick='togglebibtex("bibtex-{{ paper.id }}")'><i class="fa fa-book"></i> bibtex</a>]
           </li>{% endif %}
+          {%- if paper.poster %}
+          <li>[<a class="square-button" href="{{ paper.poster }}"><i class="fas fa-chalkboard-teacher"></i> poster</a>]
+          </li>{% endif %}
+          {%- if paper.slides %}
+          <li>[<a class="square-button" href="{{ paper.slides }}"><i class="fas fa-chalkboard-teacher"></i> slides</a>]
+          </li>{% endif %}
           {%- if paper.video %}
           <li>[<a class="square-button" href="{{ paper.video }}"><i class="fa fa-video-camera"></i> video</a>]
+          </li>{% endif %}
+          {%- if paper.website %}
+          <li>[<a class="square-button" href="{{ paper.website }}"><i class="fa-solid fa-globe"></i> website</a>]
           </li>{% endif %}
         <!-- </span> -->
         </ul>
