@@ -32,18 +32,24 @@
   </body>
 
   <script>
-    const toggleLink = document.getElementById('theme-toggle');
-    const body = document.body;
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleLink = document.getElementById('theme-toggle');
+      const body = document.body;
 
-    // Load saved theme from localStorage
-    if (localStorage.getItem('theme') === 'dark') {
-      body.classList.add('dark-mode');
-    }
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      // If user has no saved theme, use system preference
+      if (!savedTheme && prefersDark) {
+        body.classList.add('dark-mode');
+      } else if (savedTheme === 'dark') {
+        body.classList.add('dark-mode');
+      }
 
-    toggleLink.addEventListener('click', function (event) {
-      event.preventDefault(); // prevent link from navigating
-      body.classList.toggle('dark-mode');
-      localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+      toggleLink.addEventListener('click', function (event) {
+        event.preventDefault(); // prevent link from navigating
+        body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+      });
     });
   </script>
 </html>
