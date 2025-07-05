@@ -7,10 +7,10 @@
   font-size: $font-size; // override mobile media query
   text-align: right;
   margin-bottom: 4rem;
-  border-bottom-color: $nav-bottom-border-color;
+  border-bottom-color: var(--nav-bottom-border-color);
   border-bottom-width: $nav-bottom-border-width;
   border-bottom-style: solid;
-  background: $nav-bar-color-bg;
+  background: var(--nav-bar-color-bg);
 
   @media (max-width: 38em) {
     margin-bottom: 2rem;
@@ -30,7 +30,7 @@
     display: inline-block;
 
     a {
-      color: $nav-link-color;
+      color: var(--nav-link-color);
       display: block;
       text-decoration: none;
       padding: $nav-link-padding-y $nav-link-padding-x;
@@ -38,8 +38,8 @@
   }
 
   li.logo a {
-    color: $nav-icon-color;
-    background: $nav-icon-background-color;
+    color: var(--nav-icon-color);
+    background: var(--nav-icon-background-color);
     font-weight: bold;
     width: 1.6em;
     height: 1.6em;

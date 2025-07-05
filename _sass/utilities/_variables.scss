@@ -4,6 +4,9 @@
   */
 
 $dz-blue: #1b4f94;
+$dz-blue-lighter:#5e94dc;
+$dz-green: #577829;
+$dz-green-lighter:#98c276;
 $dz-bg-green: #e3ebe1;
 $dz-bg-gray: #f8f8f8;
 
@@ -16,22 +19,33 @@ $code-font-stack: 'Source Code Pro', monospace;
 
 // Body
 $body-text-color: #313131;
+$body-bold-text-color: #000000;
 $body-background-color: $dz-bg-gray;
 $body-top-border-color: $dz-blue; 
 $body-top-border-width: 5px;
 $nav-bar-color-bg: $dz-bg-green; 
+// dark
+$body-text-color-dk: #d1dcce;
+$body-bold-text-color-dk: #f0f9ed;
+$body-background-color-dk: #21282b;
+$body-top-border-color-dk: $dz-green; 
+$nav-bar-color-bg-dk: $body-background-color-dk; 
 
 // Links
 $link-color: $dz-blue;
+$link-color-dk: $dz-green-lighter;
 
 // Navigation
 $nav-bottom-border-color: $dz-blue;
 $nav-bottom-border-width: 1px;
+$nav-bottom-border-color-dk: $dz-bg-gray;
 
 $nav-link-color: $dz-blue;  
 $nav-link-padding-y: 0.7rem;
 $nav-link-padding-x: 1.5rem;
 $nav-link-underline-color: $dz-blue; 
+$nav-link-color-dk: #f0f9ed;  
+$nav-link-underline-color-dk: #f0f9ed;  
 
 $nav-icon-color: #ffffff;
 $nav-icon-background-color: $dz-blue; 
@@ -39,7 +53,61 @@ $nav-icon-background-color: $dz-blue;
 // Blog post headings and page titles
 $post-title-color: $dz-blue; 
 $post-date-color: #9a9a9a;
+$post-title-name-color: $dz-blue; 
+// //dark
+// $post-title-color-dk: $dz-blue; 
+// $post-date-color-dk: #9a9a9a;
+$post-title-name-color-dk: $dz-green-lighter; 
 
 // Message box
 $message-color: #717171;
 $message-background-color: $dz-bg-gray;
+
+$code-backgroud-color: #f9f9f9;
+$code-backgroud-color-dk: #263940;
+
+:root {
+
+  --body-text-color: #{$body-text-color};
+  --body-bold-text-color: #{$body-bold-text-color};
+  --body-background-color: #{$body-background-color};
+  --body-top-border-color: #{$body-top-border-color};
+  --post-title-name-color: #{$post-title-name-color};
+
+  --nav-bar-color-bg: #{$nav-bar-color-bg};
+  --nav-bottom-border-color: #{nav-bottom-border-color};
+  --nav-link-color: #{$nav-link-color};
+  --nav-link-underline-color: #{$nav-link-underline-color};
+  
+  --code-backgroud-color: #{$code-backgroud-color};
+
+  --link-color: #{$link-color};
+
+  // --nav-icon-color: #{$nav-icon-color};
+  // --nav-icon-background-color: #{$nav-icon-background-color};
+
+  // --post-title-color: #{$post-title-color};
+  // --post-date-color: #{$post-date-color};
+
+  // --message-color: #{$message-color};
+  // --message-background-color: #{$message-background-color};
+}
+
+body.dark-mode {
+
+  --body-text-color: #{$body-text-color-dk};
+  --body-bold-text-color: #{$body-bold-text-color-dk};
+  --body-background-color: #{$body-background-color-dk};
+  --body-top-border-color: #{$body-top-border-color-dk};
+  --post-title-name-color: #{$post-title-name-color-dk};
+
+  --nav-bar-color-bg: #{$nav-bar-color-bg-dk};
+  --nav-bottom-border-color: #{nav-bottom-border-color-dk};
+  --nav-link-color: #{$nav-link-color-dk};
+  --nav-link-underline-color: #{$nav-link-underline-color-dk};
+
+  --code-backgroud-color: #{$code-backgroud-color-dk};
+
+  --link-color: #{$link-color-dk};
+
+}

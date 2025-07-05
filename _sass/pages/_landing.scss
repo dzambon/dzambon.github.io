@@ -4,9 +4,9 @@
  */
 
 .landing-title {
-    color: $post-title-color;
+    color: var(--post-title-name-color);
     text-align: left;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid var(--post-title-color);
     padding-bottom: 0.7rem;
 }
 

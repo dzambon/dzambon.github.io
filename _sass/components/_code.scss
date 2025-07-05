@@ -13,7 +13,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: var(--code-backgroud-color);
   border-radius: 3px;
 }
 
@@ -33,7 +33,7 @@ pre code {
   padding: .25em .5em;
   font-size: 75%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: var(--body-background-color);
 }
 
 .highlight {

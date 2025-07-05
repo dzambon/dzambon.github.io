@@ -13,6 +13,7 @@
         <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/teaching/">Teaching</a></li>
         <!-- <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/code/">Code</a></li> -->
         <!-- <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog/">Blog</a></li> -->
+        <li class="hvr-underline-reveal"><a href="" id="theme-toggle"><i class="fa-solid fa-adjust"></i></a></li>
       </ul>
     </nav>
 
@@ -29,4 +30,26 @@
     </div>
 
   </body>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleLink = document.getElementById('theme-toggle');
+      const body = document.body;
+
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      // If user has no saved theme, use system preference
+      if (!savedTheme && prefersDark) {
+        body.classList.add('dark-mode');
+      } else if (savedTheme === 'dark') {
+        body.classList.add('dark-mode');
+      }
+
+      toggleLink.addEventListener('click', function (event) {
+        event.preventDefault(); // prevent link from navigating
+        body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+      });
+    });
+  </script>
 </html>
