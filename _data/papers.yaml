@@ -61,21 +61,22 @@
     type: conference
     url: "https://www.esann.org/proceedings/2025#556" 
  -
-    id: donghi2024online
+    id: donghi2025online
     title: "Online Continual Graph Learning"
     author: "Donghi, Giovanni and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
     short_author: "Donghi, Pasa, Zambon, Alippi, Navarin"
-    year: 2024
+    year: 2025
     bibtex: |
-      @misc{donghi2024online,
+      @misc{donghi2025online,
         title={Online Continual Graph Learning},
         author={Giovanni Donghi and Luca Pasa and Daniele Zambon and Cesare Alippi and Nicol{\`o} Navarin},
-        year={2024},
-        url={https://openreview.net/forum?id=4sJJixGIZX}
+        year={2025},
+        url={https://arxiv.org/abs/2508.03283}
       }
     openreview_id: 4sJJixGIZX
+    arxiv_id: "2508.03283"
     type: preprint
-    url: "https://openreview.net/forum?id=4sJJixGIZX"
+    url: "https://arxiv.org/html/2508.03283"
  - 
     id: manenti2025learning
     title: "Learning Latent Graph Structures and their Uncertainty"
