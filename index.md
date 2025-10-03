@@ -16,11 +16,9 @@ title: Daniele's home
     <a href="mailto:name.surname@usi.ch"><i class="fa-solid fa-envelope"></i> <code> name.surname@usi.ch </code></a>
   </p>
   <p>
-    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://github.com/{{ site.author.github }}"><i class="fa-brands fa-github"></i></a>
     &nbsp;&middot;&nbsp;
     <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/{{ site.author.github }}"><i class="fa-brands fa-github"></i></a>
     &nbsp;&middot;&nbsp;
     <a href="https://scholar.google.ch/citations?user={{ site.author.google_scholar }}"><i class="fa-brands fa-google-scholar"></i></a>
     &nbsp;&middot;&nbsp;

@@ -744,23 +744,79 @@
     url: "https://drive.switch.ch/index.php/s/4IsmITiE0zrBUJN/download"
     experiments: "https://drive.switch.ch/index.php/s/FvX15ogSBBMgCYe/download"
  - 
-    id: rossi2020method
-    title: "Method for the Detecting Electrocardiogram Anomalies and Corresponding System"
+    id: US10610162B2
+    title: "Method for the detecting electrocardiogram anomalies and corresponding system"
     author: "Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele"
     short_author: "Rossi, Fragneto, Carrera, Boracchi, Zambon"
     year: 2020
     bibtex: |
-      @patent{rossi2020method,
-        title = {Method for the Detecting Electrocardiogram Anomalies and Corresponding System},
+      @patent{US10610162B2,
+        title = {Method for the detecting electrocardiogram anomalies and corresponding system},
         author = {Rossi, Beatrice and Fragneto, Pasqualina and Carrera, Diego and Boracchi, Giacomo and Zambon, Daniele},
-        year = {2020},
-        month = apr,
-        number = {US10610162B2},
-        assignee = {STMicroelectronics SRL},
-        nationality = {US}
+        number       = {10610162},
+        date         = {2020-04-07},
+        holder       = {{STMicroelectronics S.r.l.} and {Politecnico di Milano}},
+        type         = {patentus},
+        url          = {https://patents.google.com/patent/US10610162B2},
       }
-    short_venue: "Patent"
+    short_venue: 'CIP Patent US (<a href="https://patents.google.com/patent/US10610162B2">US10610162B2</a>)'
     url: "https://patents.google.com/patent/US10610162B2"
+    type: patent
+ - 
+    id: CN207084814U
+    title: "Devices and systems for detecting abnormal beats"
+    author: "Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo"
+    short_author: "Rossi, Fragneto, Zambon, Carrera, Boracchi"
+    year: 2018
+    bibtex: |
+      @patent{CN207084814U,
+        title = {Devices and systems for detecting abnormal beats},
+        author = {Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo},
+        number       = {CN207084814U},
+        date         = {2018-03-13},
+        holder       = {{STMicroelectronics S.r.l.}},
+        type         = {patent},
+        url          = {https://patents.google.com/patent/CN207084814U},
+      }
+    short_venue: 'Patent CN (<a href="https://patents.google.com/patent/CN207084814U">CN207084814U</a>)'
+    url: "https://patents.google.com/patent/CN207084814U"
+    type: patent
+ - 
+    id: US10595788B2
+    title: "Method for the detecting electrocardiogram anomalies and corresponding system"
+    author: "Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo"
+    short_author: "Rossi, Fragneto, Zambon, Carrera, Boracchi"
+    year: 2020
+    bibtex: |
+      @patent{US10595788B2,
+        title = {Method for the detecting electrocardiogram anomalies and corresponding system},
+        author = {Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo},
+        number       = {US10595788B2},
+        date         = {2020-03-24},
+        holder       = {{STMicroelectronics S.r.l.}},
+        type         = {patentus},
+        url          = {https://patents.google.com/patent/US10595788B2},
+      }
+      @patent{EP3251594B1,
+        title = {Device for detecting electrocardiogram anomalies},
+        author = {Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo},
+        number       = {EP3251594B1},
+        date         = {2024-02-28},
+        holder       = {{STMicroelectronics S.r.l.}},
+        type         = {patenteu},
+        url          = {https://patents.google.com/patent/EP3251594B1},
+      }
+      @patent{CN107440679B,
+        title = {Method and corresponding system for detecting electrocardiogram abnormality},
+        author = {Rossi, Beatrice and Fragneto, Pasqualina and Zambon, Daniele and Carrera, Diego and Boracchi, Giacomo},
+        number       = {CN107440679B},
+        date         = {2020-09-01},
+        holder       = {{STMicroelectronics S.r.l.}},
+        type         = {patent},
+        url          = {https://patents.google.com/patent/CN107440679B},
+      }
+    short_venue: 'Patent US (<a href="https://patents.google.com/patent/US10595788B2">US10595788B2</a>) EU (<a href="https://patents.google.com/patent/EP3251594B1">EP3251594B1</a>) CN (<a href="https://patents.google.com/patent/CN107440679B">CN107440679B</a>)'
+    url: "https://patents.google.com/patent/US10595788B2"
     type: patent
  - 
     id: carrera2016ecg
