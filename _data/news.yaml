@@ -1,10 +1,14 @@
 -
+   date: 10-2025
+   msg: 'We have released two **preprints** presenting a new [online formulation for graph continual learning](/publications/#donghi2025online) and a [surprisingly effective approach](/publications/#donghi2025unreasonable) designed for it.'
+   type: paper
+-
    date: 8-2025
    msg: 'I''ve become **member** of the [IEEE Task Force on AI for Time Series and Spatio-Temporal Data](https://cis.taskforce.ieee.org/ai4tst/).'
    type: service
 - 
    date: 6-2025
-   msg: 'Together with **MeteoSwiss**, we''ve released [PeakWeather](/publications/#zambon2025peakweather) — a benchmark-ready **dataset** for spatiotemporal weather modeling, featuring over 8 years of 10-minute observations from 302 stations across Switzerland.'
+   msg: 'Together with **MeteoSwiss**, we''ve released [PeakWeather](https://peakweather.readthedocs.io) — a benchmark-ready **dataset** for spatiotemporal weather modeling, featuring over 8 years of 10-minute observations from 302 stations across Switzerland.'
    type: paper
 - 
    date: 5-2025

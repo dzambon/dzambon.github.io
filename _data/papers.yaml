@@ -17,6 +17,22 @@
  #    poster:
  #    slides:
  #    website:
+ -
+    id: donghi2025unreasonable
+    title: "The Unreasonable Effectiveness of Randomized Representations in Online Continual Graph Learning"
+    author: "Donghi, Giovanni and Zambon, Daniele and Pasa, Luca and Alippi, Cesare and Navarin, Nicolò"
+    short_author: "Donghi, Zambon, Pasa, Alippi, Navarin"
+    year: 2025
+    bibtex: |
+      @misc{donghi2025unreasonable,
+        title={The Unreasonable Effectiveness of Randomized Representations in Online Continual Graph Learning}, 
+        author={Donghi, Giovanni and Zambon, Daniele and Pasa, Luca and Alippi, Cesare and Navarin, Nicolò},
+        year={2025},
+        url={https://arxiv.org/abs/2510.06819}, 
+      }
+    type: preprint
+    url: "https://arxiv.org/abs/2510.06819" 
+    arxiv_id: 2510.06819
  -    
     id: huang2025temporal
     title: "Temporal Graph Learning Workshop"
