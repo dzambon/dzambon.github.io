@@ -64,6 +64,12 @@ talks:
   - 
     venue: Graph Deep Learning course, Università della Svizzera italiana
     city: Lugano, Switzerland
+    date: 2025-10-17 
+    title: Learning in nonstationary environments, anomaly and change detection in sequences of graphs
+    type: Lecture
+  - 
+    venue: Graph Deep Learning course, Università della Svizzera italiana
+    city: Lugano, Switzerland
     date: 2025-03-07 
     title: Learning in nonstationary environments, anomaly and change detection in sequences of graphs
     type: Lecture
