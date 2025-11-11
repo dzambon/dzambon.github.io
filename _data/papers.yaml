@@ -115,7 +115,6 @@
         year={2025},
         url={https://arxiv.org/abs/2508.03283}
       }
-    openreview_id: 4sJJixGIZX
     arxiv_id: "2508.03283"
     type: preprint
     url: "https://arxiv.org/html/2508.03283"
@@ -171,6 +170,7 @@
         publisher = {International Joint Conferences on Artificial Intelligence Organization},
         author = {Gravina, Alessio and Zambon, Daniele and Bacciu, Davide and Alippi, Cesare},
         doi = {10.24963/ijcai.2024/445},
+        year = {2024},
         url = {https://doi.org/10.24963/ijcai.2024/445},
       }
     short_venue: "IJCAI"
