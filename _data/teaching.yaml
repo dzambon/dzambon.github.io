@@ -22,8 +22,10 @@ courses:
         link: "https://search.usi.ch/courses/35265655/graph-deep-learning" 
       - year: "Spring 2023-2024"
         link: "https://search.usi.ch/courses/35268137/graph-deep-learning" 
-      # - year: "Spring 2024-2025"
-      #   link: "https://search.usi.ch/courses/35270698/graph-deep-learning"
+      - year: "Spring 2024-2025"
+        link: "https://search.usi.ch/courses/35270698/graph-deep-learning"
+      - year: "Fall 2025-2026"
+        link: "https://search.usi.ch/courses/35275985/graph-deep-learning"
     director: "Prof. Alippi"
     role: Lecturer
     duties: "Support to the course design; lectures, student projects evaluation, final grading"

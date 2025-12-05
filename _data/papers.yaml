@@ -18,6 +18,22 @@
  #    slides:
  #    website:
  -
+    id: colombo2025bep
+    title: "BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training"
+    author: "Colombo, Luca and Pittorino, Fabrizio and Zambon, Daniele and Baldassi, Carlo and Roveri, Manuel and Alippi, Cesare"
+    short_author: "Colombo, Pittorino, Zambon, Baldassi, Roveri, Alippi"
+    year: 2025
+    bibtex: |
+      @misc{colombo2025bep,
+        title={BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training}, 
+        author={Colombo, Luca and Pittorino, Fabrizio and Zambon, Daniele and Baldassi, Carlo and Roveri, Manuel and Alippi, Cesare},
+        year={2025},
+        url={https://arxiv.org/abs/2512.04189}, 
+      }
+    type: preprint
+    url: "https://arxiv.org/abs/2512.04189" 
+    arxiv_id: 2512.04189
+ -
     id: donghi2025unreasonable
     title: "The Unreasonable Effectiveness of Randomized Representations in Online Continual Graph Learning"
     author: "Donghi, Giovanni and Zambon, Daniele and Pasa, Luca and Alippi, Cesare and Navarin, Nicolò"
