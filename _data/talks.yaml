@@ -99,6 +99,13 @@ talks:
     type: Lecture
 # Tutorials
   -
+    venue: Winter School in Network Data Science and Artificial Intelligence
+    city: Lugano
+    date: 2026-02-12 
+    title: Graph Deep Learning for Time Series and Spatiotemporal Data
+    type: Tutorial
+    url: https://www.supsi.ch/winter-school-in-network-data-science-and-artificial-intelligence
+  -
     venue: Learning on Graphs Conference (LoG)
     city: Virtual conference
     date: 2024-11-28 

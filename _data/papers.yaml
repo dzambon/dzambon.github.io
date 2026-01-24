@@ -145,15 +145,18 @@
         title={Learning Latent Graph Structures and their Uncertainty},
         author={Manenti, Alessandro and Zambon, Daniele and Alippi, Cesare},
         year={2025},
-        booktitle={Forty-second International Conference on Machine Learning},
-        url={https://openreview.net/forum?id=TMRh3ScSCb}
+        booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+        volume={267},
+        pages={42882--42901},
+        month={13--19 Jul},
+        url={https://proceedings.mlr.press/v267/manenti25a.html}
       }
     arxiv_id: "2405.19933"
     openreview_id: TMRh3ScSCb
     short_venue: "ICML"
     github: "https://github.com/allemanenti/Learning-Calibrated-Structures"
     type: conference
-    url: https://openreview.net/forum?id=TMRh3ScSCb
+    url: https://proceedings.mlr.press/v267/manenti25a.html
  -
     id: manenti2024spigm
     title: "Learning Latent Graph Structures and their Uncertainty"
