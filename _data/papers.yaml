@@ -18,21 +18,29 @@
  #    slides:
  #    website:
  -
-    id: colombo2025bep
+    id: colombo2026bep
     title: "BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training"
     author: "Colombo, Luca and Pittorino, Fabrizio and Zambon, Daniele and Baldassi, Carlo and Roveri, Manuel and Alippi, Cesare"
     short_author: "Colombo, Pittorino, Zambon, Baldassi, Roveri, Alippi"
-    year: 2025
+    short_venue: "ICLR"
+    year: 2026
     bibtex: |
-      @misc{colombo2025bep,
+      @inproceedings{colombo2026bep,
         title={BEP: A Binary Error Propagation Algorithm for Binary Neural Networks Training}, 
         author={Colombo, Luca and Pittorino, Fabrizio and Zambon, Daniele and Baldassi, Carlo and Roveri, Manuel and Alippi, Cesare},
-        year={2025},
-        url={https://arxiv.org/abs/2512.04189}, 
+        booktitle={The {{Fourteenth International Conference}} on {{Learning Representations}}}, 
+        year={2026},
+        url={https://openreview.net/forum?id=jxtCMoZIu8}
       }
-    type: preprint
-    url: "https://arxiv.org/abs/2512.04189" 
     arxiv_id: 2512.04189
+    openreview_id: jxtCMoZIu8
+    # github: "https://github.com/gdefe/ggnet-virtual-sensing"
+    type: conference
+    # url: "https://arxiv.org/abs/2512.04189" 
+    url: "https://openreview.net/forum?id=jxtCMoZIu8"
+    # video: https://iclr.cc/virtual/2024/poster/19185
+    # poster: https://iclr.cc/media/PosterPDFs/ICLR%202024/19185.png?t=1714723086.814773
+    # slides: https://iclr.cc/media/iclr-2024/Slides/19185.pdf
  -
     id: donghi2025unreasonable
     title: "The Unreasonable Effectiveness of Randomized Representations in Online Continual Graph Learning"
@@ -356,25 +364,22 @@
     github: "https://github.com/Graph-Machine-Learning-Group/taming-local-effects-stgnns"
     poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202023/70034.png?t=1701421904.8800166
  - 
-    id: zambon2023where
+    id: zambon2026assessment
     title: "Assessment of Spatio-Temporal Predictors in the Presence of Missing and Heterogeneous Data"
     author: "Zambon, Daniele and Alippi, Cesare"
     short_author: "Zambon, Alippi"
-    year: 2023
+    short_venue: Neurocomputing
+    year: 2026
     bibtex: |
-      @misc{zambon2023where,
+      @article{zambon2026assessment,
         title = {Assessment of Spatio-Temporal Predictors in the Presence of Missing and Heterogeneous Data},
         author = {Zambon, Daniele and Alippi, Cesare},
-        year = {2023},
-        month = feb,
-        number = {arXiv:2302.01701},
-        primaryclass = {cs, stat},
-        publisher = {arXiv},
-        doi = {10.48550/arXiv.2302.01701},
-        archiveprefix = {arxiv}
+        year = {2026},
+        journal={To appear in Neurocomputing},
+        publisher={Elsevier}
       }
     arxiv_id: "2302.01701"
-    type: preprint
+    type: journal
     url: "https://arxiv.org/abs/2302.01701"
  - 
     id: zambon2023graph
