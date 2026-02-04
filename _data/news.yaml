@@ -1,4 +1,8 @@
 -
+   date: 02-2026
+   msg: 'Two new accepted papers: [Binary Error Propagation](/publications/#colombo2026bep) at **ICLR 2026** and [AZ-analysis](/publications/#zambon2026assessment) at **Neurocomputing**!'
+   type: paper
+-
    date: 10-2025
    msg: 'We have released two **preprints** presenting a new [online formulation for graph continual learning](/publications/#donghi2025online) and a [surprisingly effective approach](/publications/#donghi2025unreasonable) designed for it.'
    type: paper

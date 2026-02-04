@@ -1,9 +1,10 @@
 {%- assign doi_base = "https://doi.org/" %}
 {%- assign openreview_base = "https://openreview.net/forum?id=" %}
 {%- assign arxiv_base = "https://arxiv.org/abs/" %}
+{%- assign sorted_papers = site.data.papers | sort: "year" | reverse %}
 
 <ul>
-  {% for paper in site.data.papers -%}
+  {% for paper in sorted_papers -%}
     {% if include.type contains paper.type -%}
       <li>
         {%- if paper.url %}{% assign paperhref = paper.url %} 
