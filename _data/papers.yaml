@@ -374,13 +374,18 @@
       @article{zambon2026assessment,
         title = {Assessment of Spatio-Temporal Predictors in the Presence of Missing and Heterogeneous Data},
         author = {Zambon, Daniele and Alippi, Cesare},
+        volume = {675},
+        pages = {132963},
         year = {2026},
-        journal={To appear in Neurocomputing},
-        publisher={Elsevier}
+        issn = {0925-2312},
+        doi = {https://doi.org/10.1016/j.neucom.2026.132963},
+        url = {https://www.sciencedirect.com/science/article/pii/S0925231226003607},
+        journal = {Neurocomputing},
       }
     arxiv_id: "2302.01701"
     type: journal
-    url: "https://arxiv.org/abs/2302.01701"
+    url: "https://www.sciencedirect.com/science/article/pii/S0925231226003607"
+    doi: 10.1016/j.neucom.2026.132963
  - 
     id: zambon2023graph
     title: "Graph state-space models"
