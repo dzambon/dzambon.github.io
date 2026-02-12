@@ -105,6 +105,8 @@ talks:
     title: Graph Deep Learning for Time Series and Spatiotemporal Data
     type: Tutorial
     url: https://www.supsi.ch/winter-school-in-network-data-science-and-artificial-intelligence
+    slides: https://drive.google.com/file/d/18tpZTHw-ZheWCeVLEgR9Nzo6USsY_O3_/view?usp=sharing
+    demo: https://github.com/TorchSpatiotemporal/tsl/blob/main/examples/notebooks/a_gentle_introduction_to_tsl.ipynb
   -
     venue: Learning on Graphs Conference (LoG)
     city: Virtual conference
