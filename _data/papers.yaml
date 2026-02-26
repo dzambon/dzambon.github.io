@@ -384,6 +384,7 @@
       }
     arxiv_id: "2302.01701"
     type: journal
+    github: "https://github.com/dzambon/az-analysis"
     url: "https://www.sciencedirect.com/science/article/pii/S0925231226003607"
     doi: 10.1016/j.neucom.2026.132963
  - 
