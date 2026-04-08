@@ -164,6 +164,8 @@
     short_venue: "ICML"
     github: "https://github.com/allemanenti/Learning-Calibrated-Structures"
     type: conference
+    video: https://icml.cc/virtual/2025/poster/45179
+    poster: https://icml.cc/media/PosterPDFs/ICML%202025/45179.png?t=1751545275.6716313
     url: https://proceedings.mlr.press/v267/manenti25a.html
  -
     id: manenti2024spigm
@@ -389,14 +391,14 @@
     doi: 10.1016/j.neucom.2026.132963
  - 
     id: zambon2023graph
-    title: "Graph state-space models"
-    author: "Zambon, Daniele and Cini, Andrea and Livi, Lorenzo and Alippi, Cesare"
-    short_author: "Zambon, Cini, Livi, Alippi"
+    title: "Graph State-Space Models and Latent Relational Inference"
+    author: "Zambon, Daniele and Cini, Andrea and Alippi, Cesare"
+    short_author: "Zambon, Cini, Alippi"
     year: 2023
     bibtex: |
       @misc{zambon2023graph,
-        title = {Graph State-Space Models},
-        author = {Zambon, Daniele and Cini, Andrea and Livi, Lorenzo and Alippi, Cesare},
+        title = {Graph State-Space Models and Latent Relational Inference},
+        author = {Zambon, Daniele and Cini, Andrea and Alippi, Cesare},
         year = {2023},
         month = jan,
         number = {arXiv:2301.01741},
