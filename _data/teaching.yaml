@@ -1,4 +1,14 @@
 courses:
+  - name: "Graph Deep Learning for Time Series and Spatiotemporal Data"
+    editions: 
+      - year: "Spring 2025-2026"
+    director: "Dr. Zambon"
+    role: Teacher
+    duties: "Teaching"
+    # ects: 1
+    # level: "MSc in Data Science"
+    # level_verb: ["Master of Science in Data Science"]
+    institute: Department of Mathematics, Università di Padova, Padua, Italy
   - name: "Machine Learning for Medical Students"
     editions: 
       - year: "Fall 2022-2023"
@@ -6,8 +16,8 @@ courses:
       - year: "Spring 2022-2023"  
         link: "https://search.usi.ch/courses/35266983/o-015-machine-learning-for-medical-students" 
     director: "Dr. Zambon"
-    role: Lecturer
-    duties: "Lectures and final evaluation"
+    role: Teacher
+    duties: "Teaching and final evaluation"
     ects: 1
     level: "MMed"
     level_verb: ["Master of Medicine"]
@@ -27,7 +37,7 @@ courses:
       - year: "Fall 2025-2026"
         link: "https://search.usi.ch/courses/35275985/graph-deep-learning"
     director: "Prof. Alippi"
-    role: Lecturer
+    role: Invited lecturer
     duties: "Support to the course design; lectures, student projects evaluation, final grading"
     ects: 3
     level: "MSc AI, MSc CS, PhD Inf"
@@ -51,7 +61,7 @@ courses:
       - year: "Spring 2019-2020"
         link: "https://search.usi.ch/courses/35260596/machine-learning" 
     director: "Prof. Alippi"
-    role: Lecturer, teaching assistant
+    role: Teaching assistant
     duties: "Design of lectures, assignments, final exams; lab sessions and grading"
     ects: 6
     level: "BSc Inf, MSc Fin"
@@ -90,12 +100,3 @@ courses:
     level: "MSc SDE"
     level_verb: ["Master in Sofware and Data Engineering"]
     institute: Università della Svizzera italiana
-
-tutorial:
-  - name: "Graph Deep Learning for Spatiotemporal Time Series"
-    year: "Sep 2023" 
-    link: "https://gmlg.ch/tutorials/graph-based-processing/ecml-2023" 
-    role: Lecturer
-    duties: "Designer of the tutorial and lecturer"
-    institute: ECML PKDD 2023, Turin, Italy.
-    duration: "4 hours"

@@ -8,8 +8,8 @@ title: Daniele's teaching
 
 {% for course in site.data.teaching.courses -%}
 {%- assign last_edition = course.editions | last -%}
-- [**{{ course.name }}**]({{ last_edition.link }}) ({{ course.level }}). 
-Director: {{ course.director }}, {% if course.ects -%}ECTS: {{ course.ects }}{%- endif %}.
+- [**{{ course.name }}**]({{ last_edition.link }}) {%- if course.level %} ({{ course.level }}){%- endif %}. 
+{{ course.role }}.
    - {% for ed in course.editions -%}[{{ ed.year }}]({{ ed.link }})&nbsp;&nbsp;&nbsp;{%- endfor %}  
 {% if course.descr %}   - Duties: {{course.descr}}{% endif %}
 {% endfor %}
