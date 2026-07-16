@@ -42,19 +42,21 @@
     # poster: https://iclr.cc/media/PosterPDFs/ICLR%202024/19185.png?t=1714723086.814773
     # slides: https://iclr.cc/media/iclr-2024/Slides/19185.pdf
  -
-    id: donghi2025unreasonable
+    id: donghi2026unreasonable
     title: "The Unreasonable Effectiveness of Randomized Representations in Online Continual Graph Learning"
     author: "Donghi, Giovanni and Zambon, Daniele and Pasa, Luca and Alippi, Cesare and Navarin, Nicolò"
     short_author: "Donghi, Zambon, Pasa, Alippi, Navarin"
-    year: 2025
+    year: 2026
     bibtex: |
-      @misc{donghi2025unreasonable,
+      @article{donghi2026unreasonable,
         title={The Unreasonable Effectiveness of Randomized Representations in Online Continual Graph Learning}, 
         author={Donghi, Giovanni and Zambon, Daniele and Pasa, Luca and Alippi, Cesare and Navarin, Nicolò},
-        year={2025},
+        year={2026},
         url={https://arxiv.org/abs/2510.06819}, 
+        journal = {Machine Learning},
       }
-    type: preprint
+    type: journal
+    short_venue: "Machine Learning"
     url: "https://arxiv.org/abs/2510.06819" 
     arxiv_id: 2510.06819
  -    
