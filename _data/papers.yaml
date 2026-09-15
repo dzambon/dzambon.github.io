@@ -63,6 +63,7 @@
     url: "https://arxiv.org/abs/2510.06819" 
     doi: "10.1007/s10994-026-07128-5"
     arxiv_id: 2510.06819
+    github: https://github.com/giovannidonghi/OCGL
  -    
     id: huang2025temporal
     title: "Temporal Graph Learning Workshop"
