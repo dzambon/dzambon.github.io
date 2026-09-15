@@ -1,4 +1,8 @@
 -
+   date: 08-2026
+   msg: 'Our paper on [Randomized Representations](/publications/#donghi2026unreasonable) for online continual graph learning has been accepted at **Machine Learning** and presented at **ECML/PKDD 2026**!'
+   type: paper
+-
    date: 02-2026
    msg: 'Two new accepted papers: [Binary Error Propagation](/publications/#colombo2026bep) at **ICLR 2026** and [AZ-analysis](/publications/#zambon2026assessment) at **Neurocomputing**!'
    type: paper
