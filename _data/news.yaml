@@ -1,4 +1,8 @@
 -
+   date: 11-2026
+   msg: 'Our paper formulating [Online Continual Graph Learning](/publications/#donghi2026online) will be published in  **IEEE Transactions on Neural Networks and Learning Systems**.'
+   type: paper
+-
    date: 08-2026
    msg: 'Our paper on [Randomized Representations](/publications/#donghi2026unreasonable) for online continual graph learning has been accepted at **Machine Learning** and presented at **ECML/PKDD 2026**!'
    type: paper

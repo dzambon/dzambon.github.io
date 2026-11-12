@@ -134,20 +134,23 @@
     type: conference
     url: "https://www.esann.org/proceedings/2025#556" 
  -
-    id: donghi2025online
+    id: donghi2026online
     title: "Online Continual Graph Learning"
     author: "Donghi, Giovanni and Pasa, Luca and Zambon, Daniele and Alippi, Cesare and Navarin, Nicolò"
     short_author: "Donghi, Pasa, Zambon, Alippi, Navarin"
-    year: 2025
+    year: 2026
     bibtex: |
-      @misc{donghi2025online,
+      @misc{donghi2026online,
         title={Online Continual Graph Learning},
         author={Giovanni Donghi and Luca Pasa and Daniele Zambon and Cesare Alippi and Nicol{\`o} Navarin},
-        year={2025},
+        year={2026},
         url={https://arxiv.org/abs/2508.03283}
       }
     arxiv_id: "2508.03283"
-    type: preprint
+    type: journal
+    short_venue: "IEEE TNNLS"
+    doi: "10.1109/TNNLS.2026.3753832"
+    github: https://github.com/giovannidonghi/OCGL
     url: "https://arxiv.org/html/2508.03283"
  - 
     id: manenti2025learning

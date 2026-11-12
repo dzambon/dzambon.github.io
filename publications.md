@@ -10,10 +10,6 @@ title: Daniele's publications
 
 ## List of publications
 
-### Preprints
-
-{% include paper_list.html type="preprint" %}
-
 ### Journals
 
 {% include paper_list.html type="journal" %}
@@ -21,6 +17,10 @@ title: Daniele's publications
 ### Conferences
 
 {% include paper_list.html type="conference,workshop" %}
+
+### Preprints
+
+{% include paper_list.html type="preprint" %}
 
 ### Patents
 
